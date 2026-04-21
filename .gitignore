@@ -1,0 +1,90 @@
+# Operating system clutter
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.code-workspace
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyre/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+site/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.env.*
+*.secret
+secrets/
+
+# Logs and local runtime files
+logs/
+*.log
+tmp/
+.tmp/
+
+# Experiment outputs and local artifacts
+artifacts/
+outputs/
+reports/build/
+wandb/
+mlruns/
+tensorboard/
+lightning_logs/
+
+# Data files commonly kept outside git
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# Optional model and binary assets
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.sqlite
+
+# Documentation builds
+docs/_build/
+
+# Local package manager files
+node_modules/

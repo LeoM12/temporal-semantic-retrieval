@@ -1,93 +1,345 @@
-# DataScience-Template
+# Research Repository Template
 
+This repository is a GitLab-first template for research, exploratory engineering, and data science seminar work. It is designed for projects where code, experiments, notes, and final reports evolve together and must stay traceable in version control.
 
+The template supports a research loop like the one presented in "Scientific Working I — The Research Loop":
 
-## Getting started
+1. read literature and collect evidence
+2. identify a gap
+3. define a research question
+4. state a falsifiable hypothesis
+5. design a minimal experiment
+6. run pre-experiments and sanity checks
+7. run full experiments systematically
+8. document results and limitations
+9. communicate outcomes in reports and presentations
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+Git is not just storage here. It is the lab notebook. GitLab is not just hosting. It is the project management layer for research questions, experiments, milestones, and review.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## What This Template Is For
 
-## Add your files
+Use this template when you want one repository to manage:
 
-* [Create](https://docs.gitlab.com/user/project/repository/web_editor/#create-a-file) or [upload](https://docs.gitlab.com/user/project/repository/web_editor/#upload-a-file) files
-* [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
+- source code in `src/`
+- project documentation in `docs/`
+- final reports in `docs/reports/`
+- experiment runs and configurations in `experiments/`
+- notebooks for exploration in `notebooks/`
+- reproducibility metadata such as environment files and changelog
 
+This layout works well for:
+
+- seminar projects
+- thesis prototypes
+- exploratory ML / IR / NLP research
+- experimental software engineering
+- reproducible baseline and ablation studies
+
+## Repository Structure
+
+```text
+.
+├── .gitignore
+├── .gitlab/
+│   └── issue_templates/
+│       ├── Experiment.md
+│       └── Research Question.md
+├── CHANGELOG.md
+├── LICENSE
+├── README.md
+├── data/
+│   ├── external/
+│   ├── interim/
+│   ├── processed/
+│   └── raw/
+├── docs/
+│   ├── reports/
+│   │   └── README.md
+│   ├── methodology.md
+│   ├── project-plan.md
+│   └── README.md
+├── experiments/
+│   └── README.md
+├── notebooks/
+│   └── README.md
+├── pyproject.toml
+└── src/
+    ├── README.md
+    └── project_name/
+        └── __init__.py
 ```
-cd existing_repo
-git remote add origin https://git.fim.uni-passau.de/padas/datascience-template.git
-git branch -M main
-git push -uf origin main
+
+## Directory Guide
+
+### `src/`
+
+Production-quality project code lives here. Keep reusable logic in modules, not in notebooks. A good rule is:
+
+- code that must be rerun belongs in `src/`
+- one-off exploration may start in notebooks, then be moved into `src/`
+
+### `docs/`
+
+Working documentation for the project:
+
+- literature notes and references
+- research question and hypothesis
+- experiment design
+- methodology decisions
+- limitations and threats to validity
+
+This folder should explain why the project is being done, not just how to run code.
+
+### `docs/reports/`
+
+Final report artifacts belong here:
+
+- seminar report
+- thesis-style writeups
+- poster source
+- presentation notes
+
+Keep submitted or near-submission outputs separate from working notes.
+
+### `experiments/`
+
+This is where experiment runs are tracked. The intended pattern is:
+
+- one experiment = one folder
+- each folder contains at least `README.md`, `config.yaml`, and `results.json`
+- all runs are logged, including failed or non-reportable ones
+
+Suggested naming:
+
+```text
+experiments/
+└── 2026-04-21_bm25_baseline/
+    ├── README.md
+    ├── config.yaml
+    └── results.json
 ```
 
-## Integrate with your tools
+This follows the lecture guidance to work in small loops first, then scale only after sanity checks pass.
 
-* [Set up project integrations](https://git.fim.uni-passau.de/padas/datascience-template/-/settings/integrations)
+### `notebooks/`
 
-## Collaborate with your team
+Use notebooks for:
 
-* [Invite team members and collaborators](https://docs.gitlab.com/user/project/members/)
-* [Create a new merge request](https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/)
-* [Automatically close issues from merge requests](https://docs.gitlab.com/user/project/issues/managing_issues/#closing-issues-automatically)
-* [Enable merge request approvals](https://docs.gitlab.com/user/project/merge_requests/approvals/)
-* [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
+- initial exploration
+- plotting
+- quick data inspection
+- trying out ideas before hardening them into scripts
 
-## Test and Deploy
+Do not let notebooks become the only source of truth for the pipeline.
 
-Use the built-in continuous integration in GitLab.
+### `data/`
 
-* [Get started with GitLab CI/CD](https://docs.gitlab.com/ci/quick_start/)
-* [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/user/application_security/sast/)
-* [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/topics/autodevops/requirements/)
-* [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/user/clusters/agent/)
-* [Set up protected environments](https://docs.gitlab.com/ci/environments/protected_environments/)
+Suggested semantics:
 
-***
+- `data/raw/`: original immutable inputs
+- `data/interim/`: temporary transformed data
+- `data/processed/`: clean model-ready data
+- `data/external/`: third-party resources or downloads
 
-# Editing this README
+Large datasets should usually not be committed. Use `.gitignore`, object storage, Git LFS, or a documented external source.
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+## Recommended Workflow
 
-## Suggestions for a good README
+This template is structured around a practical research workflow.
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+### 1. Start with a research question
 
-## Name
-Choose a self-explaining name for your project.
+Create a GitLab issue using the `Research Question` template for each major research question or hypothesis track.
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+Each issue should define:
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+- the gap or motivation
+- the exact research question
+- the hypothesis
+- the method, dataset, metric, and comparison
+- success and failure criteria
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+If the question is vague, the project is not ready for full experimentation.
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+### 2. Plan with GitLab milestones
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+Use GitLab milestones to group work into meaningful checkpoints. A milestone should correspond to a research phase, not an arbitrary date bucket.
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+Good milestone examples:
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+- `M1 Literature Review and Gap`
+- `M2 Baseline and Sanity Checks`
+- `M3 Pre-Experiment`
+- `M4 Full Experiment`
+- `M5 Report Draft`
+- `M6 Final Submission`
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+Each milestone should end in a verifiable outcome such as a baseline reproduced, a pre-experiment passed, or a report draft completed.
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+### 3. Use issues for concrete work
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+Use GitLab issues in two distinct ways:
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+- research-question issues: one issue for each substantial question or hypothesis
+- experiment issues: one issue for each experiment, baseline, ablation, or evaluation run set
+
+Recommended labels:
+
+- `research-question`
+- `experiment`
+- `baseline`
+- `ablation`
+- `bug`
+- `documentation`
+- `report`
+- `blocked`
+
+Link experiment issues back to the research-question issue they serve.
+
+### 4. Work in small loops before scaling
+
+Follow the lecture's experimental discipline:
+
+- implement a minimal baseline first
+- verify shapes, inputs, outputs, and metrics
+- overfit a tiny sample if relevant
+- run a pre-experiment before a full run
+- commit every stable milestone
+
+The point is to fail early and cheaply.
+
+### 5. Log every experiment
+
+Every meaningful run should leave a trace in `experiments/`.
+
+At minimum store:
+
+- purpose of the run
+- code version or commit hash
+- configuration
+- random seed(s)
+- metric outputs
+- notes on interpretation
+
+Do not keep only the runs that look good enough to report.
+
+### 6. Write while you work
+
+Do not postpone documentation until the end. Update `docs/` throughout the project:
+
+- revise the research question when it sharpens
+- document methodology changes
+- note threats to validity
+- record why certain ideas were dropped
+
+The final report becomes much easier when the reasoning is already captured.
+
+## Git and Commit Practices
+
+Treat commit history as a research record.
+
+Recommended pattern:
+
+- one coherent change per commit
+- commit after each verified milestone
+- write messages that describe both the change and the result when relevant
+
+Examples:
+
+```text
+feat: add BM25 baseline evaluation pipeline
+fix: correct nDCG@10 computation for multi-label relevance
+docs: define hypothesis and primary metric in project plan
+exp: log pre-experiment for dense retriever with 3 seeds
+```
+
+When a result matters, mention it in the body of the commit or merge request.
+
+## Merge Requests
+
+Use merge requests even for small research teams because they create review points.
+
+A good merge request should answer:
+
+- what changed
+- why it changed
+- what research question or issue it supports
+- what evidence was produced
+- what remains uncertain
+
+If a merge request changes evaluation logic, reviewers should verify metric correctness, not only code style.
+
+## Reproducibility Expectations
+
+This template assumes the following discipline:
+
+- dependencies are pinned
+- seeds are fixed where randomness matters
+- preprocessing is scripted
+- results are tied to configuration
+- reports cite the exact experiment conditions used
+
+If someone else clones the repository, they should be able to understand:
+
+- what was asked
+- what was tested
+- how it was tested
+- what was concluded
+
+## Suggested First Steps After Creating a New Project
+
+1. Rename `project_name` under `src/` to the real package name.
+2. Update the license if your institution or team requires a different one.
+3. Fill in `docs/project-plan.md` with your topic, research question, and hypothesis.
+4. Create GitLab labels and milestones.
+5. Open one `Research Question` issue and one `Experiment` issue.
+6. Add environment or dependency details to `pyproject.toml`.
+
+## Minimal GitLab Setup
+
+After creating the GitLab project, set up:
+
+- labels for research and experiment tracking
+- milestones for major research phases
+- protected default branch if the team is larger than one person
+- merge request templates if your group needs formal review
+- optional CI jobs for tests, linting, or report builds
+
+## Files Included in This Template
+
+### `CHANGELOG.md`
+
+High-level project history. This is not a replacement for git history. Use it for noteworthy milestones and releases.
+
+### `LICENSE`
+
+Default license for the template. Replace it if your institution, lab, or client requires a different one.
+
+### `.gitignore`
+
+Preconfigured for Python, notebooks, virtual environments, experiment artifacts, and common data-science clutter. Adjust it to your stack.
+
+## What Good Practice Looks Like In This Template
+
+Good:
+
+- `docs/project-plan.md` states the hypothesis before full experiments
+- `experiments/2026-04-21_bm25_baseline/` contains config and results
+- a GitLab issue links the experiment to a research question
+- a milestone groups baseline, pre-experiment, and report checkpoints
+
+Bad:
+
+- research question exists only in chat or email
+- results are kept only in screenshots
+- code differs from what the report describes
+- only successful runs are documented
+- notebooks contain critical preprocessing that is nowhere scripted
+
+## Maintenance
+
+This repository is a template stub. It is intentionally lightweight, but it should not stay generic for long. The first project using it should replace placeholders with actual project names, datasets, metrics, milestones, and experiment records.
 
 ## License
-For open source projects, say how it is licensed.
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+This template ships with the MIT License. Replace it if needed.
