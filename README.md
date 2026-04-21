@@ -253,6 +253,36 @@ docs: define hypothesis and primary metric in project plan
 exp: log pre-experiment for dense retriever with 3 seeds
 ```
 
+### Commit Message Behavior
+
+Commit messages should behave like concise lab notebook entries.
+
+- say what changed
+- say why it changed when that is not obvious
+- mention the result or finding if the commit captures a verified outcome
+- keep the subject line short and specific
+- use the body for metrics, observations, caveats, or next steps
+
+Suggested format:
+
+```text
+<type>: <specific change>
+
+Context: why this change was needed.
+Result: what was observed, verified, or still uncertain.
+Next: the next planned research or engineering step.
+```
+
+Example:
+
+```text
+exp: add BM25 baseline on MSMARCO dev
+
+Context: needed a minimal lexical baseline before dense retrieval work.
+Result: MRR@10 = 0.187 on dev, consistent with expectation from prior work.
+Next: run a 3-seed pre-experiment for the dense retriever.
+```
+
 When a result matters, mention it in the body of the commit or merge request.
 
 ## Merge Requests
