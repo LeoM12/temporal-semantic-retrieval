@@ -1,0 +1,362 @@
+[
+  {
+    "id": "fm_tm_01",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "Who currently chairs the Federal Reserve?"
+  },
+  {
+    "id": "fm_tm_02",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "What is the Federal Reserve's current benchmark interest rate?"
+  },
+  {
+    "id": "fm_tm_03",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "Is the Federal Reserve currently raising or cutting interest rates?"
+  },
+  {
+    "id": "fm_tm_04",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "Who is the current president of the European Central Bank?"
+  },
+  {
+    "id": "fm_tm_05",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "Has the European Central Bank recently started cutting interest rates?"
+  },
+  {
+    "id": "fm_tm_06",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "Who is the current governor of the Bank of England?"
+  },
+  {
+    "id": "fm_tm_07",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "What is the Bank of England's current base rate?"
+  },
+  {
+    "id": "fm_tm_08",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "Who is the current governor of the Bank of Japan?"
+  },
+  {
+    "id": "fm_tm_09",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "Has the Bank of Japan recently ended negative interest rates?"
+  },
+  {
+    "id": "fm_tm_10",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "What is the current yield on the 10-year US Treasury?"
+  },
+  {
+    "id": "fm_tm_11",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "What is the current yield on UK gilts?"
+  },
+  {
+    "id": "fm_tm_12",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "What level is the S&P 500 currently trading at?"
+  },
+  {
+    "id": "fm_tm_13",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "What is the current Dow Jones index level?"
+  },
+  {
+    "id": "fm_tm_14",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "Which company currently has the largest weighting in the S&P 500?"
+  },
+  {
+    "id": "fm_tm_15",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "Is the stock market currently in a bull or bear market?"
+  },
+  {
+    "id": "fm_tm_16",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "Which major central bank currently has the highest benchmark interest rate?"
+  },
+  {
+    "id": "fm_tm_17",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "How does current US inflation compare with the Federal Reserve's target?"
+  },
+  {
+    "id": "fm_tm_18",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "Is investor sentiment currently bullish or bearish?"
+  },
+  {
+    "id": "fm_tm_19",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "Which company is currently the most valuable in the world?"
+  },
+  {
+    "id": "fm_tm_20",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_marked",
+    "query": "Which major stock index is currently trading at a record high?"
+  },
+  {
+    "id": "ip_tm_01",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "Who currently owns Twitter?"
+  },
+  {
+    "id": "ip_tm_02",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "Who is the current CEO of YouTube?"
+  },
+  {
+    "id": "ip_tm_03",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "What is Facebook's parent company now called?"
+  },
+  {
+    "id": "ip_tm_04",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "How much does Spotify currently pay artists per stream?"
+  },
+  {
+    "id": "ip_tm_05",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "How many subscribers does Netflix currently have?"
+  },
+  {
+    "id": "ip_tm_06",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "How many monthly active users does Facebook currently have?"
+  },
+  {
+    "id": "ip_tm_07",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "What is currently the most subscribed channel on YouTube?"
+  },
+  {
+    "id": "ip_tm_08",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "Who currently has the most followers on Instagram?"
+  },
+  {
+    "id": "ip_tm_09",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "How much does Spotify Premium currently cost?"
+  },
+  {
+    "id": "ip_tm_10",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "How many paying subscribers does Spotify currently have?"
+  },
+  {
+    "id": "ip_tm_11",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "What is currently the most downloaded app?"
+  },
+  {
+    "id": "ip_tm_12",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "Which shows are currently the most popular on Netflix?"
+  },
+  {
+    "id": "ip_tm_13",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "What is currently the most viewed video on YouTube?"
+  },
+  {
+    "id": "ip_tm_14",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "Which streaming service currently has the most subscribers?"
+  },
+  {
+    "id": "ip_tm_15",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "Which social media platform is currently most popular among teenagers?"
+  },
+  {
+    "id": "ip_tm_16",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "How many users does WhatsApp currently have?"
+  },
+  {
+    "id": "ip_tm_17",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "Which web browser currently has the largest market share?"
+  },
+  {
+    "id": "ip_tm_18",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "What is the largest fine Facebook has faced over data privacy to date?"
+  },
+  {
+    "id": "ip_tm_19",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "Which podcast currently has the largest audience?"
+  },
+  {
+    "id": "ip_tm_20",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_marked",
+    "query": "What is currently the most streamed song on Spotify?"
+  },
+  {
+    "id": "uf_tm_01",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "Who is the current manager of Manchester United?"
+  },
+  {
+    "id": "uf_tm_02",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "Who is the current manager of Liverpool?"
+  },
+  {
+    "id": "uf_tm_03",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "Who are currently the most popular football players in the UK?"
+  },
+  {
+    "id": "uf_tm_04",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "Who is the current manager of Tottenham?"
+  },
+  {
+    "id": "uf_tm_05",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "Who currently owns Manchester United?"
+  },
+  {
+    "id": "uf_tm_06",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "Who is currently the most valuable player of Newcastle United?"
+  },
+  {
+    "id": "uf_tm_07",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "Who currently owns Chelsea?"
+  },
+  {
+    "id": "uf_tm_08",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "Who is currently top of the Premier League table?"
+  },
+  {
+    "id": "uf_tm_09",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "Who are the current Premier League champions?"
+  },
+  {
+    "id": "uf_tm_10",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "Who are the current FA Cup holders?"
+  },
+  {
+    "id": "uf_tm_11",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "Which teams were most recently promoted to the Premier League?"
+  },
+  {
+    "id": "uf_tm_12",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "Who are the current EFL Championship champions?"
+  },
+  {
+    "id": "uf_tm_13",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "Who currently holds the Community Shield?"
+  },
+  {
+    "id": "uf_tm_14",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "Which teams were most recently relegated from the Premier League?"
+  },
+  {
+    "id": "uf_tm_15",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "Which club is currently bottom of the Premier League table?"
+  },
+  {
+    "id": "uf_tm_16",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "Who is the Premier League's current top scorer?"
+  },
+  {
+    "id": "uf_tm_17",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "Which club does Jack Grealish currently play for?"
+  },
+  {
+    "id": "uf_tm_18",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "Who is currently the highest-paid player in the Premier League?"
+  },
+  {
+    "id": "uf_tm_19",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "What is the most expensive signing of the latest transfer window?"
+  },
+  {
+    "id": "uf_tm_20",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_marked",
+    "query": "Who is the current captain of Manchester United?"
+  }
+]
