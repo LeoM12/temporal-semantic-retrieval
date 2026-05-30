@@ -1,0 +1,362 @@
+[
+  {
+    "id": "fm_tu_01",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who chairs the Federal Reserve?"
+  },
+  {
+    "id": "fm_tu_02",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "What is the Federal Reserve's benchmark interest rate?"
+  },
+  {
+    "id": "fm_tu_03",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Is the Federal Reserve raising or cutting interest rates?"
+  },
+  {
+    "id": "fm_tu_04",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who is the president of the European Central Bank?"
+  },
+  {
+    "id": "fm_tu_05",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Has the European Central Bank started cutting interest rates?"
+  },
+  {
+    "id": "fm_tu_06",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who is the governor of the Bank of England?"
+  },
+  {
+    "id": "fm_tu_07",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "What is the Bank of England's base rate?"
+  },
+  {
+    "id": "fm_tu_08",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who is the governor of the Bank of Japan?"
+  },
+  {
+    "id": "fm_tu_09",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Has the Bank of Japan ended negative interest rates?"
+  },
+  {
+    "id": "fm_tu_10",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "What is the yield on the 10-year US Treasury?"
+  },
+  {
+    "id": "fm_tu_11",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "What is the yield on UK gilts?"
+  },
+  {
+    "id": "fm_tu_12",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "What level is the S&P 500 trading at?"
+  },
+  {
+    "id": "fm_tu_13",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "What is the Dow Jones index level?"
+  },
+  {
+    "id": "fm_tu_14",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Which company has the largest weighting in the S&P 500?"
+  },
+  {
+    "id": "fm_tu_15",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Is the stock market in a bull or bear market?"
+  },
+  {
+    "id": "fm_tu_16",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Which major central bank has the highest benchmark interest rate?"
+  },
+  {
+    "id": "fm_tu_17",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "How does US inflation compare with the Federal Reserve's target?"
+  },
+  {
+    "id": "fm_tu_18",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Is investor sentiment bullish or bearish?"
+  },
+  {
+    "id": "fm_tu_19",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Which company is the most valuable in the world?"
+  },
+  {
+    "id": "fm_tu_20",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Which major stock index is trading at a record high?"
+  },
+  {
+    "id": "ip_tu_01",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who owns Twitter?"
+  },
+  {
+    "id": "ip_tu_02",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who is the CEO of YouTube?"
+  },
+  {
+    "id": "ip_tu_03",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "What is Facebook's parent company called?"
+  },
+  {
+    "id": "ip_tu_04",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "How much does Spotify pay artists per stream?"
+  },
+  {
+    "id": "ip_tu_05",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "How many subscribers does Netflix have?"
+  },
+  {
+    "id": "ip_tu_06",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "How many monthly active users does Facebook have?"
+  },
+  {
+    "id": "ip_tu_07",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "What is the most subscribed channel on YouTube?"
+  },
+  {
+    "id": "ip_tu_08",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who has the most followers on Instagram?"
+  },
+  {
+    "id": "ip_tu_09",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "How much does Spotify Premium cost?"
+  },
+  {
+    "id": "ip_tu_10",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "How many paying subscribers does Spotify have?"
+  },
+  {
+    "id": "ip_tu_11",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "What is the most downloaded app?"
+  },
+  {
+    "id": "ip_tu_12",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Which shows are the most popular on Netflix?"
+  },
+  {
+    "id": "ip_tu_13",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "What is the most viewed video on YouTube?"
+  },
+  {
+    "id": "ip_tu_14",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Which streaming service has the most subscribers?"
+  },
+  {
+    "id": "ip_tu_15",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Which social media platform is most popular among teenagers?"
+  },
+  {
+    "id": "ip_tu_16",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "How many users does WhatsApp have?"
+  },
+  {
+    "id": "ip_tu_17",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Which web browser has the largest market share?"
+  },
+  {
+    "id": "ip_tu_18",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "What is the largest fine Facebook has faced over data privacy?"
+  },
+  {
+    "id": "ip_tu_19",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Which podcast has the largest audience?"
+  },
+  {
+    "id": "ip_tu_20",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_unmarked",
+    "query": "What is the most streamed song on Spotify?"
+  },
+  {
+    "id": "uf_tu_01",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who is the manager of Manchester United?"
+  },
+  {
+    "id": "uf_tu_02",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who is the manager of Liverpool?"
+  },
+  {
+    "id": "uf_tu_03",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who are the most popular football players in the UK?"
+  },
+  {
+    "id": "uf_tu_04",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who is the manager of Tottenham?"
+  },
+  {
+    "id": "uf_tu_05",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who owns Manchester United?"
+  },
+  {
+    "id": "uf_tu_06",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who is the most valuable player of Newcastle United?"
+  },
+  {
+    "id": "uf_tu_07",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who owns Chelsea?"
+  },
+  {
+    "id": "uf_tu_08",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who is top of the Premier League table?"
+  },
+  {
+    "id": "uf_tu_09",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who are the reigning Premier League champions?"
+  },
+  {
+    "id": "uf_tu_10",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who are the FA Cup holders?"
+  },
+  {
+    "id": "uf_tu_11",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Which teams were promoted to the Premier League?"
+  },
+  {
+    "id": "uf_tu_12",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who are the reigning EFL Championship champions?"
+  },
+  {
+    "id": "uf_tu_13",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who holds the Community Shield?"
+  },
+  {
+    "id": "uf_tu_14",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Which teams were relegated from the Premier League?"
+  },
+  {
+    "id": "uf_tu_15",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Which club is bottom of the Premier League table?"
+  },
+  {
+    "id": "uf_tu_16",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who is the Premier League's top scorer?"
+  },
+  {
+    "id": "uf_tu_17",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Which club does Jack Grealish play for?"
+  },
+  {
+    "id": "uf_tu_18",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who is the highest-paid player in the Premier League?"
+  },
+  {
+    "id": "uf_tu_19",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "What is the most expensive signing of the transfer window?"
+  },
+  {
+    "id": "uf_tu_20",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_unmarked",
+    "query": "Who is the captain of Manchester United?"
+  }
+]
