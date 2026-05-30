@@ -6,9 +6,11 @@ readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [
-  { name = "Your Name" }
+  { name = "Leonard Motte" }
 ]
-dependencies = []
+dependencies = [
+    "datasets>=4.8.5",
+]
 
 [build-system]
 requires = ["setuptools>=68", "wheel"]
