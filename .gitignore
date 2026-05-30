@@ -60,7 +60,7 @@ testing_data/
 # Data files commonly kept outside git
 data/raw/*
 data/interim/*
-data/processed/*
+#data/processed/*
 data/external/*
 
 # Keep folder structure
