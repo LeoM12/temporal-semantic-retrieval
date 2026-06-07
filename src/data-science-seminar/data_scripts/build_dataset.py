@@ -29,10 +29,14 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 import time
 
+import datasets
 from datasets import load_dataset
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s  %(levelname)s  %(message)s")
 log = logging.getLogger("ccnews")
+
+logging.getLogger("httpx").setLevel(logging.WARNING)
+logging.getLogger("huggingface_hub").setLevel(logging.WARNING)
 
 # --------------------------------------------------------------------------
 # 1) CONFIG -- topics and keywords for matching algorithm
@@ -86,12 +90,12 @@ DATASET = "stanford-oval/ccnews"
 #so it was left out at the moment
 YEARS = list(range(2017, 2025))
 
-TARGET_PER_CELL = 100
+TARGET_PER_CELL = 3700
 LANG = "en"
 MIN_LANG_SCORE = 0.80      # optional confidence filter (dataset already has >= 0.70)
 OUT_DIR = Path("testing_data")
-LOG_EVERY = 5_000         # log streaming progress every N rows
-MAX_RETRIES = 3
+LOG_EVERY = 50_000         # log streaming progress every N rows
+MAX_RETRIES = 5
 
 
 
@@ -212,14 +216,26 @@ def process_year(year: int, patterns: dict[str, re.Pattern], store: Store):
 
     log.info("[%d] starting stream. Still needed: %s", year, needed)
 
+    ds_state = None
+
     for attempt in range(MAX_RETRIES):
         try:
             ds = load_dataset(DATASET, name=str(year), split="train", streaming=True)
+            if(ds_state != None):
+                ds.load_state_dict(ds_state)
 
             scanned = 0
             added = 0
             for row in ds:
                 scanned += 1
+                if scanned % 950_000 == 0:
+                    ds_state = ds.state_dict()
+                    log.info("Reached limit of 950_000. Checkpoint saved. Rebuilding connection...")
+                    time.sleep(15)
+                    ds = load_dataset(DATASET, name=str(year), split="train", streaming=True)
+                    ds.load_state_dict(ds_state)
+                    log.info("Starting stream at last checkpoint...")
+                    continue
                 if scanned % LOG_EVERY == 0:
                     open_cells = {t: n for t, n in needed.items() if n > 0}
                     log.info("[%d] scanned=%d  +%d  open=%s", year, scanned, added, open_cells)
