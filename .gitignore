@@ -62,6 +62,8 @@ data/raw/*
 data/interim/*
 #data/processed/*
 data/external/*
+data/processed/embeddings/
+/src/data-science-seminar/data_scripts/text_length_analysis.py
 
 # Keep folder structure
 !data/raw/.gitkeep
