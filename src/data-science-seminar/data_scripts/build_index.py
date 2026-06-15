@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 build_index.py
 ==============
@@ -29,10 +27,6 @@ Required third-party packages:
 
 Usage:
     python build_index.py path/to/financial_markets.json
-
-Output filenames are derived from the input file's stem (the "topic"), e.g.
-    financial_markets.json  ->  financial_markets_index.faiss
-                                financial_markets_metadata.json
 """
 
 from __future__ import annotations
