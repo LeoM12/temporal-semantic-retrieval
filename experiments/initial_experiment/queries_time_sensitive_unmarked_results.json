@@ -1,0 +1,4622 @@
+[
+  {
+    "id": "fm_tu_01",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 27772,
+        "id": "845c66da5d0e3bdbffd814dd3014a9807c85b699",
+        "published_date": "2024-06-04",
+        "score": 0.41041338443756104
+      },
+      {
+        "rank": 2,
+        "faiss_position": 15890,
+        "id": "97edebe4c56b6bab33d2708900e9d343eb88fdfc",
+        "published_date": "2021-11-01",
+        "score": 0.399971067905426
+      },
+      {
+        "rank": 3,
+        "faiss_position": 20045,
+        "id": "91c648f5f217792cb581e49c97697a784c0a034d",
+        "published_date": "2022-02-02",
+        "score": 0.38031917810440063
+      },
+      {
+        "rank": 4,
+        "faiss_position": 19169,
+        "id": "307b24ca94db63bb400265868f46960a864f1e3b",
+        "published_date": "2022-02-01",
+        "score": 0.37225908041000366
+      },
+      {
+        "rank": 5,
+        "faiss_position": 26972,
+        "id": "dd60cd10f9e83f9ee17e0cc574e799e43de197a9",
+        "published_date": "2024-06-03",
+        "score": 0.3697426915168762
+      },
+      {
+        "rank": 6,
+        "faiss_position": 16005,
+        "id": "500b5a0c28d6d5cc89bb92a9adddb7620c233f91",
+        "published_date": "2021-06-02",
+        "score": 0.3688710927963257
+      },
+      {
+        "rank": 7,
+        "faiss_position": 3366,
+        "id": "32d594b8b758765fa4696233d0220b63696bcf73",
+        "published_date": "2017-11-07",
+        "score": 0.3572950065135956
+      },
+      {
+        "rank": 8,
+        "faiss_position": 7878,
+        "id": "118dd376e64a7c20dcd488c11866edc1578a1a50",
+        "published_date": "2019-01-01",
+        "score": 0.3560388684272766
+      },
+      {
+        "rank": 9,
+        "faiss_position": 20103,
+        "id": "a5756e11a4e31e4d9e76a162d7258d37cfb9f014",
+        "published_date": "2022-02-02",
+        "score": 0.3556389808654785
+      },
+      {
+        "rank": 10,
+        "faiss_position": 29512,
+        "id": "1c22436c62846447ec2ff0fae6174e3360d5b423",
+        "published_date": "2024-06-07",
+        "score": 0.3523857295513153
+      }
+    ]
+  },
+  {
+    "id": "fm_tu_02",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 16005,
+        "id": "500b5a0c28d6d5cc89bb92a9adddb7620c233f91",
+        "published_date": "2021-06-02",
+        "score": 0.46994563937187195
+      },
+      {
+        "rank": 2,
+        "faiss_position": 27091,
+        "id": "3521562309364d3e2e13943c4e9bf4b182a7e825",
+        "published_date": "2024-06-03",
+        "score": 0.46852928400039673
+      },
+      {
+        "rank": 3,
+        "faiss_position": 27772,
+        "id": "845c66da5d0e3bdbffd814dd3014a9807c85b699",
+        "published_date": "2024-06-04",
+        "score": 0.44906747341156006
+      },
+      {
+        "rank": 4,
+        "faiss_position": 3366,
+        "id": "32d594b8b758765fa4696233d0220b63696bcf73",
+        "published_date": "2017-11-07",
+        "score": 0.42704135179519653
+      },
+      {
+        "rank": 5,
+        "faiss_position": 25213,
+        "id": "52c94cc9ad008d76cc9ee3834b912b4bb677a6c4",
+        "published_date": "2023-12-04",
+        "score": 0.4192867875099182
+      },
+      {
+        "rank": 6,
+        "faiss_position": 9568,
+        "id": "f7e737d23614f6155d59bb40fb452c53b959bd0d",
+        "published_date": "2019-01-04",
+        "score": 0.3841010332107544
+      },
+      {
+        "rank": 7,
+        "faiss_position": 26833,
+        "id": "a9cb52ad6eabf3de4163a0205933d18ab640df31",
+        "published_date": "2024-05-31",
+        "score": 0.37368929386138916
+      },
+      {
+        "rank": 8,
+        "faiss_position": 22402,
+        "id": "86758db380c629e4004dfa3837534bcff4296cae",
+        "published_date": "2023-12-01",
+        "score": 0.3592268228530884
+      },
+      {
+        "rank": 9,
+        "faiss_position": 15890,
+        "id": "97edebe4c56b6bab33d2708900e9d343eb88fdfc",
+        "published_date": "2021-11-01",
+        "score": 0.35918062925338745
+      },
+      {
+        "rank": 10,
+        "faiss_position": 17030,
+        "id": "69d31b16e71ef8157b07be861fa1af4c0a80a555",
+        "published_date": "2021-11-02",
+        "score": 0.34403884410858154
+      }
+    ]
+  },
+  {
+    "id": "fm_tu_03",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 27772,
+        "id": "845c66da5d0e3bdbffd814dd3014a9807c85b699",
+        "published_date": "2024-06-04",
+        "score": 0.5563585758209229
+      },
+      {
+        "rank": 2,
+        "faiss_position": 27091,
+        "id": "3521562309364d3e2e13943c4e9bf4b182a7e825",
+        "published_date": "2024-06-03",
+        "score": 0.5377088785171509
+      },
+      {
+        "rank": 3,
+        "faiss_position": 3366,
+        "id": "32d594b8b758765fa4696233d0220b63696bcf73",
+        "published_date": "2017-11-07",
+        "score": 0.49910447001457214
+      },
+      {
+        "rank": 4,
+        "faiss_position": 16005,
+        "id": "500b5a0c28d6d5cc89bb92a9adddb7620c233f91",
+        "published_date": "2021-06-02",
+        "score": 0.49545055627822876
+      },
+      {
+        "rank": 5,
+        "faiss_position": 27132,
+        "id": "dea0a8da387fb75300bd23b306b6f43fd2d9c1a4",
+        "published_date": "2024-06-02",
+        "score": 0.4291122555732727
+      },
+      {
+        "rank": 6,
+        "faiss_position": 22402,
+        "id": "86758db380c629e4004dfa3837534bcff4296cae",
+        "published_date": "2023-12-01",
+        "score": 0.4111039936542511
+      },
+      {
+        "rank": 7,
+        "faiss_position": 26833,
+        "id": "a9cb52ad6eabf3de4163a0205933d18ab640df31",
+        "published_date": "2024-05-31",
+        "score": 0.40369701385498047
+      },
+      {
+        "rank": 8,
+        "faiss_position": 25213,
+        "id": "52c94cc9ad008d76cc9ee3834b912b4bb677a6c4",
+        "published_date": "2023-12-04",
+        "score": 0.40082651376724243
+      },
+      {
+        "rank": 9,
+        "faiss_position": 20779,
+        "id": "887a9cc52c1f060769db54c68d9b0d4f5c57b856",
+        "published_date": "2022-02-03",
+        "score": 0.3935299515724182
+      },
+      {
+        "rank": 10,
+        "faiss_position": 17030,
+        "id": "69d31b16e71ef8157b07be861fa1af4c0a80a555",
+        "published_date": "2021-11-02",
+        "score": 0.38754820823669434
+      }
+    ]
+  },
+  {
+    "id": "fm_tu_04",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 1395,
+        "id": "9eea3185e3d8a13f2e3b6f934a596471a0f3768e",
+        "published_date": "2017-11-04",
+        "score": 0.4265083968639374
+      },
+      {
+        "rank": 2,
+        "faiss_position": 20045,
+        "id": "91c648f5f217792cb581e49c97697a784c0a034d",
+        "published_date": "2022-02-02",
+        "score": 0.4160735309123993
+      },
+      {
+        "rank": 3,
+        "faiss_position": 26560,
+        "id": "0cb6194e704c602b02d7be40ad3f44f91bfff12b",
+        "published_date": "2024-06-02",
+        "score": 0.4088425636291504
+      },
+      {
+        "rank": 4,
+        "faiss_position": 1547,
+        "id": "1659a1f616ea17fbb39a9a9319c33d34d08e11c7",
+        "published_date": "2017-11-03",
+        "score": 0.40881818532943726
+      },
+      {
+        "rank": 5,
+        "faiss_position": 27772,
+        "id": "845c66da5d0e3bdbffd814dd3014a9807c85b699",
+        "published_date": "2024-06-04",
+        "score": 0.4064084589481354
+      },
+      {
+        "rank": 6,
+        "faiss_position": 29512,
+        "id": "1c22436c62846447ec2ff0fae6174e3360d5b423",
+        "published_date": "2024-06-07",
+        "score": 0.3947637379169464
+      },
+      {
+        "rank": 7,
+        "faiss_position": 26076,
+        "id": "d1ca51e7e40b57a303b0d196912104b3f9965cf0",
+        "published_date": "2024-06-01",
+        "score": 0.3909517526626587
+      },
+      {
+        "rank": 8,
+        "faiss_position": 28859,
+        "id": "9e26642aae106234087dcaa81458e374888ffbe1",
+        "published_date": "2024-06-06",
+        "score": 0.39015400409698486
+      },
+      {
+        "rank": 9,
+        "faiss_position": 23203,
+        "id": "022b64c750e5e6279908650ad2334b29eba77803",
+        "published_date": "2023-12-01",
+        "score": 0.389403760433197
+      },
+      {
+        "rank": 10,
+        "faiss_position": 20103,
+        "id": "a5756e11a4e31e4d9e76a162d7258d37cfb9f014",
+        "published_date": "2022-02-02",
+        "score": 0.38806867599487305
+      }
+    ]
+  },
+  {
+    "id": "fm_tu_05",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 3366,
+        "id": "32d594b8b758765fa4696233d0220b63696bcf73",
+        "published_date": "2017-11-07",
+        "score": 0.5014206171035767
+      },
+      {
+        "rank": 2,
+        "faiss_position": 27772,
+        "id": "845c66da5d0e3bdbffd814dd3014a9807c85b699",
+        "published_date": "2024-06-04",
+        "score": 0.49166014790534973
+      },
+      {
+        "rank": 3,
+        "faiss_position": 27091,
+        "id": "3521562309364d3e2e13943c4e9bf4b182a7e825",
+        "published_date": "2024-06-03",
+        "score": 0.4657860994338989
+      },
+      {
+        "rank": 4,
+        "faiss_position": 27132,
+        "id": "dea0a8da387fb75300bd23b306b6f43fd2d9c1a4",
+        "published_date": "2024-06-02",
+        "score": 0.4224664568901062
+      },
+      {
+        "rank": 5,
+        "faiss_position": 16005,
+        "id": "500b5a0c28d6d5cc89bb92a9adddb7620c233f91",
+        "published_date": "2021-06-02",
+        "score": 0.4057617783546448
+      },
+      {
+        "rank": 6,
+        "faiss_position": 22402,
+        "id": "86758db380c629e4004dfa3837534bcff4296cae",
+        "published_date": "2023-12-01",
+        "score": 0.39390799403190613
+      },
+      {
+        "rank": 7,
+        "faiss_position": 25904,
+        "id": "58fab6453f82f0973d0ae8521994d4caff8c5433",
+        "published_date": "2024-06-01",
+        "score": 0.3831831216812134
+      },
+      {
+        "rank": 8,
+        "faiss_position": 26829,
+        "id": "848c50cbcbe1cafc1255b316cfa5b3d01347bdd3",
+        "published_date": "2024-05-31",
+        "score": 0.3737519085407257
+      },
+      {
+        "rank": 9,
+        "faiss_position": 19656,
+        "id": "05d7fda3762a950ee6e97f3db941631bbed979c5",
+        "published_date": "2022-02-01",
+        "score": 0.37326323986053467
+      },
+      {
+        "rank": 10,
+        "faiss_position": 20648,
+        "id": "5151ce70263bb073e86f5a4c5d76d2c8aa48eaa2",
+        "published_date": "2022-02-02",
+        "score": 0.36331337690353394
+      }
+    ]
+  },
+  {
+    "id": "fm_tu_06",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 22371,
+        "id": "f9b5864273b63008239baf32071f5c622c7a83c2",
+        "published_date": "2023-11-30",
+        "score": 0.44787052273750305
+      },
+      {
+        "rank": 2,
+        "faiss_position": 20045,
+        "id": "91c648f5f217792cb581e49c97697a784c0a034d",
+        "published_date": "2022-02-02",
+        "score": 0.43805956840515137
+      },
+      {
+        "rank": 3,
+        "faiss_position": 28035,
+        "id": "fc3cc42f4b9412a7bf4cdb041282ea93ff3b182f",
+        "published_date": "2024-06-05",
+        "score": 0.43748730421066284
+      },
+      {
+        "rank": 4,
+        "faiss_position": 14183,
+        "id": "9f82604be45db519f6e16c442791a05282c554ae",
+        "published_date": "2020-01-03",
+        "score": 0.4303588271141052
+      },
+      {
+        "rank": 5,
+        "faiss_position": 26560,
+        "id": "0cb6194e704c602b02d7be40ad3f44f91bfff12b",
+        "published_date": "2024-06-02",
+        "score": 0.4287635087966919
+      },
+      {
+        "rank": 6,
+        "faiss_position": 13728,
+        "id": "90a6257b6dec587df533fe7ed67967a7808ebf88",
+        "published_date": "2020-01-03",
+        "score": 0.42396482825279236
+      },
+      {
+        "rank": 7,
+        "faiss_position": 3411,
+        "id": "67b10a533060639e25b0f31fd837c0975a3001c5",
+        "published_date": "2017-11-06",
+        "score": 0.4194395840167999
+      },
+      {
+        "rank": 8,
+        "faiss_position": 2674,
+        "id": "790a5358d211e04ca2a32b2f10e6a26f976c015b",
+        "published_date": "2017-11-07",
+        "score": 0.4138370752334595
+      },
+      {
+        "rank": 9,
+        "faiss_position": 26076,
+        "id": "d1ca51e7e40b57a303b0d196912104b3f9965cf0",
+        "published_date": "2024-06-01",
+        "score": 0.4114960730075836
+      },
+      {
+        "rank": 10,
+        "faiss_position": 2400,
+        "id": "9c6f7157d3aa89ffa181cc4a91d5ecaa9af96cc4",
+        "published_date": "2017-11-06",
+        "score": 0.40863513946533203
+      }
+    ]
+  },
+  {
+    "id": "fm_tu_07",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 22371,
+        "id": "f9b5864273b63008239baf32071f5c622c7a83c2",
+        "published_date": "2023-11-30",
+        "score": 0.4228101670742035
+      },
+      {
+        "rank": 2,
+        "faiss_position": 27091,
+        "id": "3521562309364d3e2e13943c4e9bf4b182a7e825",
+        "published_date": "2024-06-03",
+        "score": 0.4093300700187683
+      },
+      {
+        "rank": 3,
+        "faiss_position": 2598,
+        "id": "b93e9235fd1a30e78d09615113340f2e5d94fe9f",
+        "published_date": "2017-11-06",
+        "score": 0.4021642804145813
+      },
+      {
+        "rank": 4,
+        "faiss_position": 26829,
+        "id": "848c50cbcbe1cafc1255b316cfa5b3d01347bdd3",
+        "published_date": "2024-05-31",
+        "score": 0.3938499987125397
+      },
+      {
+        "rank": 5,
+        "faiss_position": 13073,
+        "id": "5dc7c3cd767f773ccf30e6a457c319abd605d9fe",
+        "published_date": "2020-01-02",
+        "score": 0.3774418532848358
+      },
+      {
+        "rank": 6,
+        "faiss_position": 2141,
+        "id": "11d18d95dd73aaaef04c29b8dee3dd407dadb950",
+        "published_date": "2017-11-03",
+        "score": 0.3745166063308716
+      },
+      {
+        "rank": 7,
+        "faiss_position": 3366,
+        "id": "32d594b8b758765fa4696233d0220b63696bcf73",
+        "published_date": "2017-11-07",
+        "score": 0.37437570095062256
+      },
+      {
+        "rank": 8,
+        "faiss_position": 21805,
+        "id": "714879303adbe19719ac21287ef38b6b725b99ea",
+        "published_date": "2022-02-04",
+        "score": 0.37288445234298706
+      },
+      {
+        "rank": 9,
+        "faiss_position": 10046,
+        "id": "b9b53357b5f302c15f2c41dd9c0ed6322469366d",
+        "published_date": "2019-01-05",
+        "score": 0.3620777428150177
+      },
+      {
+        "rank": 10,
+        "faiss_position": 26833,
+        "id": "a9cb52ad6eabf3de4163a0205933d18ab640df31",
+        "published_date": "2024-05-31",
+        "score": 0.36001068353652954
+      }
+    ]
+  },
+  {
+    "id": "fm_tu_08",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 27772,
+        "id": "845c66da5d0e3bdbffd814dd3014a9807c85b699",
+        "published_date": "2024-06-04",
+        "score": 0.41391170024871826
+      },
+      {
+        "rank": 2,
+        "faiss_position": 29571,
+        "id": "a6c9d564223447adb225cba88110995ec646f704",
+        "published_date": "2024-06-07",
+        "score": 0.40221652388572693
+      },
+      {
+        "rank": 3,
+        "faiss_position": 14183,
+        "id": "9f82604be45db519f6e16c442791a05282c554ae",
+        "published_date": "2020-01-03",
+        "score": 0.38988009095191956
+      },
+      {
+        "rank": 4,
+        "faiss_position": 22371,
+        "id": "f9b5864273b63008239baf32071f5c622c7a83c2",
+        "published_date": "2023-11-30",
+        "score": 0.38731443881988525
+      },
+      {
+        "rank": 5,
+        "faiss_position": 20045,
+        "id": "91c648f5f217792cb581e49c97697a784c0a034d",
+        "published_date": "2022-02-02",
+        "score": 0.38097143173217773
+      },
+      {
+        "rank": 6,
+        "faiss_position": 12379,
+        "id": "aa95997ab7cd316f047bb2cfde052df182de4880",
+        "published_date": "2020-01-02",
+        "score": 0.3772830665111542
+      },
+      {
+        "rank": 7,
+        "faiss_position": 11860,
+        "id": "53e191f049785c20fac565d76594e34db3723848",
+        "published_date": "2020-01-02",
+        "score": 0.3769662380218506
+      },
+      {
+        "rank": 8,
+        "faiss_position": 26560,
+        "id": "0cb6194e704c602b02d7be40ad3f44f91bfff12b",
+        "published_date": "2024-06-02",
+        "score": 0.3744286000728607
+      },
+      {
+        "rank": 9,
+        "faiss_position": 18481,
+        "id": "7c9a63822658328e2d9ddb706d444245e0a9ade1",
+        "published_date": "2021-11-04",
+        "score": 0.3720930516719818
+      },
+      {
+        "rank": 10,
+        "faiss_position": 5358,
+        "id": "2a63e993c645ecb4b1a46e517e2de364db2a8557",
+        "published_date": "2018-01-04",
+        "score": 0.37124621868133545
+      }
+    ]
+  },
+  {
+    "id": "fm_tu_09",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 3366,
+        "id": "32d594b8b758765fa4696233d0220b63696bcf73",
+        "published_date": "2017-11-07",
+        "score": 0.43583646416664124
+      },
+      {
+        "rank": 2,
+        "faiss_position": 27772,
+        "id": "845c66da5d0e3bdbffd814dd3014a9807c85b699",
+        "published_date": "2024-06-04",
+        "score": 0.4271395802497864
+      },
+      {
+        "rank": 3,
+        "faiss_position": 27132,
+        "id": "dea0a8da387fb75300bd23b306b6f43fd2d9c1a4",
+        "published_date": "2024-06-02",
+        "score": 0.4041220545768738
+      },
+      {
+        "rank": 4,
+        "faiss_position": 27091,
+        "id": "3521562309364d3e2e13943c4e9bf4b182a7e825",
+        "published_date": "2024-06-03",
+        "score": 0.39643552899360657
+      },
+      {
+        "rank": 5,
+        "faiss_position": 22402,
+        "id": "86758db380c629e4004dfa3837534bcff4296cae",
+        "published_date": "2023-12-01",
+        "score": 0.3922368586063385
+      },
+      {
+        "rank": 6,
+        "faiss_position": 25213,
+        "id": "52c94cc9ad008d76cc9ee3834b912b4bb677a6c4",
+        "published_date": "2023-12-04",
+        "score": 0.38520747423171997
+      },
+      {
+        "rank": 7,
+        "faiss_position": 16041,
+        "id": "e79120e673c37ae0bb92fdc32f5bd0cd0a3da4fa",
+        "published_date": "2021-11-01",
+        "score": 0.3782837390899658
+      },
+      {
+        "rank": 8,
+        "faiss_position": 26833,
+        "id": "a9cb52ad6eabf3de4163a0205933d18ab640df31",
+        "published_date": "2024-05-31",
+        "score": 0.3645625710487366
+      },
+      {
+        "rank": 9,
+        "faiss_position": 26829,
+        "id": "848c50cbcbe1cafc1255b316cfa5b3d01347bdd3",
+        "published_date": "2024-05-31",
+        "score": 0.3634091019630432
+      },
+      {
+        "rank": 10,
+        "faiss_position": 16005,
+        "id": "500b5a0c28d6d5cc89bb92a9adddb7620c233f91",
+        "published_date": "2021-06-02",
+        "score": 0.3559724688529968
+      }
+    ]
+  },
+  {
+    "id": "fm_tu_10",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 27772,
+        "id": "845c66da5d0e3bdbffd814dd3014a9807c85b699",
+        "published_date": "2024-06-04",
+        "score": 0.4672924280166626
+      },
+      {
+        "rank": 2,
+        "faiss_position": 25213,
+        "id": "52c94cc9ad008d76cc9ee3834b912b4bb677a6c4",
+        "published_date": "2023-12-04",
+        "score": 0.4149828255176544
+      },
+      {
+        "rank": 3,
+        "faiss_position": 27091,
+        "id": "3521562309364d3e2e13943c4e9bf4b182a7e825",
+        "published_date": "2024-06-03",
+        "score": 0.3876354694366455
+      },
+      {
+        "rank": 4,
+        "faiss_position": 22402,
+        "id": "86758db380c629e4004dfa3837534bcff4296cae",
+        "published_date": "2023-12-01",
+        "score": 0.3678872585296631
+      },
+      {
+        "rank": 5,
+        "faiss_position": 26833,
+        "id": "a9cb52ad6eabf3de4163a0205933d18ab640df31",
+        "published_date": "2024-05-31",
+        "score": 0.35117459297180176
+      },
+      {
+        "rank": 6,
+        "faiss_position": 18336,
+        "id": "75d9d39e83ec153fc6a284c27a69ae0a7e47dd56",
+        "published_date": "2021-11-03",
+        "score": 0.33662277460098267
+      },
+      {
+        "rank": 7,
+        "faiss_position": 26829,
+        "id": "848c50cbcbe1cafc1255b316cfa5b3d01347bdd3",
+        "published_date": "2024-05-31",
+        "score": 0.3315931558609009
+      },
+      {
+        "rank": 8,
+        "faiss_position": 17030,
+        "id": "69d31b16e71ef8157b07be861fa1af4c0a80a555",
+        "published_date": "2021-11-02",
+        "score": 0.330810010433197
+      },
+      {
+        "rank": 9,
+        "faiss_position": 22371,
+        "id": "f9b5864273b63008239baf32071f5c622c7a83c2",
+        "published_date": "2023-11-30",
+        "score": 0.3301202654838562
+      },
+      {
+        "rank": 10,
+        "faiss_position": 9568,
+        "id": "f7e737d23614f6155d59bb40fb452c53b959bd0d",
+        "published_date": "2019-01-04",
+        "score": 0.3240390419960022
+      }
+    ]
+  },
+  {
+    "id": "fm_tu_11",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 27772,
+        "id": "845c66da5d0e3bdbffd814dd3014a9807c85b699",
+        "published_date": "2024-06-04",
+        "score": 0.3955117464065552
+      },
+      {
+        "rank": 2,
+        "faiss_position": 29129,
+        "id": "e7ed84897b45421c11139f8aad6ebe236fdc2929",
+        "published_date": "2024-06-05",
+        "score": 0.37710776925086975
+      },
+      {
+        "rank": 3,
+        "faiss_position": 21293,
+        "id": "58a595fced6bd0c1f6cd40e9346c5c7cdc7f3306",
+        "published_date": "2022-02-03",
+        "score": 0.3683112859725952
+      },
+      {
+        "rank": 4,
+        "faiss_position": 20213,
+        "id": "5d2061605503ea7edcbf7df535e37def4c1bdf0d",
+        "published_date": "2022-02-02",
+        "score": 0.3658829927444458
+      },
+      {
+        "rank": 5,
+        "faiss_position": 22402,
+        "id": "86758db380c629e4004dfa3837534bcff4296cae",
+        "published_date": "2023-12-01",
+        "score": 0.3642330765724182
+      },
+      {
+        "rank": 6,
+        "faiss_position": 20779,
+        "id": "887a9cc52c1f060769db54c68d9b0d4f5c57b856",
+        "published_date": "2022-02-03",
+        "score": 0.3587479293346405
+      },
+      {
+        "rank": 7,
+        "faiss_position": 22371,
+        "id": "f9b5864273b63008239baf32071f5c622c7a83c2",
+        "published_date": "2023-11-30",
+        "score": 0.35860422253608704
+      },
+      {
+        "rank": 8,
+        "faiss_position": 25859,
+        "id": "70a35300cd3af93ece350afe0082bba2fa9bdbe1",
+        "published_date": "2023-12-04",
+        "score": 0.35223445296287537
+      },
+      {
+        "rank": 9,
+        "faiss_position": 22028,
+        "id": "00f7d5354626ed8e720f43b8804df86bd301a110",
+        "published_date": "2022-02-02",
+        "score": 0.34818458557128906
+      },
+      {
+        "rank": 10,
+        "faiss_position": 27091,
+        "id": "3521562309364d3e2e13943c4e9bf4b182a7e825",
+        "published_date": "2024-06-03",
+        "score": 0.34803593158721924
+      }
+    ]
+  },
+  {
+    "id": "fm_tu_12",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 25213,
+        "id": "52c94cc9ad008d76cc9ee3834b912b4bb677a6c4",
+        "published_date": "2023-12-04",
+        "score": 0.5138841867446899
+      },
+      {
+        "rank": 2,
+        "faiss_position": 27772,
+        "id": "845c66da5d0e3bdbffd814dd3014a9807c85b699",
+        "published_date": "2024-06-04",
+        "score": 0.5117988586425781
+      },
+      {
+        "rank": 3,
+        "faiss_position": 129,
+        "id": "2d6789a42b1458d71bd992a28633b2cd6c201ff9",
+        "published_date": "2017-10-31",
+        "score": 0.4874249994754791
+      },
+      {
+        "rank": 4,
+        "faiss_position": 9568,
+        "id": "f7e737d23614f6155d59bb40fb452c53b959bd0d",
+        "published_date": "2019-01-04",
+        "score": 0.4808619022369385
+      },
+      {
+        "rank": 5,
+        "faiss_position": 21901,
+        "id": "d408dcb2363c3577ac0c8ecaf7fbb5d6c056c2fe",
+        "published_date": "2022-02-03",
+        "score": 0.4454808831214905
+      },
+      {
+        "rank": 6,
+        "faiss_position": 27091,
+        "id": "3521562309364d3e2e13943c4e9bf4b182a7e825",
+        "published_date": "2024-06-03",
+        "score": 0.43773025274276733
+      },
+      {
+        "rank": 7,
+        "faiss_position": 17030,
+        "id": "69d31b16e71ef8157b07be861fa1af4c0a80a555",
+        "published_date": "2021-11-02",
+        "score": 0.4307025671005249
+      },
+      {
+        "rank": 8,
+        "faiss_position": 28858,
+        "id": "6cd83147ac6ce1c309b2b4f177290e49425c64f2",
+        "published_date": "2024-06-06",
+        "score": 0.43026280403137207
+      },
+      {
+        "rank": 9,
+        "faiss_position": 3052,
+        "id": "b69a58c580cf9072df69ac6d35ca7c4e10c4a82a",
+        "published_date": "2017-11-05",
+        "score": 0.4204443097114563
+      },
+      {
+        "rank": 10,
+        "faiss_position": 7016,
+        "id": "8852514de8fe3a68aa914877f6943ab5f3ac4daf",
+        "published_date": "2018-01-06",
+        "score": 0.4195028245449066
+      }
+    ]
+  },
+  {
+    "id": "fm_tu_13",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 25213,
+        "id": "52c94cc9ad008d76cc9ee3834b912b4bb677a6c4",
+        "published_date": "2023-12-04",
+        "score": 0.44371092319488525
+      },
+      {
+        "rank": 2,
+        "faiss_position": 27772,
+        "id": "845c66da5d0e3bdbffd814dd3014a9807c85b699",
+        "published_date": "2024-06-04",
+        "score": 0.41779863834381104
+      },
+      {
+        "rank": 3,
+        "faiss_position": 17030,
+        "id": "69d31b16e71ef8157b07be861fa1af4c0a80a555",
+        "published_date": "2021-11-02",
+        "score": 0.40862059593200684
+      },
+      {
+        "rank": 4,
+        "faiss_position": 9568,
+        "id": "f7e737d23614f6155d59bb40fb452c53b959bd0d",
+        "published_date": "2019-01-04",
+        "score": 0.3916088342666626
+      },
+      {
+        "rank": 5,
+        "faiss_position": 28858,
+        "id": "6cd83147ac6ce1c309b2b4f177290e49425c64f2",
+        "published_date": "2024-06-06",
+        "score": 0.3836110234260559
+      },
+      {
+        "rank": 6,
+        "faiss_position": 129,
+        "id": "2d6789a42b1458d71bd992a28633b2cd6c201ff9",
+        "published_date": "2017-10-31",
+        "score": 0.3765994906425476
+      },
+      {
+        "rank": 7,
+        "faiss_position": 21901,
+        "id": "d408dcb2363c3577ac0c8ecaf7fbb5d6c056c2fe",
+        "published_date": "2022-02-03",
+        "score": 0.3760792016983032
+      },
+      {
+        "rank": 8,
+        "faiss_position": 22402,
+        "id": "86758db380c629e4004dfa3837534bcff4296cae",
+        "published_date": "2023-12-01",
+        "score": 0.3753642439842224
+      },
+      {
+        "rank": 9,
+        "faiss_position": 28016,
+        "id": "0b9b32b1c397a4ac3d823afa8b80880653229562",
+        "published_date": "2024-06-05",
+        "score": 0.3741724491119385
+      },
+      {
+        "rank": 10,
+        "faiss_position": 21293,
+        "id": "58a595fced6bd0c1f6cd40e9346c5c7cdc7f3306",
+        "published_date": "2022-02-03",
+        "score": 0.3673841953277588
+      }
+    ]
+  },
+  {
+    "id": "fm_tu_14",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 21901,
+        "id": "d408dcb2363c3577ac0c8ecaf7fbb5d6c056c2fe",
+        "published_date": "2022-02-03",
+        "score": 0.4724356234073639
+      },
+      {
+        "rank": 2,
+        "faiss_position": 129,
+        "id": "2d6789a42b1458d71bd992a28633b2cd6c201ff9",
+        "published_date": "2017-10-31",
+        "score": 0.46318379044532776
+      },
+      {
+        "rank": 3,
+        "faiss_position": 27772,
+        "id": "845c66da5d0e3bdbffd814dd3014a9807c85b699",
+        "published_date": "2024-06-04",
+        "score": 0.446791410446167
+      },
+      {
+        "rank": 4,
+        "faiss_position": 7836,
+        "id": "8189a8b3d384cbfd56f1efc43b6a7469587cffa1",
+        "published_date": "2019-01-01",
+        "score": 0.43374350666999817
+      },
+      {
+        "rank": 5,
+        "faiss_position": 25213,
+        "id": "52c94cc9ad008d76cc9ee3834b912b4bb677a6c4",
+        "published_date": "2023-12-04",
+        "score": 0.42860937118530273
+      },
+      {
+        "rank": 6,
+        "faiss_position": 5261,
+        "id": "8da174f22f77df5975c0073bb2a7a20d4b3b4b45",
+        "published_date": "2018-01-03",
+        "score": 0.42625677585601807
+      },
+      {
+        "rank": 7,
+        "faiss_position": 5070,
+        "id": "e30f8d2faf9610de2d63862e997640803efc06fc",
+        "published_date": "2018-01-03",
+        "score": 0.4205012917518616
+      },
+      {
+        "rank": 8,
+        "faiss_position": 5360,
+        "id": "1625588fafafc16d2c5f165fad077c8771f1f691",
+        "published_date": "2018-01-04",
+        "score": 0.42010053992271423
+      },
+      {
+        "rank": 9,
+        "faiss_position": 27467,
+        "id": "1c76917f28f0416d58e1c0123fa417ca8ece5e5b",
+        "published_date": "2024-06-04",
+        "score": 0.4192388653755188
+      },
+      {
+        "rank": 10,
+        "faiss_position": 16893,
+        "id": "2f3b2d77b8fb39e0b057bd0ba532f217cae09924",
+        "published_date": "2021-11-02",
+        "score": 0.4158596396446228
+      }
+    ]
+  },
+  {
+    "id": "fm_tu_15",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 25213,
+        "id": "52c94cc9ad008d76cc9ee3834b912b4bb677a6c4",
+        "published_date": "2023-12-04",
+        "score": 0.5363718271255493
+      },
+      {
+        "rank": 2,
+        "faiss_position": 27772,
+        "id": "845c66da5d0e3bdbffd814dd3014a9807c85b699",
+        "published_date": "2024-06-04",
+        "score": 0.4659217894077301
+      },
+      {
+        "rank": 3,
+        "faiss_position": 22402,
+        "id": "86758db380c629e4004dfa3837534bcff4296cae",
+        "published_date": "2023-12-01",
+        "score": 0.45868051052093506
+      },
+      {
+        "rank": 4,
+        "faiss_position": 21901,
+        "id": "d408dcb2363c3577ac0c8ecaf7fbb5d6c056c2fe",
+        "published_date": "2022-02-03",
+        "score": 0.4484120011329651
+      },
+      {
+        "rank": 5,
+        "faiss_position": 129,
+        "id": "2d6789a42b1458d71bd992a28633b2cd6c201ff9",
+        "published_date": "2017-10-31",
+        "score": 0.4342500865459442
+      },
+      {
+        "rank": 6,
+        "faiss_position": 9568,
+        "id": "f7e737d23614f6155d59bb40fb452c53b959bd0d",
+        "published_date": "2019-01-04",
+        "score": 0.4239289164543152
+      },
+      {
+        "rank": 7,
+        "faiss_position": 16005,
+        "id": "500b5a0c28d6d5cc89bb92a9adddb7620c233f91",
+        "published_date": "2021-06-02",
+        "score": 0.4197302460670471
+      },
+      {
+        "rank": 8,
+        "faiss_position": 27091,
+        "id": "3521562309364d3e2e13943c4e9bf4b182a7e825",
+        "published_date": "2024-06-03",
+        "score": 0.41961950063705444
+      },
+      {
+        "rank": 9,
+        "faiss_position": 28858,
+        "id": "6cd83147ac6ce1c309b2b4f177290e49425c64f2",
+        "published_date": "2024-06-06",
+        "score": 0.4188728630542755
+      },
+      {
+        "rank": 10,
+        "faiss_position": 28016,
+        "id": "0b9b32b1c397a4ac3d823afa8b80880653229562",
+        "published_date": "2024-06-05",
+        "score": 0.41636788845062256
+      }
+    ]
+  },
+  {
+    "id": "fm_tu_16",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 16005,
+        "id": "500b5a0c28d6d5cc89bb92a9adddb7620c233f91",
+        "published_date": "2021-06-02",
+        "score": 0.444734662771225
+      },
+      {
+        "rank": 2,
+        "faiss_position": 27772,
+        "id": "845c66da5d0e3bdbffd814dd3014a9807c85b699",
+        "published_date": "2024-06-04",
+        "score": 0.4292031526565552
+      },
+      {
+        "rank": 3,
+        "faiss_position": 27091,
+        "id": "3521562309364d3e2e13943c4e9bf4b182a7e825",
+        "published_date": "2024-06-03",
+        "score": 0.42627373337745667
+      },
+      {
+        "rank": 4,
+        "faiss_position": 3366,
+        "id": "32d594b8b758765fa4696233d0220b63696bcf73",
+        "published_date": "2017-11-07",
+        "score": 0.41713255643844604
+      },
+      {
+        "rank": 5,
+        "faiss_position": 25213,
+        "id": "52c94cc9ad008d76cc9ee3834b912b4bb677a6c4",
+        "published_date": "2023-12-04",
+        "score": 0.4095332622528076
+      },
+      {
+        "rank": 6,
+        "faiss_position": 22402,
+        "id": "86758db380c629e4004dfa3837534bcff4296cae",
+        "published_date": "2023-12-01",
+        "score": 0.39901772141456604
+      },
+      {
+        "rank": 7,
+        "faiss_position": 5442,
+        "id": "95eab0e513c9c26915ba4be99cc0d45ab2be55e7",
+        "published_date": "2018-01-03",
+        "score": 0.38299185037612915
+      },
+      {
+        "rank": 8,
+        "faiss_position": 26829,
+        "id": "848c50cbcbe1cafc1255b316cfa5b3d01347bdd3",
+        "published_date": "2024-05-31",
+        "score": 0.38019031286239624
+      },
+      {
+        "rank": 9,
+        "faiss_position": 9568,
+        "id": "f7e737d23614f6155d59bb40fb452c53b959bd0d",
+        "published_date": "2019-01-04",
+        "score": 0.37597835063934326
+      },
+      {
+        "rank": 10,
+        "faiss_position": 5223,
+        "id": "2cb1bce47aaff80b909946edcf1f4a81b3fbf4ae",
+        "published_date": "2018-01-04",
+        "score": 0.3756234347820282
+      }
+    ]
+  },
+  {
+    "id": "fm_tu_17",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 16005,
+        "id": "500b5a0c28d6d5cc89bb92a9adddb7620c233f91",
+        "published_date": "2021-06-02",
+        "score": 0.5167437791824341
+      },
+      {
+        "rank": 2,
+        "faiss_position": 27091,
+        "id": "3521562309364d3e2e13943c4e9bf4b182a7e825",
+        "published_date": "2024-06-03",
+        "score": 0.4584863781929016
+      },
+      {
+        "rank": 3,
+        "faiss_position": 20168,
+        "id": "a81bf5be52808dca20c66866f6d8be4a8d74d1ed",
+        "published_date": "2022-02-02",
+        "score": 0.41424596309661865
+      },
+      {
+        "rank": 4,
+        "faiss_position": 9568,
+        "id": "f7e737d23614f6155d59bb40fb452c53b959bd0d",
+        "published_date": "2019-01-04",
+        "score": 0.4085405170917511
+      },
+      {
+        "rank": 5,
+        "faiss_position": 27772,
+        "id": "845c66da5d0e3bdbffd814dd3014a9807c85b699",
+        "published_date": "2024-06-04",
+        "score": 0.401155561208725
+      },
+      {
+        "rank": 6,
+        "faiss_position": 25213,
+        "id": "52c94cc9ad008d76cc9ee3834b912b4bb677a6c4",
+        "published_date": "2023-12-04",
+        "score": 0.39283668994903564
+      },
+      {
+        "rank": 7,
+        "faiss_position": 3366,
+        "id": "32d594b8b758765fa4696233d0220b63696bcf73",
+        "published_date": "2017-11-07",
+        "score": 0.3791179955005646
+      },
+      {
+        "rank": 8,
+        "faiss_position": 17030,
+        "id": "69d31b16e71ef8157b07be861fa1af4c0a80a555",
+        "published_date": "2021-11-02",
+        "score": 0.37735387682914734
+      },
+      {
+        "rank": 9,
+        "faiss_position": 26833,
+        "id": "a9cb52ad6eabf3de4163a0205933d18ab640df31",
+        "published_date": "2024-05-31",
+        "score": 0.36824172735214233
+      },
+      {
+        "rank": 10,
+        "faiss_position": 7016,
+        "id": "8852514de8fe3a68aa914877f6943ab5f3ac4daf",
+        "published_date": "2018-01-06",
+        "score": 0.3558865189552307
+      }
+    ]
+  },
+  {
+    "id": "fm_tu_18",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 25213,
+        "id": "52c94cc9ad008d76cc9ee3834b912b4bb677a6c4",
+        "published_date": "2023-12-04",
+        "score": 0.5205052495002747
+      },
+      {
+        "rank": 2,
+        "faiss_position": 27696,
+        "id": "8d210885581fad8b740cdbd9904aae023195e15b",
+        "published_date": "2024-06-03",
+        "score": 0.4594336152076721
+      },
+      {
+        "rank": 3,
+        "faiss_position": 27458,
+        "id": "86bcb8b097a58b690239f981a7ae9a811ad8e8f7",
+        "published_date": "2024-06-04",
+        "score": 0.4517596960067749
+      },
+      {
+        "rank": 4,
+        "faiss_position": 27420,
+        "id": "27d7b7581d49d87b022474ef986dd01f4a42ad4c",
+        "published_date": "2024-06-04",
+        "score": 0.44423753023147583
+      },
+      {
+        "rank": 5,
+        "faiss_position": 29365,
+        "id": "e6f05eb678ef36934fd4c95caf3eb6bb35ef55de",
+        "published_date": "2024-06-07",
+        "score": 0.4439953863620758
+      },
+      {
+        "rank": 6,
+        "faiss_position": 27772,
+        "id": "845c66da5d0e3bdbffd814dd3014a9807c85b699",
+        "published_date": "2024-06-04",
+        "score": 0.43485063314437866
+      },
+      {
+        "rank": 7,
+        "faiss_position": 24189,
+        "id": "d36af58f8f54b7ea69fc03535130db626706fe4b",
+        "published_date": "2023-12-03",
+        "score": 0.43257570266723633
+      },
+      {
+        "rank": 8,
+        "faiss_position": 15462,
+        "id": "56a9669c871ecc36240dacf8c9c02190bfd704bf",
+        "published_date": "2021-11-01",
+        "score": 0.4323354959487915
+      },
+      {
+        "rank": 9,
+        "faiss_position": 16041,
+        "id": "e79120e673c37ae0bb92fdc32f5bd0cd0a3da4fa",
+        "published_date": "2021-11-01",
+        "score": 0.4228503108024597
+      },
+      {
+        "rank": 10,
+        "faiss_position": 22402,
+        "id": "86758db380c629e4004dfa3837534bcff4296cae",
+        "published_date": "2023-12-01",
+        "score": 0.42001956701278687
+      }
+    ]
+  },
+  {
+    "id": "fm_tu_19",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 5261,
+        "id": "8da174f22f77df5975c0073bb2a7a20d4b3b4b45",
+        "published_date": "2018-01-03",
+        "score": 0.49035561084747314
+      },
+      {
+        "rank": 2,
+        "faiss_position": 5280,
+        "id": "a905a5b136aa45a34333ae3e92ae2e102cace091",
+        "published_date": "2018-01-03",
+        "score": 0.4829407334327698
+      },
+      {
+        "rank": 3,
+        "faiss_position": 5223,
+        "id": "2cb1bce47aaff80b909946edcf1f4a81b3fbf4ae",
+        "published_date": "2018-01-04",
+        "score": 0.47143352031707764
+      },
+      {
+        "rank": 4,
+        "faiss_position": 18381,
+        "id": "464b168da023fbd5962a2d094ef4ba25418f4e41",
+        "published_date": "2021-11-03",
+        "score": 0.46856358647346497
+      },
+      {
+        "rank": 5,
+        "faiss_position": 5070,
+        "id": "e30f8d2faf9610de2d63862e997640803efc06fc",
+        "published_date": "2018-01-03",
+        "score": 0.46589022874832153
+      },
+      {
+        "rank": 6,
+        "faiss_position": 5442,
+        "id": "95eab0e513c9c26915ba4be99cc0d45ab2be55e7",
+        "published_date": "2018-01-03",
+        "score": 0.4626794457435608
+      },
+      {
+        "rank": 7,
+        "faiss_position": 8351,
+        "id": "785b71555a6d982aa534b1d92c8a1fba048dbf09",
+        "published_date": "2019-01-02",
+        "score": 0.46108680963516235
+      },
+      {
+        "rank": 8,
+        "faiss_position": 16893,
+        "id": "2f3b2d77b8fb39e0b057bd0ba532f217cae09924",
+        "published_date": "2021-11-02",
+        "score": 0.4605744481086731
+      },
+      {
+        "rank": 9,
+        "faiss_position": 5360,
+        "id": "1625588fafafc16d2c5f165fad077c8771f1f691",
+        "published_date": "2018-01-04",
+        "score": 0.4593714773654938
+      },
+      {
+        "rank": 10,
+        "faiss_position": 2413,
+        "id": "2b83ee5e4a3cee2857f7b9e79d0b6c15bdd76191",
+        "published_date": "2017-11-06",
+        "score": 0.4554795026779175
+      }
+    ]
+  },
+  {
+    "id": "fm_tu_20",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 129,
+        "id": "2d6789a42b1458d71bd992a28633b2cd6c201ff9",
+        "published_date": "2017-10-31",
+        "score": 0.5747287273406982
+      },
+      {
+        "rank": 2,
+        "faiss_position": 27772,
+        "id": "845c66da5d0e3bdbffd814dd3014a9807c85b699",
+        "published_date": "2024-06-04",
+        "score": 0.5442046523094177
+      },
+      {
+        "rank": 3,
+        "faiss_position": 25213,
+        "id": "52c94cc9ad008d76cc9ee3834b912b4bb677a6c4",
+        "published_date": "2023-12-04",
+        "score": 0.5234318375587463
+      },
+      {
+        "rank": 4,
+        "faiss_position": 9568,
+        "id": "f7e737d23614f6155d59bb40fb452c53b959bd0d",
+        "published_date": "2019-01-04",
+        "score": 0.49304473400115967
+      },
+      {
+        "rank": 5,
+        "faiss_position": 28858,
+        "id": "6cd83147ac6ce1c309b2b4f177290e49425c64f2",
+        "published_date": "2024-06-06",
+        "score": 0.4868874251842499
+      },
+      {
+        "rank": 6,
+        "faiss_position": 21901,
+        "id": "d408dcb2363c3577ac0c8ecaf7fbb5d6c056c2fe",
+        "published_date": "2022-02-03",
+        "score": 0.47541430592536926
+      },
+      {
+        "rank": 7,
+        "faiss_position": 7836,
+        "id": "8189a8b3d384cbfd56f1efc43b6a7469587cffa1",
+        "published_date": "2019-01-01",
+        "score": 0.4617420732975006
+      },
+      {
+        "rank": 8,
+        "faiss_position": 22402,
+        "id": "86758db380c629e4004dfa3837534bcff4296cae",
+        "published_date": "2023-12-01",
+        "score": 0.4600488543510437
+      },
+      {
+        "rank": 9,
+        "faiss_position": 28016,
+        "id": "0b9b32b1c397a4ac3d823afa8b80880653229562",
+        "published_date": "2024-06-05",
+        "score": 0.4538782835006714
+      },
+      {
+        "rank": 10,
+        "faiss_position": 17030,
+        "id": "69d31b16e71ef8157b07be861fa1af4c0a80a555",
+        "published_date": "2021-11-02",
+        "score": 0.4469456076622009
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_01",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 28401,
+        "id": "39d4e9dfae87d167ecb29034dbd4f0c8b2d728ba",
+        "published_date": "2024-06-04",
+        "score": 0.4598771035671234
+      },
+      {
+        "rank": 2,
+        "faiss_position": 27407,
+        "id": "c49814111bfec631275de51cd15459e7dd980111",
+        "published_date": "2024-06-04",
+        "score": 0.4559343457221985
+      },
+      {
+        "rank": 3,
+        "faiss_position": 19390,
+        "id": "4e898d0973510340a22714d22dcc7eaa612e7ce0",
+        "published_date": "2022-02-01",
+        "score": 0.4399556517601013
+      },
+      {
+        "rank": 4,
+        "faiss_position": 20246,
+        "id": "58faf079140c7aade89b54efaff2aa227609c481",
+        "published_date": "2022-02-02",
+        "score": 0.4180085361003876
+      },
+      {
+        "rank": 5,
+        "faiss_position": 17057,
+        "id": "109aa1e5459c3d44965fa4bba7830b08a98d0805",
+        "published_date": "2021-11-02",
+        "score": 0.4125138819217682
+      },
+      {
+        "rank": 6,
+        "faiss_position": 21748,
+        "id": "a0b9ac4ff3271252c90176b55dbfef7abf74daa5",
+        "published_date": "2022-02-03",
+        "score": 0.39838075637817383
+      },
+      {
+        "rank": 7,
+        "faiss_position": 15595,
+        "id": "3594743ba80b2b44e0209f49cda1cb4e88daaabb",
+        "published_date": "2021-11-01",
+        "score": 0.3965303897857666
+      },
+      {
+        "rank": 8,
+        "faiss_position": 19729,
+        "id": "ee1f811d3c7cca69a7c1812a7387d13158d651c2",
+        "published_date": "2022-02-01",
+        "score": 0.3963221311569214
+      },
+      {
+        "rank": 9,
+        "faiss_position": 27556,
+        "id": "5025dc76e6dfa395fb5d27b007e73b30f694ea4f",
+        "published_date": "2024-06-04",
+        "score": 0.3941081762313843
+      },
+      {
+        "rank": 10,
+        "faiss_position": 21217,
+        "id": "90c1093250f83e41e54e3348477dd816aa89d540",
+        "published_date": "2022-02-03",
+        "score": 0.393533319234848
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_02",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 28401,
+        "id": "39d4e9dfae87d167ecb29034dbd4f0c8b2d728ba",
+        "published_date": "2024-06-04",
+        "score": 0.4834577441215515
+      },
+      {
+        "rank": 2,
+        "faiss_position": 22226,
+        "id": "748439f632179f14c1660c61c60a8c344e2945a1",
+        "published_date": "2023-11-15",
+        "score": 0.48207223415374756
+      },
+      {
+        "rank": 3,
+        "faiss_position": 11123,
+        "id": "b94e959e585e7d7a62898bd300520515c509e61d",
+        "published_date": "2020-01-01",
+        "score": 0.4699447453022003
+      },
+      {
+        "rank": 4,
+        "faiss_position": 19390,
+        "id": "4e898d0973510340a22714d22dcc7eaa612e7ce0",
+        "published_date": "2022-02-01",
+        "score": 0.4687819480895996
+      },
+      {
+        "rank": 5,
+        "faiss_position": 27407,
+        "id": "c49814111bfec631275de51cd15459e7dd980111",
+        "published_date": "2024-06-04",
+        "score": 0.463268518447876
+      },
+      {
+        "rank": 6,
+        "faiss_position": 17909,
+        "id": "f3acf35f1122b4d7ac4e95d93e4b7c6ae6284bb1",
+        "published_date": "2021-11-03",
+        "score": 0.46067339181900024
+      },
+      {
+        "rank": 7,
+        "faiss_position": 21834,
+        "id": "c7750c45c741fe5d3af60f2d11dee0c9455fceeb",
+        "published_date": "2022-02-04",
+        "score": 0.45626145601272583
+      },
+      {
+        "rank": 8,
+        "faiss_position": 20246,
+        "id": "58faf079140c7aade89b54efaff2aa227609c481",
+        "published_date": "2022-02-02",
+        "score": 0.45181506872177124
+      },
+      {
+        "rank": 9,
+        "faiss_position": 22434,
+        "id": "0ea9c51f9d7665076bd6bb66890bd5c058368662",
+        "published_date": "2023-11-29",
+        "score": 0.44812047481536865
+      },
+      {
+        "rank": 10,
+        "faiss_position": 24117,
+        "id": "2a57ab8e8f4b91846c5065cc5c0349f93ff9a780",
+        "published_date": "2023-12-02",
+        "score": 0.4410134553909302
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_03",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 21901,
+        "id": "d408dcb2363c3577ac0c8ecaf7fbb5d6c056c2fe",
+        "published_date": "2022-02-03",
+        "score": 0.5599545240402222
+      },
+      {
+        "rank": 2,
+        "faiss_position": 28401,
+        "id": "39d4e9dfae87d167ecb29034dbd4f0c8b2d728ba",
+        "published_date": "2024-06-04",
+        "score": 0.46394145488739014
+      },
+      {
+        "rank": 3,
+        "faiss_position": 27407,
+        "id": "c49814111bfec631275de51cd15459e7dd980111",
+        "published_date": "2024-06-04",
+        "score": 0.4248913526535034
+      },
+      {
+        "rank": 4,
+        "faiss_position": 19390,
+        "id": "4e898d0973510340a22714d22dcc7eaa612e7ce0",
+        "published_date": "2022-02-01",
+        "score": 0.39828938245773315
+      },
+      {
+        "rank": 5,
+        "faiss_position": 26313,
+        "id": "269ce283dde3b1186c574ccae2c1bce559aab33d",
+        "published_date": "2024-05-31",
+        "score": 0.3978877663612366
+      },
+      {
+        "rank": 6,
+        "faiss_position": 26430,
+        "id": "ce8aa7bb1678d053b8b9c732ca5253f3e484f5ba",
+        "published_date": "2024-06-02",
+        "score": 0.39542895555496216
+      },
+      {
+        "rank": 7,
+        "faiss_position": 11123,
+        "id": "b94e959e585e7d7a62898bd300520515c509e61d",
+        "published_date": "2020-01-01",
+        "score": 0.3842502534389496
+      },
+      {
+        "rank": 8,
+        "faiss_position": 23143,
+        "id": "133fb182f419dc1c971e7d28bff18e8b075e1bf1",
+        "published_date": "2023-12-02",
+        "score": 0.3832230269908905
+      },
+      {
+        "rank": 9,
+        "faiss_position": 27420,
+        "id": "27d7b7581d49d87b022474ef986dd01f4a42ad4c",
+        "published_date": "2024-06-04",
+        "score": 0.3809662461280823
+      },
+      {
+        "rank": 10,
+        "faiss_position": 4970,
+        "id": "4cfb7317725a4d8b8c2b826e9f712d41eec9dd03",
+        "published_date": "2018-01-03",
+        "score": 0.3783201575279236
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_04",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 203,
+        "id": "653934bc7bc1af9be991982033166241e3913e6c",
+        "published_date": "2017-10-31",
+        "score": 0.3866870403289795
+      },
+      {
+        "rank": 2,
+        "faiss_position": 28401,
+        "id": "39d4e9dfae87d167ecb29034dbd4f0c8b2d728ba",
+        "published_date": "2024-06-04",
+        "score": 0.3648490905761719
+      },
+      {
+        "rank": 3,
+        "faiss_position": 3495,
+        "id": "2561e0478c167c0081d494091be52a28e2676383",
+        "published_date": "2017-11-08",
+        "score": 0.36311644315719604
+      },
+      {
+        "rank": 4,
+        "faiss_position": 22213,
+        "id": "b35e7b77272f48bdf1a9e120b77b84c32cb97021",
+        "published_date": "2023-12-10",
+        "score": 0.36008554697036743
+      },
+      {
+        "rank": 5,
+        "faiss_position": 3456,
+        "id": "2d601fe1731cec10ae5f14c2646b780793e282e4",
+        "published_date": "2017-11-08",
+        "score": 0.35207730531692505
+      },
+      {
+        "rank": 6,
+        "faiss_position": 29196,
+        "id": "35720539c239ee22ed7e79449536c7fca4c9f378",
+        "published_date": "2024-06-06",
+        "score": 0.3514820635318756
+      },
+      {
+        "rank": 7,
+        "faiss_position": 6480,
+        "id": "30fae789396aae39b3f2644543d1088f238f44fb",
+        "published_date": "2018-01-05",
+        "score": 0.3484540581703186
+      },
+      {
+        "rank": 8,
+        "faiss_position": 6692,
+        "id": "897b781524b4ed413e24158640433e48fad60a3a",
+        "published_date": "2018-01-06",
+        "score": 0.3480921983718872
+      },
+      {
+        "rank": 9,
+        "faiss_position": 27481,
+        "id": "2a0f88a9c5dd2365026fc828e2dc4b7467469a94",
+        "published_date": "2024-06-04",
+        "score": 0.3468591570854187
+      },
+      {
+        "rank": 10,
+        "faiss_position": 6910,
+        "id": "41e29a7564412185eb8b0003ba71b4fe6c4a03bf",
+        "published_date": "2018-01-05",
+        "score": 0.34471815824508667
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_05",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 8782,
+        "id": "61fb0f283ddeedb0ad6695284d67ee6c6431bc1d",
+        "published_date": "2019-01-02",
+        "score": 0.42370107769966125
+      },
+      {
+        "rank": 2,
+        "faiss_position": 2494,
+        "id": "5ac0106a8167375ee4fdbcc577fd6393f07c96af",
+        "published_date": "2017-08-05",
+        "score": 0.4138943552970886
+      },
+      {
+        "rank": 3,
+        "faiss_position": 20246,
+        "id": "58faf079140c7aade89b54efaff2aa227609c481",
+        "published_date": "2022-02-02",
+        "score": 0.40241506695747375
+      },
+      {
+        "rank": 4,
+        "faiss_position": 203,
+        "id": "653934bc7bc1af9be991982033166241e3913e6c",
+        "published_date": "2017-10-31",
+        "score": 0.4011121392250061
+      },
+      {
+        "rank": 5,
+        "faiss_position": 28401,
+        "id": "39d4e9dfae87d167ecb29034dbd4f0c8b2d728ba",
+        "published_date": "2024-06-04",
+        "score": 0.4006616473197937
+      },
+      {
+        "rank": 6,
+        "faiss_position": 25874,
+        "id": "b25eea8261f33b10a934233fa087a593921d04b5",
+        "published_date": "2023-12-04",
+        "score": 0.3918241858482361
+      },
+      {
+        "rank": 7,
+        "faiss_position": 25878,
+        "id": "ccfe1005576e28b73aaadf26252f282fc337b884",
+        "published_date": "2023-12-04",
+        "score": 0.3860744833946228
+      },
+      {
+        "rank": 8,
+        "faiss_position": 19390,
+        "id": "4e898d0973510340a22714d22dcc7eaa612e7ce0",
+        "published_date": "2022-02-01",
+        "score": 0.38556069135665894
+      },
+      {
+        "rank": 9,
+        "faiss_position": 23007,
+        "id": "e4b90a171c71110aead16820a39d10deaf0e2717",
+        "published_date": "2023-12-01",
+        "score": 0.38553595542907715
+      },
+      {
+        "rank": 10,
+        "faiss_position": 25716,
+        "id": "4c8f7bb20e00b08c2ee774dfba1ec90837ff1fbe",
+        "published_date": "2023-12-04",
+        "score": 0.3843245506286621
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_06",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 21901,
+        "id": "d408dcb2363c3577ac0c8ecaf7fbb5d6c056c2fe",
+        "published_date": "2022-02-03",
+        "score": 0.3929935097694397
+      },
+      {
+        "rank": 2,
+        "faiss_position": 3989,
+        "id": "212e508dd76625fe94e9293498d75a0894706225",
+        "published_date": "2018-01-01",
+        "score": 0.3592813313007355
+      },
+      {
+        "rank": 3,
+        "faiss_position": 8782,
+        "id": "61fb0f283ddeedb0ad6695284d67ee6c6431bc1d",
+        "published_date": "2019-01-02",
+        "score": 0.35882237553596497
+      },
+      {
+        "rank": 4,
+        "faiss_position": 23143,
+        "id": "133fb182f419dc1c971e7d28bff18e8b075e1bf1",
+        "published_date": "2023-12-02",
+        "score": 0.35227012634277344
+      },
+      {
+        "rank": 5,
+        "faiss_position": 15909,
+        "id": "000e5f5aff3696788b2f5443c4a39c79677a5b92",
+        "published_date": "2021-11-01",
+        "score": 0.34951698780059814
+      },
+      {
+        "rank": 6,
+        "faiss_position": 755,
+        "id": "18c4f41b2e89652666a4ca32abb015113cddbff5",
+        "published_date": "2017-11-02",
+        "score": 0.34820979833602905
+      },
+      {
+        "rank": 7,
+        "faiss_position": 5444,
+        "id": "b333408d997575b9a58d6b85e7804873e5e169f2",
+        "published_date": "2018-01-03",
+        "score": 0.34753796458244324
+      },
+      {
+        "rank": 8,
+        "faiss_position": 8912,
+        "id": "67444338eca91d54aebf6905ff1b5c8b394ada18",
+        "published_date": "2019-01-03",
+        "score": 0.34561824798583984
+      },
+      {
+        "rank": 9,
+        "faiss_position": 7226,
+        "id": "20b3037b6609109607458e9916cf4f309bc01d44",
+        "published_date": "2018-01-06",
+        "score": 0.3443278968334198
+      },
+      {
+        "rank": 10,
+        "faiss_position": 28401,
+        "id": "39d4e9dfae87d167ecb29034dbd4f0c8b2d728ba",
+        "published_date": "2024-06-04",
+        "score": 0.34389474987983704
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_07",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 2494,
+        "id": "5ac0106a8167375ee4fdbcc577fd6393f07c96af",
+        "published_date": "2017-08-05",
+        "score": 0.4496309161186218
+      },
+      {
+        "rank": 2,
+        "faiss_position": 6672,
+        "id": "fbed60c6dd7b94535fd44fadeea94a242a4b4313",
+        "published_date": "2018-01-05",
+        "score": 0.4294978976249695
+      },
+      {
+        "rank": 3,
+        "faiss_position": 19390,
+        "id": "4e898d0973510340a22714d22dcc7eaa612e7ce0",
+        "published_date": "2022-02-01",
+        "score": 0.42445170879364014
+      },
+      {
+        "rank": 4,
+        "faiss_position": 1348,
+        "id": "ee2fa5233c7d4de95c8d02fb002cef9773e52c3d",
+        "published_date": "2017-11-03",
+        "score": 0.41141247749328613
+      },
+      {
+        "rank": 5,
+        "faiss_position": 25874,
+        "id": "b25eea8261f33b10a934233fa087a593921d04b5",
+        "published_date": "2023-12-04",
+        "score": 0.41068410873413086
+      },
+      {
+        "rank": 6,
+        "faiss_position": 25879,
+        "id": "b30b88a43696a1bcacaeab744f727102af7e066a",
+        "published_date": "2023-12-04",
+        "score": 0.40728864073753357
+      },
+      {
+        "rank": 7,
+        "faiss_position": 17841,
+        "id": "a7711916392da4f5086cec832eacf288804fb99b",
+        "published_date": "2021-11-03",
+        "score": 0.40659254789352417
+      },
+      {
+        "rank": 8,
+        "faiss_position": 13365,
+        "id": "225d2d6e157a1fdf1bdce1c4d3a6392ee9cf2d13",
+        "published_date": "2020-01-03",
+        "score": 0.4021444320678711
+      },
+      {
+        "rank": 9,
+        "faiss_position": 18626,
+        "id": "98425989841a91f20549100bf9a4cd2a3dd9fffe",
+        "published_date": "2022-02-01",
+        "score": 0.4011044502258301
+      },
+      {
+        "rank": 10,
+        "faiss_position": 203,
+        "id": "653934bc7bc1af9be991982033166241e3913e6c",
+        "published_date": "2017-10-31",
+        "score": 0.4008241593837738
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_08",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 13026,
+        "id": "658f4c7a2c9a61eb18d36ff23e2b0e1a200a9965",
+        "published_date": "2020-01-02",
+        "score": 0.42536455392837524
+      },
+      {
+        "rank": 2,
+        "faiss_position": 8782,
+        "id": "61fb0f283ddeedb0ad6695284d67ee6c6431bc1d",
+        "published_date": "2019-01-02",
+        "score": 0.40080222487449646
+      },
+      {
+        "rank": 3,
+        "faiss_position": 2961,
+        "id": "c5d44cb72149587c175ea90f91faab838461eaf8",
+        "published_date": "2017-11-06",
+        "score": 0.3933911919593811
+      },
+      {
+        "rank": 4,
+        "faiss_position": 23364,
+        "id": "676dd5a257ce5dbd698ceb1dd485de7e2dcf3b24",
+        "published_date": "2023-12-02",
+        "score": 0.3926541209220886
+      },
+      {
+        "rank": 5,
+        "faiss_position": 873,
+        "id": "50b9dbcb8e29e0ad5b3c03a5476400641224a87b",
+        "published_date": "2017-10-23",
+        "score": 0.3894454836845398
+      },
+      {
+        "rank": 6,
+        "faiss_position": 15789,
+        "id": "8de50f1b41e17d0f839ce2571b73176d043e58d5",
+        "published_date": "2021-11-01",
+        "score": 0.3826327919960022
+      },
+      {
+        "rank": 7,
+        "faiss_position": 11314,
+        "id": "66cbff4f94e64777051fa650344595ab4ecb22ee",
+        "published_date": "2020-01-01",
+        "score": 0.3814068138599396
+      },
+      {
+        "rank": 8,
+        "faiss_position": 12391,
+        "id": "1969d0e7d73157bc04bedb7cb648e1a9f1e40faf",
+        "published_date": "2020-01-02",
+        "score": 0.3795018792152405
+      },
+      {
+        "rank": 9,
+        "faiss_position": 6342,
+        "id": "7bcba382800dd5fddcd07d4ec871515e8dfa02de",
+        "published_date": "2018-01-05",
+        "score": 0.37539225816726685
+      },
+      {
+        "rank": 10,
+        "faiss_position": 12066,
+        "id": "6c3dfe07c3fbe6da1f3b5d6b56ebc32d10acad28",
+        "published_date": "2020-01-01",
+        "score": 0.37385094165802
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_09",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 203,
+        "id": "653934bc7bc1af9be991982033166241e3913e6c",
+        "published_date": "2017-10-31",
+        "score": 0.39745455980300903
+      },
+      {
+        "rank": 2,
+        "faiss_position": 22213,
+        "id": "b35e7b77272f48bdf1a9e120b77b84c32cb97021",
+        "published_date": "2023-12-10",
+        "score": 0.3714878559112549
+      },
+      {
+        "rank": 3,
+        "faiss_position": 26944,
+        "id": "b0600ae566a0179068680b82219d765ef276fcd2",
+        "published_date": "2024-06-03",
+        "score": 0.3651661276817322
+      },
+      {
+        "rank": 4,
+        "faiss_position": 28401,
+        "id": "39d4e9dfae87d167ecb29034dbd4f0c8b2d728ba",
+        "published_date": "2024-06-04",
+        "score": 0.3564838469028473
+      },
+      {
+        "rank": 5,
+        "faiss_position": 6910,
+        "id": "41e29a7564412185eb8b0003ba71b4fe6c4a03bf",
+        "published_date": "2018-01-05",
+        "score": 0.35454708337783813
+      },
+      {
+        "rank": 6,
+        "faiss_position": 4174,
+        "id": "350215faad43203db608218871363f4f9c648f05",
+        "published_date": "2018-01-02",
+        "score": 0.35290592908859253
+      },
+      {
+        "rank": 7,
+        "faiss_position": 6692,
+        "id": "897b781524b4ed413e24158640433e48fad60a3a",
+        "published_date": "2018-01-06",
+        "score": 0.3514503836631775
+      },
+      {
+        "rank": 8,
+        "faiss_position": 25716,
+        "id": "4c8f7bb20e00b08c2ee774dfba1ec90837ff1fbe",
+        "published_date": "2023-12-04",
+        "score": 0.35024771094322205
+      },
+      {
+        "rank": 9,
+        "faiss_position": 18978,
+        "id": "3152de6c6ae868bcf58f21dc0ca381bd02bc6dec",
+        "published_date": "2022-02-01",
+        "score": 0.35000115633010864
+      },
+      {
+        "rank": 10,
+        "faiss_position": 25792,
+        "id": "7a106817854e89bc4e52ddf5a2a246877d9d3819",
+        "published_date": "2023-12-04",
+        "score": 0.3490618169307709
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_10",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 8782,
+        "id": "61fb0f283ddeedb0ad6695284d67ee6c6431bc1d",
+        "published_date": "2019-01-02",
+        "score": 0.414295494556427
+      },
+      {
+        "rank": 2,
+        "faiss_position": 203,
+        "id": "653934bc7bc1af9be991982033166241e3913e6c",
+        "published_date": "2017-10-31",
+        "score": 0.38508933782577515
+      },
+      {
+        "rank": 3,
+        "faiss_position": 25213,
+        "id": "52c94cc9ad008d76cc9ee3834b912b4bb677a6c4",
+        "published_date": "2023-12-04",
+        "score": 0.372752845287323
+      },
+      {
+        "rank": 4,
+        "faiss_position": 29384,
+        "id": "b722b4b367ddd3bee10fdb32705afd89d74c90e4",
+        "published_date": "2024-06-07",
+        "score": 0.37106209993362427
+      },
+      {
+        "rank": 5,
+        "faiss_position": 28401,
+        "id": "39d4e9dfae87d167ecb29034dbd4f0c8b2d728ba",
+        "published_date": "2024-06-04",
+        "score": 0.3699238896369934
+      },
+      {
+        "rank": 6,
+        "faiss_position": 7805,
+        "id": "0e00874155a53c012baedd8442a316f2ac05f87d",
+        "published_date": "2019-01-01",
+        "score": 0.3696056008338928
+      },
+      {
+        "rank": 7,
+        "faiss_position": 3495,
+        "id": "2561e0478c167c0081d494091be52a28e2676383",
+        "published_date": "2017-11-08",
+        "score": 0.368576318025589
+      },
+      {
+        "rank": 8,
+        "faiss_position": 7639,
+        "id": "c9108723850cc8e0c49e36596f4358672b4c3baa",
+        "published_date": "2019-01-01",
+        "score": 0.36641475558280945
+      },
+      {
+        "rank": 9,
+        "faiss_position": 19390,
+        "id": "4e898d0973510340a22714d22dcc7eaa612e7ce0",
+        "published_date": "2022-02-01",
+        "score": 0.36425110697746277
+      },
+      {
+        "rank": 10,
+        "faiss_position": 2494,
+        "id": "5ac0106a8167375ee4fdbcc577fd6393f07c96af",
+        "published_date": "2017-08-05",
+        "score": 0.3613407611846924
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_11",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 15892,
+        "id": "75e917df01c95575e4cca0d760e916181cbecd7e",
+        "published_date": "2021-10-25",
+        "score": 0.3510242700576782
+      },
+      {
+        "rank": 2,
+        "faiss_position": 16115,
+        "id": "36f4f9b31364f6c8216a8d70d788f445f0e5efaf",
+        "published_date": "2021-10-31",
+        "score": 0.3498973846435547
+      },
+      {
+        "rank": 3,
+        "faiss_position": 18890,
+        "id": "89c5485c3028124b8ea1b7770915aa55a0515257",
+        "published_date": "2022-02-01",
+        "score": 0.34815454483032227
+      },
+      {
+        "rank": 4,
+        "faiss_position": 18626,
+        "id": "98425989841a91f20549100bf9a4cd2a3dd9fffe",
+        "published_date": "2022-02-01",
+        "score": 0.34340429306030273
+      },
+      {
+        "rank": 5,
+        "faiss_position": 16338,
+        "id": "fb7869ea0ff102b6994bf9ca5fa8064cc0e0d459",
+        "published_date": "2021-10-25",
+        "score": 0.332598477602005
+      },
+      {
+        "rank": 6,
+        "faiss_position": 28016,
+        "id": "0b9b32b1c397a4ac3d823afa8b80880653229562",
+        "published_date": "2024-06-05",
+        "score": 0.3322170376777649
+      },
+      {
+        "rank": 7,
+        "faiss_position": 22876,
+        "id": "326a2a524b6d1fdf3156acf45551614e20601ad1",
+        "published_date": "2023-12-01",
+        "score": 0.33094239234924316
+      },
+      {
+        "rank": 8,
+        "faiss_position": 21389,
+        "id": "cf1cd491f70f069e146bebe587ebe854e6a7894d",
+        "published_date": "2022-01-21",
+        "score": 0.33003783226013184
+      },
+      {
+        "rank": 9,
+        "faiss_position": 23143,
+        "id": "133fb182f419dc1c971e7d28bff18e8b075e1bf1",
+        "published_date": "2023-12-02",
+        "score": 0.32903173565864563
+      },
+      {
+        "rank": 10,
+        "faiss_position": 18632,
+        "id": "ef7976291e3fd0bb66bd57eded73d3ff2b50a322",
+        "published_date": "2022-02-01",
+        "score": 0.3262191712856293
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_12",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 22043,
+        "id": "2d4a95e29e3efe29c10e07d96819bdc8e7895e68",
+        "published_date": "2022-02-03",
+        "score": 0.39909762144088745
+      },
+      {
+        "rank": 2,
+        "faiss_position": 21967,
+        "id": "827c26b5d622ba21a2b0ff2b29a209764c6eab93",
+        "published_date": "2022-02-03",
+        "score": 0.36113351583480835
+      },
+      {
+        "rank": 3,
+        "faiss_position": 28697,
+        "id": "7ff93a29cbe57902ae108a7c936c0883f2685624",
+        "published_date": "2024-06-06",
+        "score": 0.35188233852386475
+      },
+      {
+        "rank": 4,
+        "faiss_position": 2494,
+        "id": "5ac0106a8167375ee4fdbcc577fd6393f07c96af",
+        "published_date": "2017-08-05",
+        "score": 0.3320879638195038
+      },
+      {
+        "rank": 5,
+        "faiss_position": 20783,
+        "id": "cc65b1a99403b8d87bfd38c37ab764885dd8d789",
+        "published_date": "2022-02-03",
+        "score": 0.32701563835144043
+      },
+      {
+        "rank": 6,
+        "faiss_position": 20869,
+        "id": "ad7a7299be3226a8376eb6cd781ddb7f663dec71",
+        "published_date": "2022-02-03",
+        "score": 0.32374337315559387
+      },
+      {
+        "rank": 7,
+        "faiss_position": 23154,
+        "id": "00b390ff89bb45ebc2259c0b3424476c4fe02ec2",
+        "published_date": "2023-12-02",
+        "score": 0.31980186700820923
+      },
+      {
+        "rank": 8,
+        "faiss_position": 17841,
+        "id": "a7711916392da4f5086cec832eacf288804fb99b",
+        "published_date": "2021-11-03",
+        "score": 0.3189172148704529
+      },
+      {
+        "rank": 9,
+        "faiss_position": 21222,
+        "id": "eda85693af35fcb58efb66bc85241869ca3dccf7",
+        "published_date": "2022-02-03",
+        "score": 0.3146507143974304
+      },
+      {
+        "rank": 10,
+        "faiss_position": 22876,
+        "id": "326a2a524b6d1fdf3156acf45551614e20601ad1",
+        "published_date": "2023-12-01",
+        "score": 0.31463342905044556
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_13",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 1019,
+        "id": "5486ec942a6b44f5e6be403a6e57dc850f3bc86e",
+        "published_date": "2017-11-03",
+        "score": 0.45115095376968384
+      },
+      {
+        "rank": 2,
+        "faiss_position": 19624,
+        "id": "1e06a06505947dcddf5b227d3e230da2df46be49",
+        "published_date": "2022-02-02",
+        "score": 0.439611554145813
+      },
+      {
+        "rank": 3,
+        "faiss_position": 1475,
+        "id": "5c4ad128b231c05699898af6dfbc3705b2183861",
+        "published_date": "2017-11-03",
+        "score": 0.4386981725692749
+      },
+      {
+        "rank": 4,
+        "faiss_position": 7687,
+        "id": "9368f8e41d88402dad19d1fa10b2406fd4d0eb6e",
+        "published_date": "2019-01-01",
+        "score": 0.4293246567249298
+      },
+      {
+        "rank": 5,
+        "faiss_position": 3241,
+        "id": "77c716b505b2e413feb81b20293fe1b61345d8c7",
+        "published_date": "2017-11-06",
+        "score": 0.42461562156677246
+      },
+      {
+        "rank": 6,
+        "faiss_position": 17720,
+        "id": "435e770a7e850992612c9d65a95e1e37f2915d76",
+        "published_date": "2021-10-24",
+        "score": 0.4220373034477234
+      },
+      {
+        "rank": 7,
+        "faiss_position": 18372,
+        "id": "04b08c1c12f4f047f5edacba0e2fa06e13558aba",
+        "published_date": "2021-10-23",
+        "score": 0.42067351937294006
+      },
+      {
+        "rank": 8,
+        "faiss_position": 2756,
+        "id": "b07dcf394096d24e6bf76deba3b9bc77fc37e8b5",
+        "published_date": "2017-11-06",
+        "score": 0.4026345908641815
+      },
+      {
+        "rank": 9,
+        "faiss_position": 17980,
+        "id": "85eccb6ad4c3cabda6226ec0b7b31fc14e774c95",
+        "published_date": "2021-11-03",
+        "score": 0.39751625061035156
+      },
+      {
+        "rank": 10,
+        "faiss_position": 18626,
+        "id": "98425989841a91f20549100bf9a4cd2a3dd9fffe",
+        "published_date": "2022-02-01",
+        "score": 0.3974458575248718
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_14",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 2494,
+        "id": "5ac0106a8167375ee4fdbcc577fd6393f07c96af",
+        "published_date": "2017-08-05",
+        "score": 0.49863389134407043
+      },
+      {
+        "rank": 2,
+        "faiss_position": 203,
+        "id": "653934bc7bc1af9be991982033166241e3913e6c",
+        "published_date": "2017-10-31",
+        "score": 0.4780820310115814
+      },
+      {
+        "rank": 3,
+        "faiss_position": 6672,
+        "id": "fbed60c6dd7b94535fd44fadeea94a242a4b4313",
+        "published_date": "2018-01-05",
+        "score": 0.45968738198280334
+      },
+      {
+        "rank": 4,
+        "faiss_position": 25879,
+        "id": "b30b88a43696a1bcacaeab744f727102af7e066a",
+        "published_date": "2023-12-04",
+        "score": 0.4514033794403076
+      },
+      {
+        "rank": 5,
+        "faiss_position": 25593,
+        "id": "d0ce4bb48d6df4cf5fdad2e1fac239ad0283d731",
+        "published_date": "2023-12-04",
+        "score": 0.44904857873916626
+      },
+      {
+        "rank": 6,
+        "faiss_position": 19390,
+        "id": "4e898d0973510340a22714d22dcc7eaa612e7ce0",
+        "published_date": "2022-02-01",
+        "score": 0.44254177808761597
+      },
+      {
+        "rank": 7,
+        "faiss_position": 6480,
+        "id": "30fae789396aae39b3f2644543d1088f238f44fb",
+        "published_date": "2018-01-05",
+        "score": 0.4375365376472473
+      },
+      {
+        "rank": 8,
+        "faiss_position": 6910,
+        "id": "41e29a7564412185eb8b0003ba71b4fe6c4a03bf",
+        "published_date": "2018-01-05",
+        "score": 0.4331832528114319
+      },
+      {
+        "rank": 9,
+        "faiss_position": 20246,
+        "id": "58faf079140c7aade89b54efaff2aa227609c481",
+        "published_date": "2022-02-02",
+        "score": 0.4296877980232239
+      },
+      {
+        "rank": 10,
+        "faiss_position": 24300,
+        "id": "19af4a48879d178ff5de6837b7a940b2bc26d2e3",
+        "published_date": "2023-12-02",
+        "score": 0.4260784983634949
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_15",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 28016,
+        "id": "0b9b32b1c397a4ac3d823afa8b80880653229562",
+        "published_date": "2024-06-05",
+        "score": 0.3953227996826172
+      },
+      {
+        "rank": 2,
+        "faiss_position": 20661,
+        "id": "d1b5638defa28d0a9513063f55b0cfe331015889",
+        "published_date": "2022-02-02",
+        "score": 0.3885532021522522
+      },
+      {
+        "rank": 3,
+        "faiss_position": 1475,
+        "id": "5c4ad128b231c05699898af6dfbc3705b2183861",
+        "published_date": "2017-11-03",
+        "score": 0.3668380379676819
+      },
+      {
+        "rank": 4,
+        "faiss_position": 7162,
+        "id": "d869f9cdd854e70b179d8ce36d6a1b85de4a037d",
+        "published_date": "2018-01-06",
+        "score": 0.3609215021133423
+      },
+      {
+        "rank": 5,
+        "faiss_position": 23143,
+        "id": "133fb182f419dc1c971e7d28bff18e8b075e1bf1",
+        "published_date": "2023-12-02",
+        "score": 0.356860876083374
+      },
+      {
+        "rank": 6,
+        "faiss_position": 20828,
+        "id": "989946905dfe807491decbfb1af1cff1f4be4219",
+        "published_date": "2022-02-03",
+        "score": 0.35391658544540405
+      },
+      {
+        "rank": 7,
+        "faiss_position": 27407,
+        "id": "c49814111bfec631275de51cd15459e7dd980111",
+        "published_date": "2024-06-04",
+        "score": 0.3512956500053406
+      },
+      {
+        "rank": 8,
+        "faiss_position": 21901,
+        "id": "d408dcb2363c3577ac0c8ecaf7fbb5d6c056c2fe",
+        "published_date": "2022-02-03",
+        "score": 0.3464619219303131
+      },
+      {
+        "rank": 9,
+        "faiss_position": 21967,
+        "id": "827c26b5d622ba21a2b0ff2b29a209764c6eab93",
+        "published_date": "2022-02-03",
+        "score": 0.34323781728744507
+      },
+      {
+        "rank": 10,
+        "faiss_position": 26169,
+        "id": "fea82d33bdd4ab51aa9ec6e9d626d45387896135",
+        "published_date": "2024-06-01",
+        "score": 0.33896732330322266
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_16",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 16528,
+        "id": "2d237e7394a9c3102a906f00158b57ab9650de2d",
+        "published_date": "2021-10-25",
+        "score": 0.3506438732147217
+      },
+      {
+        "rank": 2,
+        "faiss_position": 15909,
+        "id": "000e5f5aff3696788b2f5443c4a39c79677a5b92",
+        "published_date": "2021-11-01",
+        "score": 0.3351595401763916
+      },
+      {
+        "rank": 3,
+        "faiss_position": 5444,
+        "id": "b333408d997575b9a58d6b85e7804873e5e169f2",
+        "published_date": "2018-01-03",
+        "score": 0.3341480493545532
+      },
+      {
+        "rank": 4,
+        "faiss_position": 17721,
+        "id": "ae891a59c44a60786af0a9f65180e512df28c898",
+        "published_date": "2021-10-24",
+        "score": 0.3309001922607422
+      },
+      {
+        "rank": 5,
+        "faiss_position": 26829,
+        "id": "848c50cbcbe1cafc1255b316cfa5b3d01347bdd3",
+        "published_date": "2024-05-31",
+        "score": 0.3281966745853424
+      },
+      {
+        "rank": 6,
+        "faiss_position": 3136,
+        "id": "fb3fa294470c2e26981156653f8e543b605c6fc0",
+        "published_date": "2017-11-07",
+        "score": 0.326874315738678
+      },
+      {
+        "rank": 7,
+        "faiss_position": 19999,
+        "id": "f6c15526deb3f62175dfc78628500ad595edbd1b",
+        "published_date": "2022-02-02",
+        "score": 0.32671400904655457
+      },
+      {
+        "rank": 8,
+        "faiss_position": 17720,
+        "id": "435e770a7e850992612c9d65a95e1e37f2915d76",
+        "published_date": "2021-10-24",
+        "score": 0.3264511227607727
+      },
+      {
+        "rank": 9,
+        "faiss_position": 9649,
+        "id": "244fd4c63b2cb10ef394a976084c03694d946749",
+        "published_date": "2019-01-04",
+        "score": 0.32575902342796326
+      },
+      {
+        "rank": 10,
+        "faiss_position": 1892,
+        "id": "30b33aa3cf996019b853ce5832d69fc583842728",
+        "published_date": "2017-11-03",
+        "score": 0.32351386547088623
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_17",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 16893,
+        "id": "2f3b2d77b8fb39e0b057bd0ba532f217cae09924",
+        "published_date": "2021-11-02",
+        "score": 0.39235085248947144
+      },
+      {
+        "rank": 2,
+        "faiss_position": 28016,
+        "id": "0b9b32b1c397a4ac3d823afa8b80880653229562",
+        "published_date": "2024-06-05",
+        "score": 0.3800906538963318
+      },
+      {
+        "rank": 3,
+        "faiss_position": 18626,
+        "id": "98425989841a91f20549100bf9a4cd2a3dd9fffe",
+        "published_date": "2022-02-01",
+        "score": 0.3755529522895813
+      },
+      {
+        "rank": 4,
+        "faiss_position": 25213,
+        "id": "52c94cc9ad008d76cc9ee3834b912b4bb677a6c4",
+        "published_date": "2023-12-04",
+        "score": 0.37529706954956055
+      },
+      {
+        "rank": 5,
+        "faiss_position": 16338,
+        "id": "fb7869ea0ff102b6994bf9ca5fa8064cc0e0d459",
+        "published_date": "2021-10-25",
+        "score": 0.3725477457046509
+      },
+      {
+        "rank": 6,
+        "faiss_position": 22831,
+        "id": "a563990d1c37fbddd0191dffcb1fa3093e7fdae4",
+        "published_date": "2023-11-30",
+        "score": 0.3719502091407776
+      },
+      {
+        "rank": 7,
+        "faiss_position": 15892,
+        "id": "75e917df01c95575e4cca0d760e916181cbecd7e",
+        "published_date": "2021-10-25",
+        "score": 0.36015406250953674
+      },
+      {
+        "rank": 8,
+        "faiss_position": 25724,
+        "id": "9667f71d2ca151915bdfb5acc1093ac282c8088c",
+        "published_date": "2023-12-04",
+        "score": 0.3592194616794586
+      },
+      {
+        "rank": 9,
+        "faiss_position": 5261,
+        "id": "8da174f22f77df5975c0073bb2a7a20d4b3b4b45",
+        "published_date": "2018-01-03",
+        "score": 0.3538435697555542
+      },
+      {
+        "rank": 10,
+        "faiss_position": 28401,
+        "id": "39d4e9dfae87d167ecb29034dbd4f0c8b2d728ba",
+        "published_date": "2024-06-04",
+        "score": 0.34651997685432434
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_18",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 21901,
+        "id": "d408dcb2363c3577ac0c8ecaf7fbb5d6c056c2fe",
+        "published_date": "2022-02-03",
+        "score": 0.47868141531944275
+      },
+      {
+        "rank": 2,
+        "faiss_position": 23143,
+        "id": "133fb182f419dc1c971e7d28bff18e8b075e1bf1",
+        "published_date": "2023-12-02",
+        "score": 0.4669717252254486
+      },
+      {
+        "rank": 3,
+        "faiss_position": 28098,
+        "id": "a5817bcb318df5a2e2228f924febd02bb0b4aad6",
+        "published_date": "2024-06-05",
+        "score": 0.4520045518875122
+      },
+      {
+        "rank": 4,
+        "faiss_position": 9007,
+        "id": "136f58375ac2f17a14bae0d6996f23cae9ced833",
+        "published_date": "2019-01-03",
+        "score": 0.44876277446746826
+      },
+      {
+        "rank": 5,
+        "faiss_position": 27757,
+        "id": "eda2e6b0c9a3c0bfd4b62f6ebfe64bf1ae98710a",
+        "published_date": "2024-06-04",
+        "score": 0.4410511553287506
+      },
+      {
+        "rank": 6,
+        "faiss_position": 5623,
+        "id": "7ee057f80e196409ee0a0df262d44b6251eaa1b6",
+        "published_date": "2018-01-05",
+        "score": 0.4188648462295532
+      },
+      {
+        "rank": 7,
+        "faiss_position": 25376,
+        "id": "4a9e2e12a729e4bd5e5dfdd42ae820d2a21ac595",
+        "published_date": "2023-12-04",
+        "score": 0.4158564805984497
+      },
+      {
+        "rank": 8,
+        "faiss_position": 3315,
+        "id": "a56b9067db14f77f1163509ef1ad4399cfc51257",
+        "published_date": "2017-11-07",
+        "score": 0.40946197509765625
+      },
+      {
+        "rank": 9,
+        "faiss_position": 28953,
+        "id": "c80ee6851384033158465ef784ca7046bb3b0f30",
+        "published_date": "2024-06-06",
+        "score": 0.4047167897224426
+      },
+      {
+        "rank": 10,
+        "faiss_position": 9592,
+        "id": "d7a0260709d028e69dd222511582ede88b3278cd",
+        "published_date": "2019-01-03",
+        "score": 0.4037880003452301
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_19",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 5155,
+        "id": "a91dd9aa2347524ab2db0aa83c21843e26d931e6",
+        "published_date": "2018-01-03",
+        "score": 0.42214009165763855
+      },
+      {
+        "rank": 2,
+        "faiss_position": 17841,
+        "id": "a7711916392da4f5086cec832eacf288804fb99b",
+        "published_date": "2021-11-03",
+        "score": 0.4087245464324951
+      },
+      {
+        "rank": 3,
+        "faiss_position": 25055,
+        "id": "2267cdb0abe5e71eaa4d7d7be27c2b5099b11629",
+        "published_date": "2023-12-03",
+        "score": 0.3991069197654724
+      },
+      {
+        "rank": 4,
+        "faiss_position": 17506,
+        "id": "1a06fcf99f8311d3bc04203a8369ec7348db14df",
+        "published_date": "2021-11-02",
+        "score": 0.3857327997684479
+      },
+      {
+        "rank": 5,
+        "faiss_position": 28016,
+        "id": "0b9b32b1c397a4ac3d823afa8b80880653229562",
+        "published_date": "2024-06-05",
+        "score": 0.3800347149372101
+      },
+      {
+        "rank": 6,
+        "faiss_position": 13365,
+        "id": "225d2d6e157a1fdf1bdce1c4d3a6392ee9cf2d13",
+        "published_date": "2020-01-03",
+        "score": 0.37741273641586304
+      },
+      {
+        "rank": 7,
+        "faiss_position": 2820,
+        "id": "1c6185b4e3383832f3942704b1dce9ca50853620",
+        "published_date": "2017-11-06",
+        "score": 0.3754573166370392
+      },
+      {
+        "rank": 8,
+        "faiss_position": 20783,
+        "id": "cc65b1a99403b8d87bfd38c37ab764885dd8d789",
+        "published_date": "2022-02-03",
+        "score": 0.37385761737823486
+      },
+      {
+        "rank": 9,
+        "faiss_position": 15912,
+        "id": "410d2e4229b0b92dcdfa855da3bbb5c6c99bd031",
+        "published_date": "2021-11-01",
+        "score": 0.37154385447502136
+      },
+      {
+        "rank": 10,
+        "faiss_position": 11123,
+        "id": "b94e959e585e7d7a62898bd300520515c509e61d",
+        "published_date": "2020-01-01",
+        "score": 0.3706958293914795
+      }
+    ]
+  },
+  {
+    "id": "ip_tu_20",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 17720,
+        "id": "435e770a7e850992612c9d65a95e1e37f2915d76",
+        "published_date": "2021-10-24",
+        "score": 0.41376620531082153
+      },
+      {
+        "rank": 2,
+        "faiss_position": 3241,
+        "id": "77c716b505b2e413feb81b20293fe1b61345d8c7",
+        "published_date": "2017-11-06",
+        "score": 0.40252113342285156
+      },
+      {
+        "rank": 3,
+        "faiss_position": 1019,
+        "id": "5486ec942a6b44f5e6be403a6e57dc850f3bc86e",
+        "published_date": "2017-11-03",
+        "score": 0.3998009264469147
+      },
+      {
+        "rank": 4,
+        "faiss_position": 873,
+        "id": "50b9dbcb8e29e0ad5b3c03a5476400641224a87b",
+        "published_date": "2017-10-23",
+        "score": 0.39334943890571594
+      },
+      {
+        "rank": 5,
+        "faiss_position": 16528,
+        "id": "2d237e7394a9c3102a906f00158b57ab9650de2d",
+        "published_date": "2021-10-25",
+        "score": 0.3927503228187561
+      },
+      {
+        "rank": 6,
+        "faiss_position": 9263,
+        "id": "15848c508f75494ae1261d38030c13757c69a45d",
+        "published_date": "2019-01-03",
+        "score": 0.3914874196052551
+      },
+      {
+        "rank": 7,
+        "faiss_position": 28588,
+        "id": "bb8f1d6fe64daa53b60dcc71aca6a04fc2578e79",
+        "published_date": "2024-06-05",
+        "score": 0.3841208815574646
+      },
+      {
+        "rank": 8,
+        "faiss_position": 28992,
+        "id": "56d13fb7fd55a44417f7e80f4c55e44109fe8883",
+        "published_date": "2024-06-06",
+        "score": 0.38298091292381287
+      },
+      {
+        "rank": 9,
+        "faiss_position": 3499,
+        "id": "f1f22a60daaab5ba472f9c7d306564a739fa9e51",
+        "published_date": "2017-11-06",
+        "score": 0.37521883845329285
+      },
+      {
+        "rank": 10,
+        "faiss_position": 17721,
+        "id": "ae891a59c44a60786af0a9f65180e512df28c898",
+        "published_date": "2021-10-24",
+        "score": 0.37417125701904297
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_01",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 8838,
+        "id": "8df187d82488d49548bd18a485477fa02e1d446f",
+        "published_date": "2019-01-02",
+        "score": 0.7118117213249207
+      },
+      {
+        "rank": 2,
+        "faiss_position": 21173,
+        "id": "55fe0b7ff3b99fc59ceb628ac6dba3ae64d01c18",
+        "published_date": "2022-02-03",
+        "score": 0.7074841260910034
+      },
+      {
+        "rank": 3,
+        "faiss_position": 8901,
+        "id": "e8e93edaa130a0a191739cec9ca6753199677816",
+        "published_date": "2019-01-02",
+        "score": 0.706366777420044
+      },
+      {
+        "rank": 4,
+        "faiss_position": 16955,
+        "id": "f61bb7e70e65762e0b99602934a1a9ce4284d9f6",
+        "published_date": "2021-11-01",
+        "score": 0.7061446905136108
+      },
+      {
+        "rank": 5,
+        "faiss_position": 5890,
+        "id": "daadc3e9469dfb57be06907acc5ef5fdf731ff92",
+        "published_date": "2018-01-04",
+        "score": 0.7056283354759216
+      },
+      {
+        "rank": 6,
+        "faiss_position": 9504,
+        "id": "c200d37f53dec8c59a323a6d895cf60332325aba",
+        "published_date": "2019-01-04",
+        "score": 0.6985385417938232
+      },
+      {
+        "rank": 7,
+        "faiss_position": 7622,
+        "id": "b20f578c56ce4a00b52df923d5f666c278a1f212",
+        "published_date": "2019-01-01",
+        "score": 0.6973824501037598
+      },
+      {
+        "rank": 8,
+        "faiss_position": 26779,
+        "id": "88f2420c7be6d3cae755c50a3ac5d03bafa5355d",
+        "published_date": "2024-06-02",
+        "score": 0.6962047815322876
+      },
+      {
+        "rank": 9,
+        "faiss_position": 7428,
+        "id": "87e92f515a2d2f2b949dc437f9be82512c07d281",
+        "published_date": "2019-01-01",
+        "score": 0.6955013275146484
+      },
+      {
+        "rank": 10,
+        "faiss_position": 1193,
+        "id": "0df06b6f5e662483e66106ec6916cb3e365b61f2",
+        "published_date": "2017-11-02",
+        "score": 0.6951271295547485
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_02",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 9802,
+        "id": "fc9ec5fcf7e50ee2aee0f6ae04387eacbe414138",
+        "published_date": "2019-01-03",
+        "score": 0.6870555281639099
+      },
+      {
+        "rank": 2,
+        "faiss_position": 4749,
+        "id": "a8270c8e334c14ea71d9d92937278796b689f432",
+        "published_date": "2018-01-02",
+        "score": 0.6855118274688721
+      },
+      {
+        "rank": 3,
+        "faiss_position": 12783,
+        "id": "8b3f33557d8b721baa3c8f82efc6068e6b51b21b",
+        "published_date": "2020-01-02",
+        "score": 0.6851590275764465
+      },
+      {
+        "rank": 4,
+        "faiss_position": 9804,
+        "id": "2a0196e69b74bc59ce6be86c62c550f90b0a68e0",
+        "published_date": "2019-01-03",
+        "score": 0.6807575225830078
+      },
+      {
+        "rank": 5,
+        "faiss_position": 9001,
+        "id": "1704dca6ce3756fc8474a27d78d0810b7eca779c",
+        "published_date": "2019-01-03",
+        "score": 0.6804037094116211
+      },
+      {
+        "rank": 6,
+        "faiss_position": 8337,
+        "id": "164024c35122a881464d4b6943020165185a7bf6",
+        "published_date": "2019-01-02",
+        "score": 0.6777149438858032
+      },
+      {
+        "rank": 7,
+        "faiss_position": 9433,
+        "id": "0f291dadd4996113e84c1692dcf48f92a9f69043",
+        "published_date": "2019-01-03",
+        "score": 0.6748338937759399
+      },
+      {
+        "rank": 8,
+        "faiss_position": 9429,
+        "id": "39ccab58feaad44cd21e88d77ebaed4c3c7f0700",
+        "published_date": "2019-01-03",
+        "score": 0.6742716431617737
+      },
+      {
+        "rank": 9,
+        "faiss_position": 13584,
+        "id": "7a4bbd5bc1e588e84f2ddd1c2dfd51a8de9e5022",
+        "published_date": "2020-01-03",
+        "score": 0.6736889481544495
+      },
+      {
+        "rank": 10,
+        "faiss_position": 15372,
+        "id": "eb261a9a498488be392db449122c323ca86d23bd",
+        "published_date": "2021-11-01",
+        "score": 0.6729727983474731
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_03",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 29384,
+        "id": "b722b4b367ddd3bee10fdb32705afd89d74c90e4",
+        "published_date": "2024-06-07",
+        "score": 0.5757843255996704
+      },
+      {
+        "rank": 2,
+        "faiss_position": 23089,
+        "id": "ba4ca2e8be3f168a6edcafaeb9d85a705edbd0ec",
+        "published_date": "2023-12-01",
+        "score": 0.5611653327941895
+      },
+      {
+        "rank": 3,
+        "faiss_position": 23099,
+        "id": "c2edab200e473861e02ae0f43d5db48d424a500b",
+        "published_date": "2023-12-01",
+        "score": 0.5584776401519775
+      },
+      {
+        "rank": 4,
+        "faiss_position": 10021,
+        "id": "acc489c5618945f8d14d9b92c9db7845c9faab38",
+        "published_date": "2019-01-04",
+        "score": 0.5557270646095276
+      },
+      {
+        "rank": 5,
+        "faiss_position": 23101,
+        "id": "b468e0a8a81069fd8cfc598cab3a43017e341a57",
+        "published_date": "2023-12-01",
+        "score": 0.5556820631027222
+      },
+      {
+        "rank": 6,
+        "faiss_position": 143,
+        "id": "08a88e0352e27f866abfb49520fbfc20547d4c3a",
+        "published_date": "2017-11-01",
+        "score": 0.5555899143218994
+      },
+      {
+        "rank": 7,
+        "faiss_position": 23182,
+        "id": "4370352521768fa7169b256ed94795d26f6045d8",
+        "published_date": "2023-12-01",
+        "score": 0.5513254404067993
+      },
+      {
+        "rank": 8,
+        "faiss_position": 20736,
+        "id": "41ab7aa815c29355dd317e9d50700a6b946932b0",
+        "published_date": "2022-02-02",
+        "score": 0.5495294332504272
+      },
+      {
+        "rank": 9,
+        "faiss_position": 1485,
+        "id": "cc47b456a5da8e212fc64c7d6af82ace28b26679",
+        "published_date": "2017-11-03",
+        "score": 0.5492072701454163
+      },
+      {
+        "rank": 10,
+        "faiss_position": 23092,
+        "id": "e041e6b55a3953615aef4db53d8f535977835538",
+        "published_date": "2023-12-01",
+        "score": 0.5491442084312439
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_04",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 16832,
+        "id": "64b0dc4a920f6864c3406fa963eebdc4f7f312e2",
+        "published_date": "2021-11-02",
+        "score": 0.7383400201797485
+      },
+      {
+        "rank": 2,
+        "faiss_position": 16499,
+        "id": "a9917c5f55907df268d1e09ad11d06c058be9cec",
+        "published_date": "2021-11-02",
+        "score": 0.7325581312179565
+      },
+      {
+        "rank": 3,
+        "faiss_position": 17777,
+        "id": "a7f877623d8f868b221e6f37d9c985f82119066a",
+        "published_date": "2021-11-03",
+        "score": 0.7303683161735535
+      },
+      {
+        "rank": 4,
+        "faiss_position": 16656,
+        "id": "5264574a31bcaee8cf8ddcae03cf4b6b1c26f620",
+        "published_date": "2021-11-02",
+        "score": 0.7262313365936279
+      },
+      {
+        "rank": 5,
+        "faiss_position": 16744,
+        "id": "902edd61edfbe4fb21ce89fe9b8bc2f95482b2bd",
+        "published_date": "2021-11-02",
+        "score": 0.7245860695838928
+      },
+      {
+        "rank": 6,
+        "faiss_position": 16854,
+        "id": "973d232e5175825c244bf2a572e6356518fe1543",
+        "published_date": "2021-11-02",
+        "score": 0.7198492288589478
+      },
+      {
+        "rank": 7,
+        "faiss_position": 16795,
+        "id": "79e1d49e431a9efd06427f20daf85b6f406a08bb",
+        "published_date": "2021-11-02",
+        "score": 0.7196736335754395
+      },
+      {
+        "rank": 8,
+        "faiss_position": 16633,
+        "id": "297e33665cd2f698756440f3efc96c4a0eeadaf0",
+        "published_date": "2021-11-02",
+        "score": 0.7190471887588501
+      },
+      {
+        "rank": 9,
+        "faiss_position": 16462,
+        "id": "a7f33f690976afc43240f9408e8ad1d3b11438dd",
+        "published_date": "2021-11-02",
+        "score": 0.7176501154899597
+      },
+      {
+        "rank": 10,
+        "faiss_position": 16865,
+        "id": "f51bfc6f50f35267982f17bb5a830046f8017de1",
+        "published_date": "2021-11-02",
+        "score": 0.7171925902366638
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_05",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 23664,
+        "id": "14a6e178705116b72083a84a98930a6e23e4c412",
+        "published_date": "2023-12-02",
+        "score": 0.6966854929924011
+      },
+      {
+        "rank": 2,
+        "faiss_position": 29212,
+        "id": "957d255422df0cff9d7e92f9ed0adb35e74acb44",
+        "published_date": "2024-06-07",
+        "score": 0.6783822178840637
+      },
+      {
+        "rank": 3,
+        "faiss_position": 26918,
+        "id": "254303ba79dc0a4f8faa4e6e39b4cc58c9920cf0",
+        "published_date": "2024-06-03",
+        "score": 0.6663185954093933
+      },
+      {
+        "rank": 4,
+        "faiss_position": 28635,
+        "id": "cc48e86d4f4f9f623b24b37e8ce9324b9cdb33bc",
+        "published_date": "2024-06-05",
+        "score": 0.6662362813949585
+      },
+      {
+        "rank": 5,
+        "faiss_position": 26805,
+        "id": "397713c0f926d6ed5b4dc7c05ded6d632fa4043a",
+        "published_date": "2024-06-03",
+        "score": 0.6658192873001099
+      },
+      {
+        "rank": 6,
+        "faiss_position": 27467,
+        "id": "1c76917f28f0416d58e1c0123fa417ca8ece5e5b",
+        "published_date": "2024-06-04",
+        "score": 0.665732741355896
+      },
+      {
+        "rank": 7,
+        "faiss_position": 25880,
+        "id": "3b3fbefad81abf7d01d241a1ec0038435581634a",
+        "published_date": "2023-12-04",
+        "score": 0.6636272668838501
+      },
+      {
+        "rank": 8,
+        "faiss_position": 17902,
+        "id": "a82a90d0279eb9d31a26c61a013af204a1fb2c6f",
+        "published_date": "2021-11-03",
+        "score": 0.66313236951828
+      },
+      {
+        "rank": 9,
+        "faiss_position": 23580,
+        "id": "b20d943bf49ef648ce95a695c311cae176d4c36e",
+        "published_date": "2023-12-02",
+        "score": 0.6630216240882874
+      },
+      {
+        "rank": 10,
+        "faiss_position": 25401,
+        "id": "c7b65f2c26a7fc93b6d0205a701c8ec23fd1580c",
+        "published_date": "2023-12-04",
+        "score": 0.6525803804397583
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_06",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 23169,
+        "id": "2234fcf2728e23a68d4362453f5cf77a2ad7f554",
+        "published_date": "2023-11-30",
+        "score": 0.6405857801437378
+      },
+      {
+        "rank": 2,
+        "faiss_position": 8886,
+        "id": "77fd8d8198949cf91c8803b8e0ec813ddba365c8",
+        "published_date": "2019-01-03",
+        "score": 0.6401492357254028
+      },
+      {
+        "rank": 3,
+        "faiss_position": 26828,
+        "id": "6e678e13511577409dcb8799f285e669812a2649",
+        "published_date": "2024-06-03",
+        "score": 0.6365689635276794
+      },
+      {
+        "rank": 4,
+        "faiss_position": 24785,
+        "id": "d80bb2ce683f8d9cd98b1db25482acb3e50f92fa",
+        "published_date": "2023-12-03",
+        "score": 0.6361232995986938
+      },
+      {
+        "rank": 5,
+        "faiss_position": 23958,
+        "id": "94b86c19f01e7a7bb487b60b3fad5538660edd1e",
+        "published_date": "2023-12-02",
+        "score": 0.6336634159088135
+      },
+      {
+        "rank": 6,
+        "faiss_position": 9171,
+        "id": "92975b24e38eb4b1e7c43b62c88aacfa112717ba",
+        "published_date": "2019-01-03",
+        "score": 0.6312563419342041
+      },
+      {
+        "rank": 7,
+        "faiss_position": 23918,
+        "id": "b611a5f8b8181861ce8e1adde94f54bfe78937b1",
+        "published_date": "2023-12-02",
+        "score": 0.6312007904052734
+      },
+      {
+        "rank": 8,
+        "faiss_position": 8651,
+        "id": "0c5b8eaaac8507d1111b3f08d5ed1c2ae18a0dbb",
+        "published_date": "2019-01-02",
+        "score": 0.629967451095581
+      },
+      {
+        "rank": 9,
+        "faiss_position": 11787,
+        "id": "9bf73619b89b2248076f6b5b80ff0834f9a0a1a3",
+        "published_date": "2020-01-01",
+        "score": 0.6297354698181152
+      },
+      {
+        "rank": 10,
+        "faiss_position": 8558,
+        "id": "c94dd76c960a26904c9c03f1f22b62f5f86dc60b",
+        "published_date": "2019-01-02",
+        "score": 0.6243887543678284
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_07",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 26726,
+        "id": "e6af05a93e1a334f1b7ed2afefd51d2f9417e25f",
+        "published_date": "2024-06-02",
+        "score": 0.5961204171180725
+      },
+      {
+        "rank": 2,
+        "faiss_position": 2789,
+        "id": "287bac0ed4d7f3a34b507533697f3f3e8185d89e",
+        "published_date": "2017-11-05",
+        "score": 0.5842113494873047
+      },
+      {
+        "rank": 3,
+        "faiss_position": 28434,
+        "id": "4cf356e611c84f84b1a4d5382c23243127237577",
+        "published_date": "2024-06-05",
+        "score": 0.5827715396881104
+      },
+      {
+        "rank": 4,
+        "faiss_position": 23760,
+        "id": "4c24001b17e4553b81d99d73d94603e2b6f3c8c0",
+        "published_date": "2023-12-02",
+        "score": 0.578876256942749
+      },
+      {
+        "rank": 5,
+        "faiss_position": 3507,
+        "id": "92b2022e6e511ab6b864925e9cab9282fbb13ec4",
+        "published_date": "2017-11-06",
+        "score": 0.5785291194915771
+      },
+      {
+        "rank": 6,
+        "faiss_position": 22274,
+        "id": "9daf8ebeebcba340a388f31184e54731287cf692",
+        "published_date": "2023-12-01",
+        "score": 0.5772901177406311
+      },
+      {
+        "rank": 7,
+        "faiss_position": 16185,
+        "id": "42b0a346d3dfaab5658262a46769120be19571fb",
+        "published_date": "2021-11-02",
+        "score": 0.5753076076507568
+      },
+      {
+        "rank": 8,
+        "faiss_position": 3066,
+        "id": "a5cbee3a624172a38e19aabda8f5fa4c4e907dfd",
+        "published_date": "2017-11-05",
+        "score": 0.5736348628997803
+      },
+      {
+        "rank": 9,
+        "faiss_position": 3250,
+        "id": "96dca486c9f754012eebac06f889b31a908ea3f5",
+        "published_date": "2017-11-06",
+        "score": 0.5717355012893677
+      },
+      {
+        "rank": 10,
+        "faiss_position": 2722,
+        "id": "5d407cbd67e5d450053934b99d8f36b5b528e717",
+        "published_date": "2017-11-05",
+        "score": 0.569441020488739
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_08",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 13491,
+        "id": "741bbda2496d6d84020d888fdd20546c519938a6",
+        "published_date": "2020-01-03",
+        "score": 0.7060954570770264
+      },
+      {
+        "rank": 2,
+        "faiss_position": 3052,
+        "id": "b69a58c580cf9072df69ac6d35ca7c4e10c4a82a",
+        "published_date": "2017-11-05",
+        "score": 0.7011685967445374
+      },
+      {
+        "rank": 3,
+        "faiss_position": 7659,
+        "id": "5ac3c1ca665c3dc10bbe4d95a140fbe24af70e66",
+        "published_date": "2019-01-01",
+        "score": 0.6882503032684326
+      },
+      {
+        "rank": 4,
+        "faiss_position": 3272,
+        "id": "32169849a300992162e3e5b9bb4d5f4e8c01f6be",
+        "published_date": "2017-11-07",
+        "score": 0.6789565086364746
+      },
+      {
+        "rank": 5,
+        "faiss_position": 7660,
+        "id": "1382c308aa16e2a6e09835a6ec95c4cfc695d4c5",
+        "published_date": "2019-01-01",
+        "score": 0.6782985925674438
+      },
+      {
+        "rank": 6,
+        "faiss_position": 19244,
+        "id": "c1f6cef6fe1c5ee94627eab0efaec7bf123fb4ef",
+        "published_date": "2022-02-01",
+        "score": 0.6720097064971924
+      },
+      {
+        "rank": 7,
+        "faiss_position": 11861,
+        "id": "808edcb4b3382b3b8f653d8dd5c346f033f31727",
+        "published_date": "2020-01-01",
+        "score": 0.668144166469574
+      },
+      {
+        "rank": 8,
+        "faiss_position": 6347,
+        "id": "7940fb97173a969c744ff4a0a08c3619f271664f",
+        "published_date": "2018-01-05",
+        "score": 0.6676208972930908
+      },
+      {
+        "rank": 9,
+        "faiss_position": 10006,
+        "id": "e834be178716b52d45864e8f1fb3aa0e36f732e4",
+        "published_date": "2019-01-04",
+        "score": 0.6651358604431152
+      },
+      {
+        "rank": 10,
+        "faiss_position": 9606,
+        "id": "f187a7252cc63a3f9c41bce77048c8f472701ffe",
+        "published_date": "2019-01-04",
+        "score": 0.6625655889511108
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_09",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 1348,
+        "id": "ee2fa5233c7d4de95c8d02fb002cef9773e52c3d",
+        "published_date": "2017-11-03",
+        "score": 0.6790828704833984
+      },
+      {
+        "rank": 2,
+        "faiss_position": 18460,
+        "id": "c1695ac7b3b71f653b0e2548fbd441f92e2aad82",
+        "published_date": "2021-11-04",
+        "score": 0.6737942695617676
+      },
+      {
+        "rank": 3,
+        "faiss_position": 10006,
+        "id": "e834be178716b52d45864e8f1fb3aa0e36f732e4",
+        "published_date": "2019-01-04",
+        "score": 0.6727079749107361
+      },
+      {
+        "rank": 4,
+        "faiss_position": 384,
+        "id": "769e0297e8400ec2f8bb9396a36a7171d5fa3016",
+        "published_date": "2017-11-02",
+        "score": 0.6671930551528931
+      },
+      {
+        "rank": 5,
+        "faiss_position": 7468,
+        "id": "a22856335784e2ac335e4cb15a6a82cd3450a8e1",
+        "published_date": "2019-01-01",
+        "score": 0.6560575366020203
+      },
+      {
+        "rank": 6,
+        "faiss_position": 2539,
+        "id": "606681f962f7a6429fa3f9626af3cd3060770175",
+        "published_date": "2017-10-27",
+        "score": 0.6545481085777283
+      },
+      {
+        "rank": 7,
+        "faiss_position": 3590,
+        "id": "2e25820ab0c318229756770ee82200acf0de74c3",
+        "published_date": "2017-11-06",
+        "score": 0.6455380916595459
+      },
+      {
+        "rank": 8,
+        "faiss_position": 10140,
+        "id": "039df82a41c37492f952e40cf8a9891c7a828b12",
+        "published_date": "2019-01-05",
+        "score": 0.6430969834327698
+      },
+      {
+        "rank": 9,
+        "faiss_position": 3206,
+        "id": "c414d93d30f35f89db4d9ae4bfaa788b3ffd99a2",
+        "published_date": "2017-11-08",
+        "score": 0.6400521993637085
+      },
+      {
+        "rank": 10,
+        "faiss_position": 11140,
+        "id": "1008cbbfde48525e251d3d69e6d03ecaead1baf5",
+        "published_date": "2020-01-01",
+        "score": 0.6395583152770996
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_10",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 14392,
+        "id": "2c0b4ef867ada727bcfa1739c728b77884237307",
+        "published_date": "2020-01-03",
+        "score": 0.6579489707946777
+      },
+      {
+        "rank": 2,
+        "faiss_position": 10413,
+        "id": "8cac505437c6a08942f261f8878d64d0cccc5d5e",
+        "published_date": "2019-01-04",
+        "score": 0.6443005800247192
+      },
+      {
+        "rank": 3,
+        "faiss_position": 364,
+        "id": "e7bf9dab45032bce4593ae20a0eea7c70b3c271b",
+        "published_date": "2017-11-02",
+        "score": 0.6419779062271118
+      },
+      {
+        "rank": 4,
+        "faiss_position": 6149,
+        "id": "bf87b8644623adf52ca9cebf7d2c6f4cc47c0f86",
+        "published_date": "2018-01-05",
+        "score": 0.6362259387969971
+      },
+      {
+        "rank": 5,
+        "faiss_position": 20309,
+        "id": "b98e23c7f83d1101d8512a26567d6b5ef68b2f58",
+        "published_date": "2022-02-02",
+        "score": 0.6357312798500061
+      },
+      {
+        "rank": 6,
+        "faiss_position": 14503,
+        "id": "cfbc35846697367b1f7acd23c0ce44bdf6fa1364",
+        "published_date": "2020-01-04",
+        "score": 0.6312493681907654
+      },
+      {
+        "rank": 7,
+        "faiss_position": 13839,
+        "id": "fba68aec5098ce4f585a9315c243142a76e96a9f",
+        "published_date": "2020-01-03",
+        "score": 0.628190279006958
+      },
+      {
+        "rank": 8,
+        "faiss_position": 10966,
+        "id": "ec4857e187293f04de418c7a69de12e41301ad33",
+        "published_date": "2019-01-05",
+        "score": 0.6165275573730469
+      },
+      {
+        "rank": 9,
+        "faiss_position": 6732,
+        "id": "afd0f81dd30894b261914fb0008af4b4cb149021",
+        "published_date": "2018-01-05",
+        "score": 0.615480899810791
+      },
+      {
+        "rank": 10,
+        "faiss_position": 10861,
+        "id": "ad2f4823096d3abc0bf16f3a33db91cf4efeb466",
+        "published_date": "2019-01-05",
+        "score": 0.6143506765365601
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_11",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 26512,
+        "id": "ebd70dea67aa822a18c33d7a1d26746619c96a30",
+        "published_date": "2024-06-02",
+        "score": 0.7053786516189575
+      },
+      {
+        "rank": 2,
+        "faiss_position": 2225,
+        "id": "e2b358bf6a5a073f92456a5af80244b4113ee6b3",
+        "published_date": "2017-11-04",
+        "score": 0.642544150352478
+      },
+      {
+        "rank": 3,
+        "faiss_position": 5509,
+        "id": "c404feb41a5d016e9fc03056437873efee21798c",
+        "published_date": "2018-01-03",
+        "score": 0.616431713104248
+      },
+      {
+        "rank": 4,
+        "faiss_position": 3446,
+        "id": "254b57b97ec3ee299b94cd59c45aff7fc41f09af",
+        "published_date": "2017-11-08",
+        "score": 0.6164048314094543
+      },
+      {
+        "rank": 5,
+        "faiss_position": 11873,
+        "id": "40d0719a430968b1a85700f26d2ec103335b1b2b",
+        "published_date": "2020-01-01",
+        "score": 0.6161288619041443
+      },
+      {
+        "rank": 6,
+        "faiss_position": 27875,
+        "id": "7627183b9cd75f2950e229abc914ed7a2e3d695e",
+        "published_date": "2024-06-04",
+        "score": 0.6127575039863586
+      },
+      {
+        "rank": 7,
+        "faiss_position": 4060,
+        "id": "bbd53a782c8b7893179f37fc816d891b53241783",
+        "published_date": "2018-01-01",
+        "score": 0.6125653386116028
+      },
+      {
+        "rank": 8,
+        "faiss_position": 25128,
+        "id": "24188ae4022e3394850d9eb0c3a814635eb65ecf",
+        "published_date": "2023-12-04",
+        "score": 0.6073189377784729
+      },
+      {
+        "rank": 9,
+        "faiss_position": 8497,
+        "id": "f66f6b83f9f0575c1128c295540b4ff072771151",
+        "published_date": "2019-01-02",
+        "score": 0.605189859867096
+      },
+      {
+        "rank": 10,
+        "faiss_position": 29029,
+        "id": "c4f91f08e1949eca47cbe858a5b7dcb2520e2b1f",
+        "published_date": "2024-06-06",
+        "score": 0.6033562421798706
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_12",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 26512,
+        "id": "ebd70dea67aa822a18c33d7a1d26746619c96a30",
+        "published_date": "2024-06-02",
+        "score": 0.6219488382339478
+      },
+      {
+        "rank": 2,
+        "faiss_position": 4691,
+        "id": "5d15703e076f061b51be6132154507037a284cf1",
+        "published_date": "2018-01-03",
+        "score": 0.6058606505393982
+      },
+      {
+        "rank": 3,
+        "faiss_position": 21653,
+        "id": "c03c885c50f980f8775e8bd2474b73e030a87f98",
+        "published_date": "2022-02-04",
+        "score": 0.604179859161377
+      },
+      {
+        "rank": 4,
+        "faiss_position": 4408,
+        "id": "4bdf88f2fc07139b5719bec548dd6d0bfe5ae882",
+        "published_date": "2018-01-02",
+        "score": 0.6033329963684082
+      },
+      {
+        "rank": 5,
+        "faiss_position": 13167,
+        "id": "2bc119040e4e461137ae8dfe961da33d96f787fd",
+        "published_date": "2020-01-02",
+        "score": 0.5947278738021851
+      },
+      {
+        "rank": 6,
+        "faiss_position": 22722,
+        "id": "45d667fcf68fe05578c8797d7a3bca8629bc07fc",
+        "published_date": "2023-12-01",
+        "score": 0.5912938714027405
+      },
+      {
+        "rank": 7,
+        "faiss_position": 8497,
+        "id": "f66f6b83f9f0575c1128c295540b4ff072771151",
+        "published_date": "2019-01-02",
+        "score": 0.5907758474349976
+      },
+      {
+        "rank": 8,
+        "faiss_position": 16074,
+        "id": "24ffc01edfa6accf06cfbe654a977a1bffc6d7bf",
+        "published_date": "2021-11-02",
+        "score": 0.5886947512626648
+      },
+      {
+        "rank": 9,
+        "faiss_position": 5840,
+        "id": "69b30aad49ccb9c9a6634408a2ee07134a29b28b",
+        "published_date": "2018-01-05",
+        "score": 0.588547945022583
+      },
+      {
+        "rank": 10,
+        "faiss_position": 15801,
+        "id": "b2eba9570e756d5a935637e9563d6d45f45cb015",
+        "published_date": "2021-11-01",
+        "score": 0.5885365009307861
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_13",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 28502,
+        "id": "03c2301cf63c4dc5110fa15c0766c14d631819df",
+        "published_date": "2024-06-05",
+        "score": 0.548100471496582
+      },
+      {
+        "rank": 2,
+        "faiss_position": 16606,
+        "id": "37350a1b22f0cfce91eeaba3f24761eb6b340ece",
+        "published_date": "2021-11-02",
+        "score": 0.44919753074645996
+      },
+      {
+        "rank": 3,
+        "faiss_position": 8345,
+        "id": "c949a58a38edb296c13a14a35635a20b3aa24508",
+        "published_date": "2019-01-02",
+        "score": 0.4372207522392273
+      },
+      {
+        "rank": 4,
+        "faiss_position": 133,
+        "id": "2a3afaa510f62e98ef745e551380d6a1d598c159",
+        "published_date": "2017-11-01",
+        "score": 0.4133673310279846
+      },
+      {
+        "rank": 5,
+        "faiss_position": 27771,
+        "id": "dacfaab13eae09aa2d0eeb54457d2b78588edff2",
+        "published_date": "2024-06-04",
+        "score": 0.4133385419845581
+      },
+      {
+        "rank": 6,
+        "faiss_position": 2305,
+        "id": "724ac5f68a2f307aeb89e28ca3f3d7aa022ed739",
+        "published_date": "2017-11-03",
+        "score": 0.4107561707496643
+      },
+      {
+        "rank": 7,
+        "faiss_position": 14503,
+        "id": "cfbc35846697367b1f7acd23c0ce44bdf6fa1364",
+        "published_date": "2020-01-04",
+        "score": 0.41034358739852905
+      },
+      {
+        "rank": 8,
+        "faiss_position": 149,
+        "id": "24154191d91d77c16c34a1e9de7ce395f9418df8",
+        "published_date": "2017-11-01",
+        "score": 0.4102737009525299
+      },
+      {
+        "rank": 9,
+        "faiss_position": 6215,
+        "id": "1aedbfa0d02bd870f79108770540993b1baea595",
+        "published_date": "2018-01-05",
+        "score": 0.4102424383163452
+      },
+      {
+        "rank": 10,
+        "faiss_position": 29031,
+        "id": "8e3f4fd691f4b7cc78ff2876ebb9731612064bf4",
+        "published_date": "2024-06-05",
+        "score": 0.40873539447784424
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_14",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 26512,
+        "id": "ebd70dea67aa822a18c33d7a1d26746619c96a30",
+        "published_date": "2024-06-02",
+        "score": 0.6585440039634705
+      },
+      {
+        "rank": 2,
+        "faiss_position": 27875,
+        "id": "7627183b9cd75f2950e229abc914ed7a2e3d695e",
+        "published_date": "2024-06-04",
+        "score": 0.6365099549293518
+      },
+      {
+        "rank": 3,
+        "faiss_position": 25434,
+        "id": "4bd82225e3733c3827471499ab93a73ff77a78b2",
+        "published_date": "2023-04-01",
+        "score": 0.6333657503128052
+      },
+      {
+        "rank": 4,
+        "faiss_position": 3446,
+        "id": "254b57b97ec3ee299b94cd59c45aff7fc41f09af",
+        "published_date": "2017-11-08",
+        "score": 0.6276516914367676
+      },
+      {
+        "rank": 5,
+        "faiss_position": 13023,
+        "id": "9bc27f1df5a456863e0f48b4f2f83b7835545c2f",
+        "published_date": "2020-01-02",
+        "score": 0.6276301145553589
+      },
+      {
+        "rank": 6,
+        "faiss_position": 16716,
+        "id": "e117f2836555100f3739e0ea95205b5b8b559ee0",
+        "published_date": "2021-11-02",
+        "score": 0.6252158880233765
+      },
+      {
+        "rank": 7,
+        "faiss_position": 15190,
+        "id": "1f80b831b740bab99a13649b2852970521d85b19",
+        "published_date": "2021-11-01",
+        "score": 0.6230700016021729
+      },
+      {
+        "rank": 8,
+        "faiss_position": 21229,
+        "id": "6e7a8609003766bd366861ab6f9667e29149423e",
+        "published_date": "2022-02-03",
+        "score": 0.6225802898406982
+      },
+      {
+        "rank": 9,
+        "faiss_position": 2097,
+        "id": "50ba3c21e79e1d0e203e004cc5dc69924e7a3db3",
+        "published_date": "2017-11-04",
+        "score": 0.6208601593971252
+      },
+      {
+        "rank": 10,
+        "faiss_position": 25128,
+        "id": "24188ae4022e3394850d9eb0c3a814635eb65ecf",
+        "published_date": "2023-12-04",
+        "score": 0.6148673295974731
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_15",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 3052,
+        "id": "b69a58c580cf9072df69ac6d35ca7c4e10c4a82a",
+        "published_date": "2017-11-05",
+        "score": 0.6897947788238525
+      },
+      {
+        "rank": 2,
+        "faiss_position": 7660,
+        "id": "1382c308aa16e2a6e09835a6ec95c4cfc695d4c5",
+        "published_date": "2019-01-01",
+        "score": 0.6765758991241455
+      },
+      {
+        "rank": 3,
+        "faiss_position": 7659,
+        "id": "5ac3c1ca665c3dc10bbe4d95a140fbe24af70e66",
+        "published_date": "2019-01-01",
+        "score": 0.6749833226203918
+      },
+      {
+        "rank": 4,
+        "faiss_position": 25280,
+        "id": "267af59d36e7320406aa3afd0eb5fdb010fc4147",
+        "published_date": "2023-12-04",
+        "score": 0.6698585748672485
+      },
+      {
+        "rank": 5,
+        "faiss_position": 16716,
+        "id": "e117f2836555100f3739e0ea95205b5b8b559ee0",
+        "published_date": "2021-11-02",
+        "score": 0.6657832264900208
+      },
+      {
+        "rank": 6,
+        "faiss_position": 6347,
+        "id": "7940fb97173a969c744ff4a0a08c3619f271664f",
+        "published_date": "2018-01-05",
+        "score": 0.6501147747039795
+      },
+      {
+        "rank": 7,
+        "faiss_position": 20525,
+        "id": "37ed9e33c2f8716a54f2433897a57c107c209da4",
+        "published_date": "2022-02-02",
+        "score": 0.6492152214050293
+      },
+      {
+        "rank": 8,
+        "faiss_position": 11861,
+        "id": "808edcb4b3382b3b8f653d8dd5c346f033f31727",
+        "published_date": "2020-01-01",
+        "score": 0.641995370388031
+      },
+      {
+        "rank": 9,
+        "faiss_position": 3272,
+        "id": "32169849a300992162e3e5b9bb4d5f4e8c01f6be",
+        "published_date": "2017-11-07",
+        "score": 0.636232316493988
+      },
+      {
+        "rank": 10,
+        "faiss_position": 20494,
+        "id": "f95c35c6885eec4897cc3030a635707f6f57082e",
+        "published_date": "2022-02-02",
+        "score": 0.6358086466789246
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_16",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 4853,
+        "id": "6213fcef970ced8121544fb3c7482ef977b68ecf",
+        "published_date": "2018-01-02",
+        "score": 0.6728197336196899
+      },
+      {
+        "rank": 2,
+        "faiss_position": 11580,
+        "id": "86600c80f20ae77459a5b2bac34cd9f475e2af00",
+        "published_date": "2020-01-01",
+        "score": 0.6708672046661377
+      },
+      {
+        "rank": 3,
+        "faiss_position": 15789,
+        "id": "8de50f1b41e17d0f839ce2571b73176d043e58d5",
+        "published_date": "2021-11-01",
+        "score": 0.6707378029823303
+      },
+      {
+        "rank": 4,
+        "faiss_position": 2212,
+        "id": "8df7d2dfb4d2b8dcefaf83a703559bc90399d37b",
+        "published_date": "2017-11-03",
+        "score": 0.6558442711830139
+      },
+      {
+        "rank": 5,
+        "faiss_position": 1693,
+        "id": "693e132135b2e5e790c428e2d9725f8e9c00d606",
+        "published_date": "2017-11-04",
+        "score": 0.6519377827644348
+      },
+      {
+        "rank": 6,
+        "faiss_position": 2227,
+        "id": "f0828b1dea743d4aba24c73c62fb1263800bb17c",
+        "published_date": "2017-11-02",
+        "score": 0.6514184474945068
+      },
+      {
+        "rank": 7,
+        "faiss_position": 18372,
+        "id": "04b08c1c12f4f047f5edacba0e2fa06e13558aba",
+        "published_date": "2021-10-23",
+        "score": 0.6455448269844055
+      },
+      {
+        "rank": 8,
+        "faiss_position": 13765,
+        "id": "f78e577d1a5f5f44eb0e33e9a2e1e4c8ff87cb68",
+        "published_date": "2020-01-03",
+        "score": 0.6305984258651733
+      },
+      {
+        "rank": 9,
+        "faiss_position": 6342,
+        "id": "7bcba382800dd5fddcd07d4ec871515e8dfa02de",
+        "published_date": "2018-01-05",
+        "score": 0.6298224329948425
+      },
+      {
+        "rank": 10,
+        "faiss_position": 3590,
+        "id": "2e25820ab0c318229756770ee82200acf0de74c3",
+        "published_date": "2017-11-06",
+        "score": 0.6270487308502197
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_17",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 24240,
+        "id": "9372ca3e90560c33eeee1a51d8db7f164fc9c611",
+        "published_date": "2023-12-03",
+        "score": 0.6389848589897156
+      },
+      {
+        "rank": 2,
+        "faiss_position": 14958,
+        "id": "29e5909d21202651fcdcb24ee466b87da9f8aa61",
+        "published_date": "2021-11-01",
+        "score": 0.6343374848365784
+      },
+      {
+        "rank": 3,
+        "faiss_position": 17950,
+        "id": "7d38aeac3f588e405d2ec9ae89306b1e23f91cff",
+        "published_date": "2021-11-03",
+        "score": 0.6339640021324158
+      },
+      {
+        "rank": 4,
+        "faiss_position": 18347,
+        "id": "6c4d862078f4d2fbf084f49451754ec415bd2549",
+        "published_date": "2021-11-03",
+        "score": 0.6297817230224609
+      },
+      {
+        "rank": 5,
+        "faiss_position": 20219,
+        "id": "1ce84a504dc5987822d1b94cea73a0e4d9692ad6",
+        "published_date": "2022-02-02",
+        "score": 0.6264328956604004
+      },
+      {
+        "rank": 6,
+        "faiss_position": 13884,
+        "id": "26723a67b011507978ff10e2a7a62d8c7f425f82",
+        "published_date": "2020-01-03",
+        "score": 0.6248959302902222
+      },
+      {
+        "rank": 7,
+        "faiss_position": 29574,
+        "id": "e0b9529389e271e6cd2fec5aa9e78db7588d1b6a",
+        "published_date": "2024-06-07",
+        "score": 0.6232595443725586
+      },
+      {
+        "rank": 8,
+        "faiss_position": 16752,
+        "id": "4cd78e9347c3754e7e3f54852fdfbc02e469b34c",
+        "published_date": "2021-11-02",
+        "score": 0.6221973299980164
+      },
+      {
+        "rank": 9,
+        "faiss_position": 14422,
+        "id": "5e24ff9c02046a891e4abf8483ab7098ba837c6f",
+        "published_date": "2020-01-03",
+        "score": 0.6198482513427734
+      },
+      {
+        "rank": 10,
+        "faiss_position": 27822,
+        "id": "fdda68b7038d8bd7e4a7cd7db45588979d3ebd80",
+        "published_date": "2024-06-04",
+        "score": 0.6147869825363159
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_18",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 5266,
+        "id": "9b0fdfcbb307acb1d29e297e81f92acf206d6c1d",
+        "published_date": "2018-01-03",
+        "score": 0.6540852785110474
+      },
+      {
+        "rank": 2,
+        "faiss_position": 5914,
+        "id": "bdb7e5f1a0644638db06ce1646b6a6838ece1eea",
+        "published_date": "2018-01-04",
+        "score": 0.6462568044662476
+      },
+      {
+        "rank": 3,
+        "faiss_position": 27481,
+        "id": "2a0f88a9c5dd2365026fc828e2dc4b7467469a94",
+        "published_date": "2024-06-04",
+        "score": 0.6388149261474609
+      },
+      {
+        "rank": 4,
+        "faiss_position": 16567,
+        "id": "decdc92e84dcba22c8d2c0ccc2943e9c9bb9fddb",
+        "published_date": "2021-11-02",
+        "score": 0.6347708702087402
+      },
+      {
+        "rank": 5,
+        "faiss_position": 8909,
+        "id": "dcb05e6e7eb27253724eaec5eabcbf78623cf1e4",
+        "published_date": "2019-01-02",
+        "score": 0.6300210952758789
+      },
+      {
+        "rank": 6,
+        "faiss_position": 2941,
+        "id": "245ed6aee6f495c26b279359e76a33060752ef6c",
+        "published_date": "2017-11-05",
+        "score": 0.6230868101119995
+      },
+      {
+        "rank": 7,
+        "faiss_position": 16785,
+        "id": "d39673c743a26d1a64a5f004e2b063e739767791",
+        "published_date": "2021-11-02",
+        "score": 0.6216175556182861
+      },
+      {
+        "rank": 8,
+        "faiss_position": 17515,
+        "id": "e9f3bef1a2d4007316fcd1583baea83923a876e3",
+        "published_date": "2021-11-03",
+        "score": 0.6207491755485535
+      },
+      {
+        "rank": 9,
+        "faiss_position": 5504,
+        "id": "fa495a2c62f65583839dc067e48baa8a357cfba4",
+        "published_date": "2018-01-03",
+        "score": 0.6205011606216431
+      },
+      {
+        "rank": 10,
+        "faiss_position": 2212,
+        "id": "8df7d2dfb4d2b8dcefaf83a703559bc90399d37b",
+        "published_date": "2017-11-03",
+        "score": 0.6153542995452881
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_19",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 27205,
+        "id": "0001affd83bdab20f73734632781d60d3698a5a6",
+        "published_date": "2024-06-03",
+        "score": 0.7284095287322998
+      },
+      {
+        "rank": 2,
+        "faiss_position": 7479,
+        "id": "4847553dbcc4eed1164df065f9f8fb8fb10d3b37",
+        "published_date": "2019-01-01",
+        "score": 0.7264450192451477
+      },
+      {
+        "rank": 3,
+        "faiss_position": 2741,
+        "id": "913d34e99769d0a2ed1090b2c855ca590bab4e89",
+        "published_date": "2017-11-05",
+        "score": 0.7225991487503052
+      },
+      {
+        "rank": 4,
+        "faiss_position": 18696,
+        "id": "c0b7862ccde17e362cf14e4c7bfeef02f7a05ffb",
+        "published_date": "2022-02-01",
+        "score": 0.7171643972396851
+      },
+      {
+        "rank": 5,
+        "faiss_position": 20322,
+        "id": "18e929ddcf840b51f95a8a2f3c86614e19343ca5",
+        "published_date": "2022-02-02",
+        "score": 0.7139595150947571
+      },
+      {
+        "rank": 6,
+        "faiss_position": 19040,
+        "id": "3e71167efdcd8ef21f4c254a6e3032e4532297ae",
+        "published_date": "2022-02-01",
+        "score": 0.7137418389320374
+      },
+      {
+        "rank": 7,
+        "faiss_position": 8909,
+        "id": "dcb05e6e7eb27253724eaec5eabcbf78623cf1e4",
+        "published_date": "2019-01-02",
+        "score": 0.7129290699958801
+      },
+      {
+        "rank": 8,
+        "faiss_position": 3628,
+        "id": "8ade9f9ada7a59fd3581e5a689e0b41f18224e07",
+        "published_date": "2017-11-08",
+        "score": 0.708739161491394
+      },
+      {
+        "rank": 9,
+        "faiss_position": 5234,
+        "id": "2917155b5d89bb4a8aa99da23dddaeb36d72863c",
+        "published_date": "2018-01-04",
+        "score": 0.7063678503036499
+      },
+      {
+        "rank": 10,
+        "faiss_position": 5551,
+        "id": "a0e510e7acd6368ffe291a8e2cc45b9c6987b734",
+        "published_date": "2018-01-04",
+        "score": 0.7038371562957764
+      }
+    ]
+  },
+  {
+    "id": "uf_tu_20",
+    "query_type": "time_sensitive_unmarked",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 4678,
+        "id": "de10ed58dec60f54b86203d708bf65b048bbaf2d",
+        "published_date": "2018-01-02",
+        "score": 0.7079079151153564
+      },
+      {
+        "rank": 2,
+        "faiss_position": 1743,
+        "id": "b94e69baa6aefa92179e160b007d58d47798e375",
+        "published_date": "2017-11-04",
+        "score": 0.6627001166343689
+      },
+      {
+        "rank": 3,
+        "faiss_position": 21572,
+        "id": "a36e7df6ca1204960e8086e4879268dd3ff2c056",
+        "published_date": "2022-02-03",
+        "score": 0.6603121757507324
+      },
+      {
+        "rank": 4,
+        "faiss_position": 9504,
+        "id": "c200d37f53dec8c59a323a6d895cf60332325aba",
+        "published_date": "2019-01-04",
+        "score": 0.6576095223426819
+      },
+      {
+        "rank": 5,
+        "faiss_position": 10880,
+        "id": "fe9fb66f89bd8579bae45b708117be1047ee2b62",
+        "published_date": "2019-01-05",
+        "score": 0.6562627553939819
+      },
+      {
+        "rank": 6,
+        "faiss_position": 517,
+        "id": "9be9cdae070264527b9c6db3d7f1cf70ab2f5393",
+        "published_date": "2017-11-02",
+        "score": 0.6495779752731323
+      },
+      {
+        "rank": 7,
+        "faiss_position": 7437,
+        "id": "dee422727123afc375f397ee33957938bbe292ea",
+        "published_date": "2019-01-01",
+        "score": 0.6481448411941528
+      },
+      {
+        "rank": 8,
+        "faiss_position": 9048,
+        "id": "de90001f2efb3325c6b2dc9502b2c882e30af7ca",
+        "published_date": "2019-01-02",
+        "score": 0.6453856229782104
+      },
+      {
+        "rank": 9,
+        "faiss_position": 452,
+        "id": "5b884d3116a5e19497862de633e81a2135bc2851",
+        "published_date": "2017-11-02",
+        "score": 0.6442059278488159
+      },
+      {
+        "rank": 10,
+        "faiss_position": 25507,
+        "id": "83386c337dfa6ca56af5d5b5df167f3c16bf50b8",
+        "published_date": "2023-12-04",
+        "score": 0.6434766054153442
+      }
+    ]
+  }
+]
