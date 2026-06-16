@@ -1,4 +1,5 @@
 import argparse
+from collections import defaultdict
 import json
 from pathlib import Path
 import sys
@@ -9,10 +10,10 @@ from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 
 # --------------------------------------------------------------------------- #
-# Configuration constants.                 #
+# Configuration constants.
 # --------------------------------------------------------------------------- #
 
-OUTPUT_DIR = Path(r"C:\Programming\rag_seminar\data-science-seminar\experiments\initial")
+OUTPUT_DIR = Path(r"C:\Programming\rag_seminar\data-science-seminar\experiments\testing")
 
 # QA-retrieval-tuned bi-encoder, appropriate for query-to-document matching.
 MODEL_NAME = "multi-qa-mpnet-base-dot-v1"
@@ -40,7 +41,7 @@ def log_error(message: str) -> None:
     print(f"[ERROR] {message}", file=sys.stderr, flush=True)
 
 # --------------------------------------------------------------------------- #
-# Loading and saving helpers.                                                              #
+# Loading and saving helpers.
 # --------------------------------------------------------------------------- #
 
 def save_results(retrieval_results: list[dict], output_name: str):
@@ -86,33 +87,58 @@ def load_queries(queries_path: Path) -> list[dict]:
     
     return queries
 
+def load_indices(index_dir: Path) -> dict:
+    indices = {}
+
+    for faiss_path in index_dir.glob("*.faiss"):
+        topic = faiss_path.stem.removesuffix("_index")
+        meta_path = index_dir / f"{topic}_metadata.json"
+        if not meta_path.exists():
+            log_error(f"Metadata missing for topic '{topic}': {meta_path}")
+            sys.exit(1)
+        indices[topic] = {
+            "index": faiss.read_index(str(faiss_path)),
+            "metadata": json.loads(meta_path.read_text()),
+        }
+    log_ok(f"Loaded {len(indices)} indices: {list(indices.keys())}")
+    return indices
+
+def check_index_meta_align(indices: dict):
+    for topic, bundle in indices.items():
+        if bundle["index"].ntotal != len(bundle["metadata"]):
+            log_error(f"[{topic}] Misalignment: index has {bundle['index'].ntotal} vectors "
+                    f"but metadata has {len(bundle['metadata'])} entries.")
+            sys.exit(1)
+
+    
+
 # --------------------------------------------------------------------------- #
-# Query embedding.                                                              #
+# Query embedding.
 # --------------------------------------------------------------------------- #
 
-def embed_queries(queries: list[dict]) -> np.ndarray:
+def embed_queries(queries_by_topic: defaultdict) -> dict:
     log_info(f"Loading embedding model '{MODEL_NAME}'.")
     model = SentenceTransformer(MODEL_NAME, device = DEVICE)
     model.max_seq_length = MAX_SEQ_LENGTH
-    embedding_dim = model.get_sentence_embedding_dimension()
+    embedding_dim = model.get_embedding_dimension()
     log_ok(f"Model loaded (embedding dimension = {embedding_dim}).")
 
-    plain_queries = [q["query"] for q in queries]
+    embeddings_by_topic = {}
+    for topic, queries in queries_by_topic.items():
+        plain_queries = [q["query"] for q in queries]
+        embeddings = model.encode(
+            plain_queries,
+            normalize_embeddings = True,
+            convert_to_numpy = True,
+        )
+        embeddings_by_topic[topic] = embeddings
+        log_ok(f"Embedded {len(embeddings)} queries for topic '{topic}'.")
 
-    embeddings = model.encode(
-        plain_queries,
-        normalize_embeddings = True,
-        convert_to_numpy = True,
-        show_progress_bar = True
-    )
-
-    embeddings = np.ascontiguousarray(embeddings, dtype = np.float32)
-
-    log_ok(f"Embedding complete. Embedded {len(embeddings)} queries.")
-    return embeddings
+    log_ok(f"Embedding complete. Embedded {len(embeddings_by_topic)} topics.")
+    return embeddings_by_topic
 
 # --------------------------------------------------------------------------- #
-# Retrieval.                                                              #
+# Retrieval.
 # --------------------------------------------------------------------------- #
 
 def retrieve(
@@ -150,9 +176,11 @@ def retrieve(
     return results
 
 # --------------------------------------------------------------------------- #
-# Main pipeline.                                                              #
+# Main pipeline.
 # --------------------------------------------------------------------------- #
 
+#TODO: Refactoring
+#TODO: Adding automatic configurations log
 def main() -> None:
     start_time = time.perf_counter()
 
@@ -160,15 +188,13 @@ def main() -> None:
         description="Retrieve top-k documents for a query set."
     )
 
-    parser.add_argument("--index_path", type=Path, required=True)
-    parser.add_argument("--metadata_path", type=Path, required=True)
+    parser.add_argument("--index_dir", type=Path, required=True)
     parser.add_argument("--queries_path", type=Path, required=True)
     parser.add_argument("--top-k", type=int, default=10)
     parser.add_argument("--output-name", type=str)
 
     args = parser.parse_args()
-    index_path: Path = args.index_path
-    metadata_path: Path = args.metadata_path
+    index_dir: Path = args.index_dir
     queries_path: Path = args.queries_path
     k: int = args.top_k
     output_name: Path = args.output_name
@@ -177,20 +203,26 @@ def main() -> None:
 
     log_ok("Done parsing arguments.")
 
-    document_index = load_index(index_path)
-    metadata = load_metadata(metadata_path)
-
-    if not document_index.ntotal == len(metadata):
-        log_error(f"Misalignment: Index has {document_index.ntotal} vectors "
-                    f"but metadata contains {len(metadata)} entries.")
-        sys.exit(1)
+    indices = load_indices(index_dir)
+    check_index_meta_align(indices)
 
     queries = load_queries(queries_path)
     log_info(f"Loaded {len(queries)} queries from {queries_path}.")
 
-    query_embeddings = embed_queries(queries)
+    queries_by_topic = defaultdict(list)
+    for q in queries:
+        queries_by_topic[q["topic"]].append(q)
 
-    retrieval_results = retrieve(document_index, query_embeddings, queries, metadata, k)
+    embeddings_by_topic = embed_queries(queries_by_topic)
+
+    retrieval_results = []
+    for topic, embeddings in embeddings_by_topic.items():
+        index = indices[topic]["index"]
+        metadata = indices[topic]["metadata"]
+        queries = queries_by_topic[topic]
+        results = retrieve(index, embeddings, queries, metadata, k)
+        retrieval_results.extend(results)
+
     save_results(retrieval_results, output_name)
 
     elapsed = time.perf_counter() - start_time

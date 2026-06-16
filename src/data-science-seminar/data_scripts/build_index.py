@@ -172,7 +172,7 @@ def main() -> None:
         model = SentenceTransformer(MODEL_NAME, device=DEVICE)
         # Enforce the 512-token truncation limit; documents are never chunked.
         model.max_seq_length = MAX_SEQ_LENGTH
-        embedding_dim = model.get_sentence_embedding_dimension()
+        embedding_dim = model.get_embedding_dimension()
         log_ok(f"Model loaded (embedding dimension = {embedding_dim}).")
 
         # Build the position-aligned metadata
