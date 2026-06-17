@@ -9,6 +9,17 @@ import numpy as np
 from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 
+"""
+Usage:
+    uv run retrieval.py
+    Required Arguments:
+        --index_dir {Path to directory containing faiss and metadata files}
+        --queries_path {Path to query-set file}
+    Optional arguments:
+        --top-k {Retrieval-amount per query; Default: 10}
+        --output-name {custom name of output file; Default: query-set-name + _results.json}
+"""
+
 # --------------------------------------------------------------------------- #
 # Configuration constants.
 # --------------------------------------------------------------------------- #
@@ -21,9 +32,7 @@ MODEL_NAME = "multi-qa-mpnet-base-dot-v1"
 # Maximum number of input tokens fed to the encoder. Longer passages are
 # truncated by the model's tokenizer; documents are never chunked.
 MAX_SEQ_LENGTH = 512
-
 DEVICE = "cpu"
-
 
 # --------------------------------------------------------------------------- #
 # Shell / Logging helpers
@@ -51,6 +60,24 @@ def ask_overwrite_confirm(output_path: str) -> None:
     else:
         log_error("Invalid input. Please type 'yes' or 'no'.")
         ask_overwrite_confirm(output_path)
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(
+        description="Retrieve top-k documents for a query set."
+    )
+
+    parser.add_argument("--index_dir", type=Path, required=True)
+    parser.add_argument("--queries_path", type=Path, required=True)
+    parser.add_argument("--top-k", type=int, default=10)
+    parser.add_argument("--output-name", type=str)
+
+    args = parser.parse_args()
+
+    index_dir: Path = args.index_dir
+    queries_path: Path = args.queries_path
+    k: int = args.top_k
+    output_name: Path = args.output_name
+    return index_dir,queries_path,k,output_name
 
 # --------------------------------------------------------------------------- #
 # Loading and saving helpers.
@@ -96,7 +123,7 @@ def load_queries(queries_path: Path) -> list[dict]:
     else:
         log_error("Query-set file path doesn't exist.")
         sys.exit(1)
-    
+    log_info(f"Loaded {len(queries)} queries from {queries_path}.")
     return queries
 
 def load_indices(index_dir: Path) -> dict:
@@ -121,8 +148,6 @@ def check_index_meta_align(indices: dict):
             log_error(f"[{topic}] Misalignment: index has {bundle['index'].ntotal} vectors "
                     f"but metadata has {len(bundle['metadata'])} entries.")
             sys.exit(1)
-
-    
 
 # --------------------------------------------------------------------------- #
 # Query embedding.
@@ -191,40 +216,24 @@ def retrieve(
 # Main pipeline.
 # --------------------------------------------------------------------------- #
 
-#TODO: Refactoring
 #TODO: Adding automatic configurations log
 def main() -> None:
     start_time = time.perf_counter()
 
-    parser = argparse.ArgumentParser(
-        description="Retrieve top-k documents for a query set."
-    )
+    index_dir, queries_path, k, output_name = parse_arguments()
 
-    parser.add_argument("--index_dir", type=Path, required=True)
-    parser.add_argument("--queries_path", type=Path, required=True)
-    parser.add_argument("--top-k", type=int, default=10)
-    parser.add_argument("--output-name", type=str)
-
-    args = parser.parse_args()
-    index_dir: Path = args.index_dir
-    queries_path: Path = args.queries_path
-    k: int = args.top_k
-    output_name: Path = args.output_name
+    #Output path handling
     if(output_name == None):
         output_name = queries_path.stem + "_results.json"
-
     output_path = OUTPUT_DIR / output_name
     if output_path.exists():
         ask_overwrite_confirm(output_path)
 
-    log_ok("Done parsing arguments.")
-
     indices = load_indices(index_dir)
+    queries = load_queries(queries_path)
     check_index_meta_align(indices)
 
-    queries = load_queries(queries_path)
-    log_info(f"Loaded {len(queries)} queries from {queries_path}.")
-
+    #Categorize queries by topic for topic-specific retrieval
     queries_by_topic = defaultdict(list)
     for q in queries:
         queries_by_topic[q["topic"]].append(q)
@@ -238,12 +247,10 @@ def main() -> None:
         queries = queries_by_topic[topic]
         results = retrieve(index, embeddings, queries, metadata, k)
         retrieval_results.extend(results)
-
     save_results(retrieval_results, output_path)
 
     elapsed = time.perf_counter() - start_time
-    log_info(f"Done. Total runtime: {elapsed:.2f} seconds.")
-
+    log_ok(f"Done. Total runtime: {elapsed:.2f} seconds.")
 
 if __name__ == "__main__":
     main()
