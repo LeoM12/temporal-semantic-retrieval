@@ -26,7 +26,7 @@ DEVICE = "cpu"
 
 
 # --------------------------------------------------------------------------- #
-# Logging helpers
+# Shell / Logging helpers
 # --------------------------------------------------------------------------- #
 
 def log_info(message: str) -> None:
@@ -39,6 +39,18 @@ def log_ok(message: str) -> None:
 
 def log_error(message: str) -> None:
     print(f"[ERROR] {message}", file=sys.stderr, flush=True)
+
+def ask_overwrite_confirm(output_path: str) -> None:
+    log_info(f"Output target at {output_path} already exists.")
+    answer = input("Overwrite file? ('yes' or 'no'): ")
+    if answer.upper() in ["Y", "YES"]:
+        print("Continuing by overwriting existing file.")
+    elif answer.upper() in ["N", "NO"]:
+        log_info(f"Terminating current run. Overwriting file at {output_path} was denied by user")
+        sys.exit(1)
+    else:
+        log_error("Invalid input. Please type 'yes' or 'no'.")
+        ask_overwrite_confirm(output_path)
 
 # --------------------------------------------------------------------------- #
 # Loading and saving helpers.
@@ -201,6 +213,10 @@ def main() -> None:
     if(output_name == None):
         output_name = queries_path.stem + "_results.json"
 
+    output_path = OUTPUT_DIR / output_name
+    if output_path.exists():
+        ask_overwrite_confirm(output_path)
+
     log_ok("Done parsing arguments.")
 
     indices = load_indices(index_dir)
@@ -223,7 +239,7 @@ def main() -> None:
         results = retrieve(index, embeddings, queries, metadata, k)
         retrieval_results.extend(results)
 
-    save_results(retrieval_results, output_name)
+    save_results(retrieval_results, output_path)
 
     elapsed = time.perf_counter() - start_time
     log_info(f"Done. Total runtime: {elapsed:.2f} seconds.")
