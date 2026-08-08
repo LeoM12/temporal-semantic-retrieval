@@ -1,0 +1,362 @@
+[
+  {
+    "id": "fm_te_01",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who chairs the Federal Reserve in 2024?"
+  },
+  {
+    "id": "fm_te_02",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "What is the Federal Reserve's benchmark interest rate in 2024?"
+  },
+  {
+    "id": "fm_te_03",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "Is the Federal Reserve raising or cutting interest rates in 2024?"
+  },
+  {
+    "id": "fm_te_04",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who is the president of the European Central Bank in 2024?"
+  },
+  {
+    "id": "fm_te_05",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "Has the European Central Bank started cutting interest rates in 2024?"
+  },
+  {
+    "id": "fm_te_06",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who is the governor of the Bank of England in 2024?"
+  },
+  {
+    "id": "fm_te_07",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "What is the Bank of England's base rate in 2024?"
+  },
+  {
+    "id": "fm_te_08",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who is the governor of the Bank of Japan in 2024?"
+  },
+  {
+    "id": "fm_te_09",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "Has the Bank of Japan ended negative interest rates in 2024?"
+  },
+  {
+    "id": "fm_te_10",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "What is the yield on the 10-year US Treasury in 2024?"
+  },
+  {
+    "id": "fm_te_11",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "What is the yield on UK gilts in 2024?"
+  },
+  {
+    "id": "fm_te_12",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "What level is the S&P 500 trading at in 2024?"
+  },
+  {
+    "id": "fm_te_13",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "What is the Dow Jones index level in 2024?"
+  },
+  {
+    "id": "fm_te_14",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "Which company has the largest weighting in the S&P 500 in 2024?"
+  },
+  {
+    "id": "fm_te_15",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "Is the stock market in a bull or bear market in 2024?"
+  },
+  {
+    "id": "fm_te_16",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "Which major central bank has the highest benchmark interest rate in 2024?"
+  },
+  {
+    "id": "fm_te_17",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "How does US inflation compare with the Federal Reserve's target in 2024?"
+  },
+  {
+    "id": "fm_te_18",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "Is investor sentiment bullish or bearish in 2024?"
+  },
+  {
+    "id": "fm_te_19",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "Which company is the most valuable in the world in 2024?"
+  },
+  {
+    "id": "fm_te_20",
+    "topic": "financial_markets",
+    "query_type": "time_sensitive_explicit",
+    "query": "Which major stock index is trading at a record high in 2024?"
+  },
+  {
+    "id": "ip_te_01",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who owns Twitter in 2024?"
+  },
+  {
+    "id": "ip_te_02",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who is the CEO of YouTube in 2024?"
+  },
+  {
+    "id": "ip_te_03",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "What is Facebook's parent company called in 2024?"
+  },
+  {
+    "id": "ip_te_04",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "How much does Spotify pay artists per stream in 2024?"
+  },
+  {
+    "id": "ip_te_05",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "How many subscribers does Netflix have in 2024?"
+  },
+  {
+    "id": "ip_te_06",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "How many monthly active users does Facebook have in 2024?"
+  },
+  {
+    "id": "ip_te_07",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "What is the most subscribed channel on YouTube in 2024?"
+  },
+  {
+    "id": "ip_te_08",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who has the most followers on Instagram in 2024?"
+  },
+  {
+    "id": "ip_te_09",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "How much does Spotify Premium cost in 2024?"
+  },
+  {
+    "id": "ip_te_10",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "How many paying subscribers does Spotify have in 2024?"
+  },
+  {
+    "id": "ip_te_11",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "What is the most downloaded app in 2024?"
+  },
+  {
+    "id": "ip_te_12",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "Which shows are the most popular on Netflix in 2024?"
+  },
+  {
+    "id": "ip_te_13",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "What is the most viewed video on YouTube in 2024?"
+  },
+  {
+    "id": "ip_te_14",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "Which streaming service has the most subscribers in 2024?"
+  },
+  {
+    "id": "ip_te_15",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "Which social media platform is most popular among teenagers in 2024?"
+  },
+  {
+    "id": "ip_te_16",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "How many users does WhatsApp have in 2024?"
+  },
+  {
+    "id": "ip_te_17",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "Which web browser has the largest market share in 2024?"
+  },
+  {
+    "id": "ip_te_18",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "What is the largest fine Facebook has faced over data privacy in 2024?"
+  },
+  {
+    "id": "ip_te_19",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "Which podcast has the largest audience in 2024?"
+  },
+  {
+    "id": "ip_te_20",
+    "topic": "internet_platforms",
+    "query_type": "time_sensitive_explicit",
+    "query": "What is the most streamed song on Spotify in 2024?"
+  },
+  {
+    "id": "uf_te_01",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who is the manager of Manchester United in 2024?"
+  },
+  {
+    "id": "uf_te_02",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who is the manager of Liverpool in 2024?"
+  },
+  {
+    "id": "uf_te_03",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who are the most popular football players in the UK in 2024?"
+  },
+  {
+    "id": "uf_te_04",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who is the manager of Tottenham in 2024?"
+  },
+  {
+    "id": "uf_te_05",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who owns Manchester United in 2024?"
+  },
+  {
+    "id": "uf_te_06",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who is the most valuable player of Newcastle United in 2024?"
+  },
+  {
+    "id": "uf_te_07",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who owns Chelsea in 2024?"
+  },
+  {
+    "id": "uf_te_08",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who is top of the Premier League table in 2024?"
+  },
+  {
+    "id": "uf_te_09",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who are the reigning Premier League champions in 2024?"
+  },
+  {
+    "id": "uf_te_10",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who are the FA Cup holders in 2024?"
+  },
+  {
+    "id": "uf_te_11",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "Which teams were promoted to the Premier League in 2024?"
+  },
+  {
+    "id": "uf_te_12",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who are the reigning EFL Championship champions in 2024?"
+  },
+  {
+    "id": "uf_te_13",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who holds the Community Shield in 2024?"
+  },
+  {
+    "id": "uf_te_14",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "Which teams were relegated from the Premier League in 2024?"
+  },
+  {
+    "id": "uf_te_15",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "Which club is bottom of the Premier League table in 2024?"
+  },
+  {
+    "id": "uf_te_16",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who is the Premier League's top scorer in 2024?"
+  },
+  {
+    "id": "uf_te_17",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "Which club does Jack Grealish play for in 2024?"
+  },
+  {
+    "id": "uf_te_18",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who is the highest-paid player in the Premier League in 2024?"
+  },
+  {
+    "id": "uf_te_19",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "What is the most expensive signing of the transfer window in 2024?"
+  },
+  {
+    "id": "uf_te_20",
+    "topic": "uk_football",
+    "query_type": "time_sensitive_explicit",
+    "query": "Who is the captain of Manchester United in 2024?"
+  }
+]
