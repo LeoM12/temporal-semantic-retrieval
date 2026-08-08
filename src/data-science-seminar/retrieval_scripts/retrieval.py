@@ -1,5 +1,6 @@
 import argparse
 from collections import defaultdict
+from datetime import datetime
 import json
 from pathlib import Path
 import sys
@@ -8,6 +9,7 @@ import faiss
 import numpy as np
 from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
+import yaml
 
 """
 Usage:
@@ -24,7 +26,7 @@ Usage:
 # Configuration constants.
 # --------------------------------------------------------------------------- #
 
-OUTPUT_DIR = Path(r"C:\Programming\rag_seminar\data-science-seminar\experiments\testing")
+OUTPUT_DIR = Path(r"C:\Programming\rag_seminar\data-science-seminar\experiments\ts_explicit_02")
 
 # QA-retrieval-tuned bi-encoder, appropriate for query-to-document matching.
 MODEL_NAME = "multi-qa-mpnet-base-dot-v1"
@@ -68,6 +70,7 @@ def parse_arguments():
 
     parser.add_argument("--index_dir", type=Path, required=True)
     parser.add_argument("--queries_path", type=Path, required=True)
+    parser.add_argument("--rq", type=int, required=True)
     parser.add_argument("--top-k", type=int, default=10)
     parser.add_argument("--output-name", type=str)
 
@@ -75,9 +78,10 @@ def parse_arguments():
 
     index_dir: Path = args.index_dir
     queries_path: Path = args.queries_path
+    rq_num: str = args.rq
     k: int = args.top_k
     output_name: Path = args.output_name
-    return index_dir,queries_path,k,output_name
+    return index_dir,queries_path,k,output_name, rq_num
 
 # --------------------------------------------------------------------------- #
 # Loading and saving helpers.
@@ -90,6 +94,35 @@ def save_results(retrieval_results: list[dict], output_name: str):
         json.dump(retrieval_results, handle, ensure_ascii=False, indent=2)
 
     log_ok(f"Wrote {len(retrieval_results)} query results to {results_path}.")
+
+def save_config(index_dir, queries_path, k, rq_num_num, output_name: str, elapsed: float) -> None:
+    config = {
+        "model": {
+            "name": MODEL_NAME,
+            "max_seq_length": MAX_SEQ_LENGTH,
+            "device": DEVICE,
+        },
+        "retrieval": {
+            "top_k": k,
+        },
+        "experiment": {
+            "index_path": str(index_dir),
+            "queries_path": str(queries_path),
+            "output_path": str(OUTPUT_DIR),
+        },
+        "meta": {
+            "research-question": "rq_num" + str(rq_num_num),
+            "timestamp": datetime.now().isoformat(timespec="seconds"),
+            "runtime_seconds": round(elapsed, 2),
+        },
+    }
+
+    output_path = OUTPUT_DIR / output_name
+    config_path = output_path.with_name(output_path.stem + "_config.yaml")
+    with config_path.open("w", encoding="utf-8") as f:
+        yaml.dump(config, f, default_flow_style=False, sort_keys=False)
+
+    log_ok(f"Saved config to {config_path}")
 
 def load_index(index_path: Path) -> faiss.Index:
     log_info("Loading Index...")
@@ -220,7 +253,7 @@ def retrieve(
 def main() -> None:
     start_time = time.perf_counter()
 
-    index_dir, queries_path, k, output_name = parse_arguments()
+    index_dir, queries_path, k, output_name, rq_num = parse_arguments()
 
     #Output path handling
     if(output_name == None):
@@ -251,6 +284,7 @@ def main() -> None:
 
     elapsed = time.perf_counter() - start_time
     log_ok(f"Done. Total runtime: {elapsed:.2f} seconds.")
+    save_config(index_dir, queries_path, k, rq_num, output_name, elapsed)
 
 if __name__ == "__main__":
     main()
