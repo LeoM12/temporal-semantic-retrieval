@@ -11,6 +11,8 @@ Thumbs.db
 data/processed/embeddings/
 /src/data-science-seminar/data_scripts/text_length_analysis.py
 experiments/testing
+experiments/ts_explicit_01
+experiments/ts_explicit_02
 old_rq3
 
 # Python cache and build artifacts
