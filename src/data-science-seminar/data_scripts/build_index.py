@@ -31,6 +31,8 @@ Usage:
 
 from __future__ import annotations
 
+import argparse
+from datetime import datetime
 import json
 import sys
 import time
@@ -47,7 +49,7 @@ from tqdm import tqdm
 # Configuration constants.                 #
 # --------------------------------------------------------------------------- #
 
-OUTPUT_DIR = Path(r"C:\Programming\rag_seminar\data-science-seminar\data\processed\embeddings")
+OUTPUT_DIR = Path(r"C:\Programming\rag_seminar\data-science-seminar\data\interim")
 
 # QA-retrieval-tuned bi-encoder, appropriate for query-to-document matching.
 MODEL_NAME = "multi-qa-mpnet-base-dot-v1"
@@ -116,10 +118,20 @@ def load_corpus(corpus_path: Path) -> list[dict]:
 # Passage and metadata construction.                                          #
 # --------------------------------------------------------------------------- #
 
-def build_passage(document: dict) -> str:
-    title = document.get("article_title", "") or ""
-    body = document.get("plain_text", "") or ""
-    return f"{title}. {body}"
+def build_passage(document: dict, injection_weight: int) -> str:
+    date = ""
+    formatted_date = format_date(document.get("published_date"))
+    for i in range(injection_weight):
+        date += f"Published on {formatted_date}. "
+
+    title = document.get("article_title", "")
+    body = document.get("plain_text", "")
+    print(f"{title}. {date}{body}")
+    return f"{title}. {date}{body}"
+
+def format_date(date_str: str) -> str:
+    dt = datetime.strptime(date_str, "%Y-%m-%d")
+    return f"{dt.strftime('%B')} {dt.day}, {dt.year}"
 
 
 def build_metadata(documents: list[dict]) -> list[dict]:
@@ -139,6 +151,23 @@ def build_metadata(documents: list[dict]) -> list[dict]:
     ]
 
 
+def parse_arguments():
+    parser = argparse.ArgumentParser(
+        description="Compute vector embeddings for one topic."
+    )
+
+    parser.add_argument("--corpus_path", type=Path, required=True)
+    parser.add_argument("--injection_weight", type=int, required=False, default=0)
+
+    args = parser.parse_args()
+
+    corpus_path: Path = args.corpus_path
+    injection_weight: int = args.injection_weight
+    if injection_weight < 0:
+        print("Error: Injection weight must be equal or greater that 0.")
+        sys.exit(1)
+    return corpus_path, injection_weight
+
 # --------------------------------------------------------------------------- #
 # Main pipeline.                                                              #
 # --------------------------------------------------------------------------- #
@@ -146,14 +175,11 @@ def build_metadata(documents: list[dict]) -> list[dict]:
 def main() -> None:
     start_time = time.perf_counter()
 
-    if len(sys.argv) < 2:
-        print("Error: corpus_path argument is required.", file=sys.stderr)
-        sys.exit(1)
-    corpus_path = Path(sys.argv[1])
+    corpus_path, injection_weight = parse_arguments()
 
     # The output filename is derived from the input file name.
     topic = corpus_path.stem
-    index_path = OUTPUT_DIR / f"{topic}_index.faiss"
+    index_path = OUTPUT_DIR / f"{topic}_injected_{injection_weight}_index.faiss"
     metadata_path = OUTPUT_DIR / f"{topic}_metadata.json"
 
     # Startup banner
@@ -195,10 +221,9 @@ def main() -> None:
             unit="batch",
         ):
             batch_docs = documents[start:start + BATCH_SIZE]
-            batch_passages = [build_passage(doc) for doc in batch_docs]
+            batch_passages = [build_passage(doc, injection_weight) for doc in batch_docs]
 
-            # normalize_embeddings=True yields unit-length vectors, so the
-            # IndexFlatIP inner product is exactly the cosine similarity.
+            # normalize_embeddings=True yields unit-length vectors
             embeddings = model.encode(
                 batch_passages,
                 batch_size=BATCH_SIZE,
@@ -206,7 +231,7 @@ def main() -> None:
                 convert_to_numpy=True,
                 show_progress_bar=False,
             )
-            # FAISS requires C-contiguous float32 arrays.
+            # FAISS requires C-contiguous float32 arrays
             embeddings = np.ascontiguousarray(embeddings, dtype=np.float32)
             index.add(embeddings)
 
