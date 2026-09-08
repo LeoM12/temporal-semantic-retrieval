@@ -27,7 +27,7 @@ Usage:
 # Configuration constants.
 # --------------------------------------------------------------------------- #
 
-OUTPUT_DIR = Path(r"C:\Programming\rag_seminar\data-science-seminar\experiments\testing_k50")
+OUTPUT_DIR = Path(r"C:\Programming\rag_seminar\data-science-seminar\experiments\rq1_results")
 
 # QA-retrieval-tuned bi-encoder, appropriate for query-to-document matching.
 MODEL_NAME = "multi-qa-mpnet-base-dot-v1"
@@ -88,15 +88,15 @@ def parse_arguments():
 # Loading and saving helpers.
 # --------------------------------------------------------------------------- #
 
-def save_results(retrieval_results: list[dict], output_name: str):
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    results_path = OUTPUT_DIR / output_name
+def save_results(retrieval_results: list[dict], output_dir: Path, output_name: str):
+    output_dir.mkdir(parents=True, exist_ok=True)
+    results_path = output_dir / output_name
     with results_path.open("w", encoding="utf-8") as handle:
         json.dump(retrieval_results, handle, ensure_ascii=False, indent=2)
 
     log_ok(f"Wrote {len(retrieval_results)} query results to {results_path}.")
 
-def save_config(index_dir, queries_path, k, rq_num_num, output_name: str, elapsed: float) -> None:
+def save_config(output_dir: Path, index_dir, queries_path, k, rq_num_num, output_name: str, elapsed: float) -> None:
     config = {
         "model": {
             "name": MODEL_NAME,
@@ -109,7 +109,7 @@ def save_config(index_dir, queries_path, k, rq_num_num, output_name: str, elapse
         "experiment": {
             "index_path": str(index_dir),
             "queries_path": str(queries_path),
-            "output_path": str(OUTPUT_DIR),
+            "output_path": str(output_dir),
         },
         "meta": {
             "research-question": "rq_num" + str(rq_num_num),
@@ -118,7 +118,7 @@ def save_config(index_dir, queries_path, k, rq_num_num, output_name: str, elapse
         },
     }
 
-    output_path = OUTPUT_DIR / output_name
+    output_path = output_dir / output_name
     config_path = output_path.with_name(output_path.stem + "_config.yaml")
     with config_path.open("w", encoding="utf-8") as f:
         yaml.dump(config, f, default_flow_style=False, sort_keys=False)
@@ -258,8 +258,9 @@ def main() -> None:
 
     #Output path handling
     if(output_name == None):
-        output_name = queries_path.stem + "_results.json"
-    output_path = OUTPUT_DIR / output_name
+        output_name = queries_path.stem.removeprefix("queries_") + "_results.json"
+    output_dir = OUTPUT_DIR / f"top_k_{k}"
+    output_path = output_dir / output_name
     if output_path.exists():
         ask_overwrite_confirm(output_path)
 
@@ -281,11 +282,11 @@ def main() -> None:
         queries = queries_by_topic[topic]
         results = retrieve(index, embeddings, queries, metadata, k)
         retrieval_results.extend(results)
-    save_results(retrieval_results, output_path)
+    save_results(retrieval_results, output_dir, output_name)
 
     elapsed = time.perf_counter() - start_time
     log_ok(f"Done. Total runtime: {elapsed:.2f} seconds.")
-    save_config(index_dir, queries_path, k, rq_num, output_name, elapsed)
+    save_config(output_dir, index_dir, queries_path, k, rq_num, output_name, elapsed)
 
 if __name__ == "__main__":
     main()
