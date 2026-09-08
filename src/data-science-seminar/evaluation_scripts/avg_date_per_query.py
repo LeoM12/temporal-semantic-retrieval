@@ -11,7 +11,6 @@ import sys
 
     Required Arguments:
         --results_path {Path to retrieval-results file of one category}
-        --queries_path {Path to query-metadata file of the same category}
     Optional arguments:
         --output-name {custom name of output JSONL file; Default: avg_date_per_query_<query_type>.jsonl}
 """
@@ -75,33 +74,21 @@ def load_json_list(input_path: Path, description: str) -> list[dict]:
     return data
 
 
-def build_query_metadata_lookup(query_metadata: list[dict]) -> dict[str, dict]:
-    metadata_by_id = {entry["id"]: entry for entry in query_metadata}
-
-    query_types = {entry["query_type"] for entry in query_metadata}
+def check_single_query_type(query_results: list[dict]) -> None:
+    query_types = {entry["query_type"] for entry in query_results}
     if len(query_types) > 1:
         log_error(
-            "Query-metadata file contains more than one query_type "
+            "Results file contains more than one query_type "
             f"({sorted(query_types)}) - a single run must cover exactly one category."
         )
         sys.exit(1)
-
-    return metadata_by_id
 
 # --------------------------------------------------------------------------- #
 # Core metric: unweighted vs. score-weighted average age/date per query.
 # --------------------------------------------------------------------------- #
 
-def compute_query_row(query_result: dict, metadata_by_id: dict[str, dict]) -> dict:
+def compute_query_row(query_result: dict) -> dict:
     query_id = query_result["id"]
-    metadata = metadata_by_id.get(query_id)
-    if metadata is None:
-        log_error(
-            f"Query id '{query_id}' from results file has no matching entry "
-            "in the query-metadata file (mismatched category?)."
-        )
-        sys.exit(1)
-
     candidates = query_result["results"]
     n_candidates = len(candidates)
 
@@ -128,8 +115,8 @@ def compute_query_row(query_result: dict, metadata_by_id: dict[str, dict]) -> di
 
     return {
         "query_id": query_id,
-        "topic": metadata["topic"],
-        "query_type": metadata["query_type"],
+        "topic": query_result["topic"],
+        "query_type": query_result["query_type"],
         "n_candidates": n_candidates,
         "unweighted_avg_age_days": unweighted_avg_age_days,
         "unweighted_avg_date": age_days_to_date(unweighted_avg_age_days).isoformat(),
@@ -145,8 +132,8 @@ def age_days_to_date(avg_age_days: float) -> date:
     return date.fromordinal(REFERENCE_DATE.toordinal() - round(avg_age_days))
 
 
-def compute_all_rows(query_results: list[dict], metadata_by_id: dict[str, dict]) -> list[dict]:
-    return [compute_query_row(q, metadata_by_id) for q in query_results]
+def compute_all_rows(query_results: list[dict]) -> list[dict]:
+    return [compute_query_row(q) for q in query_results]
 
 # --------------------------------------------------------------------------- #
 # Saving.
@@ -174,27 +161,24 @@ def main() -> None:
     )
 
     parser.add_argument("--results_path", type=Path, required=True)
-    parser.add_argument("--queries_path", type=Path, required=True)
     parser.add_argument("--output-name", type=str)
 
     args = parser.parse_args()
     results_path: Path = args.results_path
-    queries_path: Path = args.queries_path
     output_name: str = args.output_name
 
     query_results = load_json_list(results_path, "retrieval results")
-    query_metadata = load_json_list(queries_path, "query metadata")
-    metadata_by_id = build_query_metadata_lookup(query_metadata)
+    check_single_query_type(query_results)
 
     if output_name is None:
-        category = next(iter(metadata_by_id.values()))["query_type"]
+        category = query_results[0]["query_type"]
         output_name = f"avg_date_per_query_{category}.jsonl"
     output_path = results_path.parent / output_name
 
     if output_path.exists():
         ask_overwrite_confirm(output_path)
 
-    rows = compute_all_rows(query_results, metadata_by_id)
+    rows = compute_all_rows(query_results)
     save_results(rows, output_path)
 
 
