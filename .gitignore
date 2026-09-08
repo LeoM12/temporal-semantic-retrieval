@@ -9,11 +9,11 @@ Thumbs.db
 
 #Custom folders kept outside git
 data/processed/embeddings/
-/src/data-science-seminar/data_scripts/text_length_analysis.py
-experiments/testing
 experiments/ts_explicit_01
 experiments/ts_explicit_02
 old_rq3
+experiments/testing*
+/src/data-science-seminar/helpers
 
 # Python cache and build artifacts
 __pycache__/

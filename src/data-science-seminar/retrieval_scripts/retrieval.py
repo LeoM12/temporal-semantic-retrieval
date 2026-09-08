@@ -17,6 +17,7 @@ Usage:
     Required Arguments:
         --index_dir {Path to directory containing faiss and metadata files}
         --queries_path {Path to query-set file}
+        --rq {number of research question}
     Optional arguments:
         --top-k {Retrieval-amount per query; Default: 10}
         --output-name {custom name of output file; Default: query-set-name + _results.json}
@@ -26,7 +27,7 @@ Usage:
 # Configuration constants.
 # --------------------------------------------------------------------------- #
 
-OUTPUT_DIR = Path(r"C:\Programming\rag_seminar\data-science-seminar\experiments\ts_explicit_02")
+OUTPUT_DIR = Path(r"C:\Programming\rag_seminar\data-science-seminar\experiments\testing_k50")
 
 # QA-retrieval-tuned bi-encoder, appropriate for query-to-document matching.
 MODEL_NAME = "multi-qa-mpnet-base-dot-v1"
