@@ -28,8 +28,6 @@ from scipy.stats import mannwhitneyu
         --alpha {significance threshold; Default: 0.05}
 """
 
-OUTPUT_DIR = Path(r"experiments\results")
-
 VALUE_FIELDS = {
     "delta": "delta_days",
     "weighted_avg": "weighted_avg_age_days",
@@ -260,10 +258,11 @@ def main() -> None:
 
     output = {"metadata": metadata, "results": results}
 
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    output_dir = comparison_path.resolve().parent
+    output_dir.mkdir(parents=True, exist_ok=True)
     timestamp_str = now.strftime("%Y%m%dT%H%M%SZ")
     output_name = f"mwu_{baseline_label}_vs_{comparison_label}_{timestamp_str}.json"
-    output_path = OUTPUT_DIR / output_name
+    output_path = output_dir / output_name
 
     with output_path.open("w", encoding="utf-8") as handle:
         json.dump(output, handle, ensure_ascii=False, indent=2)
