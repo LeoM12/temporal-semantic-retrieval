@@ -17,13 +17,6 @@ retrieval experiments. Given a single per-topic JSON corpus file, it:
     6. Writes the FAISS index and a parallel, position-aligned metadata file.
     7. Reloads the index and validates that the vector count is correct.
 
-The design decisions below are fixed by the experiment protocol: exact
-search, one embedding per document, 512-token truncation, batch size 64,
-CPU only. They are intentionally not configurable.
-
-Required third-party packages:
-    sentence-transformers, faiss-cpu, tqdm, numpy
-    (torch is installed transitively by sentence-transformers)
 
 Usage:
     python build_index.py path/to/financial_markets.json
@@ -121,12 +114,11 @@ def load_corpus(corpus_path: Path) -> list[dict]:
 def build_passage(document: dict, injection_weight: int) -> str:
     date = ""
     formatted_date = format_date(document.get("published_date"))
-    for i in range(injection_weight):
+    for _ in range(injection_weight):
         date += f"Published on {formatted_date}. "
 
     title = document.get("article_title", "")
     body = document.get("plain_text", "")
-    print(f"{title}. {date}{body}")
     return f"{title}. {date}{body}"
 
 def format_date(date_str: str) -> str:

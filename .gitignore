@@ -8,7 +8,7 @@ Thumbs.db
 *.code-workspace
 
 #Custom folders kept outside git
-data/processed/embeddings/
+data/processed/indexes
 experiments/ts_explicit_01
 experiments/ts_explicit_02
 old_rq3
@@ -16,6 +16,8 @@ experiments/testing*
 experiments/rq1_results
 experiments/baseline_results
 /src/data-science-seminar/helpers
+evaluation
+
 
 # Python cache and build artifacts
 __pycache__/
