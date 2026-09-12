@@ -27,7 +27,7 @@ Usage:
 # Configuration constants.
 # --------------------------------------------------------------------------- #
 
-OUTPUT_DIR = Path(r"C:\Programming\rag_seminar\data-science-seminar\experiments\rq1_results")
+OUTPUT_DIR = Path(r"C:\Programming\rag_seminar\data-science-seminar\experiments\rq2_results\present_oriented_cues")
 
 # QA-retrieval-tuned bi-encoder, appropriate for query-to-document matching.
 MODEL_NAME = "multi-qa-mpnet-base-dot-v1"

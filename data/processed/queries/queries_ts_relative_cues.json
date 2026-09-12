@@ -2,361 +2,361 @@
   {
     "id": "fm_tsr_01",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who chairs the Federal Reserve since last year?"
   },
   {
     "id": "fm_tsr_02",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "What is the Federal Reserve's benchmark interest rate in the last 12 months?"
   },
   {
     "id": "fm_tsr_03",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Is the Federal Reserve raising or cutting interest rates in the last 12 months?"
   },
   {
     "id": "fm_tsr_04",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who is the president of the European Central Bank since last year?"
   },
   {
     "id": "fm_tsr_05",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Has the European Central Bank started cutting interest rates in the last 12 months?"
   },
   {
     "id": "fm_tsr_06",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who is the governor of the Bank of England since last year?"
   },
   {
     "id": "fm_tsr_07",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "What is the Bank of England's base rate in the last 12 months?"
   },
   {
     "id": "fm_tsr_08",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who is the governor of the Bank of Japan since last year?"
   },
   {
     "id": "fm_tsr_09",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Has the Bank of Japan ended negative interest rates in the last 12 months?"
   },
   {
     "id": "fm_tsr_10",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "What is the yield on the 10-year US Treasury in the last 12 months?"
   },
   {
     "id": "fm_tsr_11",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "What is the yield on UK gilts in the last 12 months?"
   },
   {
     "id": "fm_tsr_12",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "What level is the S&P 500 trading at in the last 12 months?"
   },
   {
     "id": "fm_tsr_13",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "What is the Dow Jones index level in the last 12 months?"
   },
   {
     "id": "fm_tsr_14",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Which company has the largest weighting in the S&P 500 in the last 12 months?"
   },
   {
     "id": "fm_tsr_15",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Is the stock market in a bull or bear market since last year?"
   },
   {
     "id": "fm_tsr_16",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Which major central bank has the highest benchmark interest rate in the last 12 months?"
   },
   {
     "id": "fm_tsr_17",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "How does US inflation compare with the Federal Reserve's target in the last 12 months?"
   },
   {
     "id": "fm_tsr_18",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Is investor sentiment bullish or bearish in the last 12 months?"
   },
   {
     "id": "fm_tsr_19",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Which company is the most valuable in the world since last year?"
   },
   {
     "id": "fm_tsr_20",
     "topic": "financial_markets",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Which major stock index is trading at a record high in the last 12 months?"
   },
   {
     "id": "ip_tsr_01",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who owns Twitter since last year?"
   },
   {
     "id": "ip_tsr_02",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who is the CEO of YouTube since last year?"
   },
   {
     "id": "ip_tsr_03",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "What is Facebook's parent company called since last year?"
   },
   {
     "id": "ip_tsr_04",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "How much does Spotify pay artists per stream in the last 12 months?"
   },
   {
     "id": "ip_tsr_05",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "How many subscribers does Netflix have in the last 12 months?"
   },
   {
     "id": "ip_tsr_06",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "How many monthly active users does Facebook have in the last 12 months?"
   },
   {
     "id": "ip_tsr_07",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "What is the most subscribed channel on YouTube in the last 12 months?"
   },
   {
     "id": "ip_tsr_08",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who has the most followers on Instagram in the last 12 months?"
   },
   {
     "id": "ip_tsr_09",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "How much does Spotify Premium cost in the last 12 months?"
   },
   {
     "id": "ip_tsr_10",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "How many paying subscribers does Spotify have in the last 12 months?"
   },
   {
     "id": "ip_tsr_11",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "What is the most downloaded app in the last 12 months?"
   },
   {
     "id": "ip_tsr_12",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Which shows are the most popular on Netflix in the last 12 months?"
   },
   {
     "id": "ip_tsr_13",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "What is the most viewed video on YouTube in the last 12 months?"
   },
   {
     "id": "ip_tsr_14",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Which streaming service has the most subscribers in the last 12 months?"
   },
   {
     "id": "ip_tsr_15",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Which social media platform is most popular among teenagers in the last 12 months?"
   },
   {
     "id": "ip_tsr_16",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "How many users does WhatsApp have since last year?"
   },
   {
     "id": "ip_tsr_17",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Which web browser has the largest market share in the last 12 months?"
   },
   {
     "id": "ip_tsr_18",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "What is the largest fine Facebook has faced over data privacy in the last 12 months?"
   },
   {
     "id": "ip_tsr_19",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Which podcast has the largest audience in the last 12 months?"
   },
   {
     "id": "ip_tsr_20",
     "topic": "internet_platforms",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "What is the most streamed song on Spotify in the last 12 months?"
   },
   {
     "id": "uf_tsr_01",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who is the manager of Manchester United since last year?"
   },
   {
     "id": "uf_tsr_02",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who is the manager of Liverpool since last year?"
   },
   {
     "id": "uf_tsr_03",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who are the most popular football players in the UK in the last 12 months?"
   },
   {
     "id": "uf_tsr_04",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who is the manager of Tottenham since last year?"
   },
   {
     "id": "uf_tsr_05",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who owns Manchester United since last year?"
   },
   {
     "id": "uf_tsr_06",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who is the most valuable player of Newcastle United in the last 12 months?"
   },
   {
     "id": "uf_tsr_07",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who owns Chelsea since last year?"
   },
   {
     "id": "uf_tsr_08",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who is top of the Premier League table in the last 12 months?"
   },
   {
     "id": "uf_tsr_09",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who are the reigning Premier League champions in the last 12 months?"
   },
   {
     "id": "uf_tsr_10",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who are the FA Cup holders in the last 12 months?"
   },
   {
     "id": "uf_tsr_11",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Which teams were promoted to the Premier League in the last 12 months?"
   },
   {
     "id": "uf_tsr_12",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who are the reigning EFL Championship champions in the last 12 months?"
   },
   {
     "id": "uf_tsr_13",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who holds the Community Shield in the last 12 months?"
   },
   {
     "id": "uf_tsr_14",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Which teams were relegated from the Premier League in the last 12 months?"
   },
   {
     "id": "uf_tsr_15",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Which club is bottom of the Premier League table in the last 12 months?"
   },
   {
     "id": "uf_tsr_16",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who is the Premier League's top scorer in the last 12 months?"
   },
   {
     "id": "uf_tsr_17",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Which club does Jack Grealish play for since last year?"
   },
   {
     "id": "uf_tsr_18",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who is the highest-paid player in the Premier League in the last 12 months?"
   },
   {
     "id": "uf_tsr_19",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "What is the most expensive signing of the transfer window in the last 12 months?"
   },
   {
     "id": "uf_tsr_20",
     "topic": "uk_football",
-    "query_type": "time_sensitive_unmarked",
+    "query_type": "time_sensitive_relative",
     "query": "Who is the captain of Manchester United since last year?"
   }
 ]
