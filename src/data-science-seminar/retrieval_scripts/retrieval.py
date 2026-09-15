@@ -3,6 +3,7 @@ from collections import defaultdict
 from datetime import datetime
 import json
 from pathlib import Path
+import re
 import sys
 import time
 import faiss
@@ -27,7 +28,7 @@ Usage:
 # Configuration constants.
 # --------------------------------------------------------------------------- #
 
-OUTPUT_DIR = Path(r"C:\Programming\rag_seminar\data-science-seminar\experiments\rq2_results\present_oriented_cues")
+OUTPUT_DIR = Path(r"C:\Programming\rag_seminar\data-science-seminar\experiments\rq3_results\amplified_injection\time_sensitive_queries")
 
 # QA-retrieval-tuned bi-encoder, appropriate for query-to-document matching.
 MODEL_NAME = "multi-qa-mpnet-base-dot-v1"
@@ -164,8 +165,9 @@ def load_indices(index_dir: Path) -> dict:
     indices = {}
 
     for faiss_path in index_dir.glob("*.faiss"):
-        topic = faiss_path.stem.removesuffix("_index")
-        meta_path = index_dir / f"{topic}_metadata.json"
+        stem = faiss_path.stem.removesuffix("_index")
+        meta_path = index_dir / f"{stem}_metadata.json"
+        topic = re.sub(r"_injected_\d+$", "", stem)
         if not meta_path.exists():
             log_error(f"Metadata missing for topic '{topic}': {meta_path}")
             sys.exit(1)
