@@ -9,11 +9,7 @@ Thumbs.db
 
 #Custom folders kept outside git
 data/processed/indexes
-experiments/ts_explicit_01
-experiments/ts_explicit_02
 old_rq3
-experiments/testing*
-experiments/
 /src/data-science-seminar/helpers
 evaluation
 

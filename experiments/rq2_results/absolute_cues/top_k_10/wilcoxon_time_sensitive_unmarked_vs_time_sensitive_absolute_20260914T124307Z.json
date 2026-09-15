@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "script": "significance_test.py",
+    "description": "",
+    "run_timestamp_utc": "2026-09-14T12:43:07.665670+00:00",
+    "inputs": {
+      "baseline": {
+        "path": "C:\\Programming\\rag_seminar\\data-science-seminar\\experiments\\rq1_results\\top_k_10\\avg_date_per_query_time_sensitive_unmarked.jsonl",
+        "label": "time_sensitive_unmarked",
+        "n_queries_loaded": 60,
+        "n_rows_skipped": 0,
+        "top_k": 10
+      },
+      "comparison": {
+        "path": "C:\\Programming\\rag_seminar\\data-science-seminar\\experiments\\rq2_results\\absolute_cues\\top_k_10\\avg_date_per_query_time_sensitive_absolute.jsonl",
+        "label": "time_sensitive_absolute",
+        "n_queries_loaded": 60,
+        "n_rows_skipped": 0,
+        "top_k": 10
+      }
+    },
+    "topics": [
+      "financial_markets",
+      "internet_platforms",
+      "uk_football"
+    ],
+    "value_fields_used": {
+      "delta": "delta_days",
+      "weighted_avg": "weighted_avg_age_days"
+    },
+    "alpha": 0.05,
+    "test": "wilcoxon",
+    "samples": "paired",
+    "effect_size": "matched_pairs_rank_biserial",
+    "test_type": "two-sided",
+    "python_version": "3.11.15",
+    "scipy_version": "1.17.1",
+    "pairing": "topic + trailing query number of query_id",
+    "zero_method": "wilcox"
+  },
+  "results": {
+    "delta": {
+      "pooled": {
+        "n_pairs": 60,
+        "n_zero_differences": 0,
+        "median_baseline": 0.5693794238848682,
+        "median_comparison": 1.8169358213920361,
+        "mean_baseline": 3.0926102186867297,
+        "mean_comparison": 4.003913031752286,
+        "median_difference": -0.32395043071062446,
+        "w_statistic": 828.0,
+        "p_value": 0.5218739363522495,
+        "rank_biserial": -0.09508196721311475,
+        "significant": false
+      },
+      "per_topic": {
+        "financial_markets": {
+          "n_pairs": 20,
+          "n_zero_differences": 0,
+          "median_baseline": 0.8304325378762201,
+          "median_comparison": 3.8343944601006115,
+          "mean_baseline": 4.326843201441892,
+          "mean_comparison": 7.283634625782756,
+          "median_difference": -1.614216055959048,
+          "w_statistic": 79.0,
+          "p_value": 0.34881019592285156,
+          "rank_biserial": -0.24761904761904763,
+          "significant": false
+        },
+        "internet_platforms": {
+          "n_pairs": 20,
+          "n_zero_differences": 0,
+          "median_baseline": 0.3604464121459614,
+          "median_comparison": 0.2738910709304321,
+          "mean_baseline": 0.7721527212072544,
+          "mean_comparison": 1.4270633101118932,
+          "median_difference": -0.35938814582232226,
+          "w_statistic": 95.0,
+          "p_value": 0.7285060882568359,
+          "rank_biserial": -0.09523809523809523,
+          "significant": false
+        },
+        "uk_football": {
+          "n_pairs": 20,
+          "n_zero_differences": 0,
+          "median_baseline": 1.7404814102781074,
+          "median_comparison": 2.4110047931678764,
+          "mean_baseline": 4.178834733411042,
+          "mean_comparison": 3.301041159362208,
+          "median_difference": 0.2705331791825074,
+          "w_statistic": 92.0,
+          "p_value": 0.6476554870605469,
+          "rank_biserial": 0.12380952380952381,
+          "significant": false
+        }
+      }
+    },
+    "weighted_avg": {
+      "pooled": {
+        "n_pairs": 60,
+        "n_zero_differences": 0,
+        "median_baseline": 1797.4464145537825,
+        "median_comparison": 1318.1102225634027,
+        "mean_baseline": 1689.9590564479797,
+        "mean_comparison": 1362.351086968248,
+        "median_difference": 297.3630740870897,
+        "w_statistic": 186.0,
+        "p_value": 8.023090548579617e-08,
+        "rank_biserial": 0.7967213114754098,
+        "significant": true
+      },
+      "per_topic": {
+        "financial_markets": {
+          "n_pairs": 20,
+          "n_zero_differences": 0,
+          "median_baseline": 2260.5050559219853,
+          "median_comparison": 1467.1811784160464,
+          "mean_baseline": 2097.7931567985584,
+          "mean_comparison": 1602.2863653742172,
+          "median_difference": 378.82310259285623,
+          "w_statistic": 5.0,
+          "p_value": 1.9073486328125e-05,
+          "rank_biserial": 0.9523809523809523,
+          "significant": true
+        },
+        "internet_platforms": {
+          "n_pairs": 20,
+          "n_zero_differences": 0,
+          "median_baseline": 1459.2601624596173,
+          "median_comparison": 1179.7737996759824,
+          "mean_baseline": 1358.037847278793,
+          "mean_comparison": 1242.817936689888,
+          "median_difference": 121.3062825054601,
+          "w_statistic": 58.0,
+          "p_value": 0.082550048828125,
+          "rank_biserial": 0.44761904761904764,
+          "significant": false
+        },
+        "uk_football": {
+          "n_pairs": 20,
+          "n_zero_differences": 0,
+          "median_baseline": 1672.3566041012696,
+          "median_comparison": 1236.4092440581421,
+          "mean_baseline": 1614.0461652665892,
+          "mean_comparison": 1241.9489588406377,
+          "median_difference": 386.7652553972234,
+          "w_statistic": 13.0,
+          "p_value": 0.0001678466796875,
+          "rank_biserial": 0.8761904761904762,
+          "significant": true
+        }
+      }
+    }
+  }
+}

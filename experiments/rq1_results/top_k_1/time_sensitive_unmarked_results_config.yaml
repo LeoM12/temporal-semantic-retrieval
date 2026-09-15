@@ -1,0 +1,14 @@
+model:
+  name: multi-qa-mpnet-base-dot-v1
+  max_seq_length: 512
+  device: cpu
+retrieval:
+  top_k: 1
+experiment:
+  index_path: data\processed\embeddings
+  queries_path: data\processed\queries\queries_time_sensitive_unmarked.json
+  output_path: C:\Programming\rag_seminar\data-science-seminar\experiments\rq1_results\top_k_1
+meta:
+  research-question: rq_num1
+  timestamp: '2026-09-08T17:17:47'
+  runtime_seconds: 4.56

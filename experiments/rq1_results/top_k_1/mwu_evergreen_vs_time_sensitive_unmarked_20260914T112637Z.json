@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "script": "significance_test.py",
+    "description": "",
+    "run_timestamp_utc": "2026-09-14T11:26:37.675413+00:00",
+    "inputs": {
+      "baseline": {
+        "path": "C:\\Programming\\rag_seminar\\data-science-seminar\\experiments\\baseline_results\\top_k_1\\avg_date_per_query_evergreen.jsonl",
+        "label": "evergreen",
+        "n_queries_loaded": 60,
+        "n_rows_skipped": 0,
+        "top_k": 1
+      },
+      "comparison": {
+        "path": "C:\\Programming\\rag_seminar\\data-science-seminar\\experiments\\rq1_results\\top_k_1\\avg_date_per_query_time_sensitive_unmarked.jsonl",
+        "label": "time_sensitive_unmarked",
+        "n_queries_loaded": 60,
+        "n_rows_skipped": 0,
+        "top_k": 1
+      }
+    },
+    "topics": [
+      "financial_markets",
+      "internet_platforms",
+      "uk_football"
+    ],
+    "value_fields_used": {
+      "delta": "delta_days",
+      "weighted_avg": "weighted_avg_age_days"
+    },
+    "alpha": 0.05,
+    "test": "mwu",
+    "samples": "unpaired",
+    "effect_size": "rank_biserial",
+    "test_type": "two-sided",
+    "python_version": "3.11.15",
+    "scipy_version": "1.17.1"
+  },
+  "results": {
+    "delta": {
+      "pooled": {
+        "n_baseline": 60,
+        "n_comparison": 60,
+        "median_baseline": 0.0,
+        "median_comparison": 0.0,
+        "mean_baseline": 0.0,
+        "mean_comparison": 0.0,
+        "u_statistic": 1800.0,
+        "p_value": 1.0,
+        "rank_biserial": 0.0,
+        "significant": false
+      },
+      "per_topic": {
+        "financial_markets": {
+          "n_baseline": 20,
+          "n_comparison": 20,
+          "median_baseline": 0.0,
+          "median_comparison": 0.0,
+          "mean_baseline": 0.0,
+          "mean_comparison": 0.0,
+          "u_statistic": 200.0,
+          "p_value": 1.0,
+          "rank_biserial": 0.0,
+          "significant": false
+        },
+        "internet_platforms": {
+          "n_baseline": 20,
+          "n_comparison": 20,
+          "median_baseline": 0.0,
+          "median_comparison": 0.0,
+          "mean_baseline": 0.0,
+          "mean_comparison": 0.0,
+          "u_statistic": 200.0,
+          "p_value": 1.0,
+          "rank_biserial": 0.0,
+          "significant": false
+        },
+        "uk_football": {
+          "n_baseline": 20,
+          "n_comparison": 20,
+          "median_baseline": 0.0,
+          "median_comparison": 0.0,
+          "mean_baseline": 0.0,
+          "mean_comparison": 0.0,
+          "u_statistic": 200.0,
+          "p_value": 1.0,
+          "rank_biserial": 0.0,
+          "significant": false
+        }
+      }
+    },
+    "weighted_avg": {
+      "pooled": {
+        "n_baseline": 60,
+        "n_comparison": 60,
+        "median_baseline": 2184.5,
+        "median_comparison": 1159.0,
+        "mean_baseline": 1722.1,
+        "mean_comparison": 1412.7,
+        "u_statistic": 2044.0,
+        "p_value": 0.20105642766616572,
+        "rank_biserial": 0.13555555555555565,
+        "significant": false
+      },
+      "per_topic": {
+        "financial_markets": {
+          "n_baseline": 20,
+          "n_comparison": 20,
+          "median_baseline": 2554.5,
+          "median_comparison": 2361.5,
+          "mean_baseline": 2219.5,
+          "mean_comparison": 1743.15,
+          "u_statistic": 239.5,
+          "p_value": 0.29103890928362597,
+          "rank_biserial": 0.1975,
+          "significant": false
+        },
+        "internet_platforms": {
+          "n_baseline": 20,
+          "n_comparison": 20,
+          "median_baseline": 1823.5,
+          "median_comparison": 1065.5,
+          "mean_baseline": 1579.85,
+          "mean_comparison": 1257.2,
+          "u_statistic": 237.5,
+          "p_value": 0.3165570160747231,
+          "rank_biserial": 0.1875,
+          "significant": false
+        },
+        "uk_football": {
+          "n_baseline": 20,
+          "n_comparison": 20,
+          "median_baseline": 1825.0,
+          "median_comparison": 777.0,
+          "mean_baseline": 1366.95,
+          "mean_comparison": 1237.75,
+          "u_statistic": 199.5,
+          "p_value": 1.0,
+          "rank_biserial": -0.0024999999999999467,
+          "significant": false
+        }
+      }
+    }
+  }
+}

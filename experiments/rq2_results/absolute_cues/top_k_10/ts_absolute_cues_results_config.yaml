@@ -1,0 +1,14 @@
+model:
+  name: multi-qa-mpnet-base-dot-v1
+  max_seq_length: 512
+  device: cpu
+retrieval:
+  top_k: 10
+experiment:
+  index_path: data\processed\indexes\no_date_injection
+  queries_path: data\processed\queries\queries_ts_absolute_cues.json
+  output_path: C:\Programming\rag_seminar\data-science-seminar\experiments\rq2_results\absolute_cues\top_k_10
+meta:
+  research-question: rq_num2
+  timestamp: '2026-09-12T11:09:17'
+  runtime_seconds: 3.6

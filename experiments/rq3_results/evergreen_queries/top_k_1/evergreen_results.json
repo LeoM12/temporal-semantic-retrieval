@@ -1,0 +1,842 @@
+[
+  {
+    "id": "fm_eg_01",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 848,
+        "id": "4970ae3781abe57348e1ba2cde12497489df07bd",
+        "published_date": "2017-11-02",
+        "score": 0.532112717628479
+      }
+    ]
+  },
+  {
+    "id": "fm_eg_02",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 6759,
+        "id": "1c41871d7ba6700e8033631079f59aa4cf741e19",
+        "published_date": "2018-01-23",
+        "score": 0.6586611270904541
+      }
+    ]
+  },
+  {
+    "id": "fm_eg_03",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 4058,
+        "id": "a63f52a6ca571d1c8db8ce7d4630b48916e31d70",
+        "published_date": "2018-01-04",
+        "score": 0.592172384262085
+      }
+    ]
+  },
+  {
+    "id": "fm_eg_04",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 2217,
+        "id": "65a91b89ae7b97f05fe4fbab078e7ed469356dba",
+        "published_date": "2017-11-15",
+        "score": 0.6918032169342041
+      }
+    ]
+  },
+  {
+    "id": "fm_eg_05",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 8916,
+        "id": "6b50be3d5e1491defb43ae3e44b0fa54094b4c6b",
+        "published_date": "2019-01-09",
+        "score": 0.6368187665939331
+      }
+    ]
+  },
+  {
+    "id": "fm_eg_06",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 4027,
+        "id": "8ae637522be62afc0e3f5c9d94946d2db54a9fe8",
+        "published_date": "2018-01-03",
+        "score": 0.6198762655258179
+      }
+    ]
+  },
+  {
+    "id": "fm_eg_07",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 4027,
+        "id": "8ae637522be62afc0e3f5c9d94946d2db54a9fe8",
+        "published_date": "2018-01-03",
+        "score": 0.6552340984344482
+      }
+    ]
+  },
+  {
+    "id": "fm_eg_08",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 8619,
+        "id": "f4288d013e173d476b7aff6036964dc06107e1b9",
+        "published_date": "2019-01-08",
+        "score": 0.6611593961715698
+      }
+    ]
+  },
+  {
+    "id": "fm_eg_09",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 6410,
+        "id": "5590fa8d420a1b3dc66adea0a64ba0251e598453",
+        "published_date": "2018-01-21",
+        "score": 0.6395654678344727
+      }
+    ]
+  },
+  {
+    "id": "fm_eg_10",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 1126,
+        "id": "ee062b258345b8f0fa6ea2402e1f00caa3f2fb71",
+        "published_date": "2017-11-06",
+        "score": 0.6702178120613098
+      }
+    ]
+  },
+  {
+    "id": "fm_eg_11",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 22064,
+        "id": "abad8a0fa8e5a9ce6f811284480ba127ec96fe34",
+        "published_date": "2023-12-01",
+        "score": 0.7218942046165466
+      }
+    ]
+  },
+  {
+    "id": "fm_eg_12",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 17940,
+        "id": "e1a75fc99eea9e9d89229d97803ddcecf1c27b49",
+        "published_date": "2022-02-01",
+        "score": 0.4669281542301178
+      }
+    ]
+  },
+  {
+    "id": "fm_eg_13",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 4479,
+        "id": "01f33eceb8e6a77c3b20bbf2e1b92745664562c1",
+        "published_date": "2018-01-06",
+        "score": 0.7365096807479858
+      }
+    ]
+  },
+  {
+    "id": "fm_eg_14",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 25290,
+        "id": "0e496d9357bf72b9b57e856f4b7cf6594ec5215f",
+        "published_date": "2024-05-30",
+        "score": 0.5439752340316772
+      }
+    ]
+  },
+  {
+    "id": "fm_eg_15",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 3676,
+        "id": "92252d51d2d086c5546f2f400ededc93bb21bfaf",
+        "published_date": "2017-11-28",
+        "score": 0.6516743898391724
+      }
+    ]
+  },
+  {
+    "id": "fm_eg_16",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 4257,
+        "id": "60277954a80bfb2ca3030097452c1ed90db811e3",
+        "published_date": "2018-01-04",
+        "score": 0.6219086647033691
+      }
+    ]
+  },
+  {
+    "id": "fm_eg_17",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 8706,
+        "id": "ea089214d1bb476300d71846131fa9ce2a3ef51f",
+        "published_date": "2019-01-09",
+        "score": 0.6349247694015503
+      }
+    ]
+  },
+  {
+    "id": "fm_eg_18",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 8972,
+        "id": "c80fe4d08ae21aa93be75f8c94f62692f6af4d2d",
+        "published_date": "2019-01-09",
+        "score": 0.5658034086227417
+      }
+    ]
+  },
+  {
+    "id": "fm_eg_19",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 1268,
+        "id": "252b8582b8d907d93d15db48f8c56c5b0dd745d1",
+        "published_date": "2017-11-07",
+        "score": 0.5483337640762329
+      }
+    ]
+  },
+  {
+    "id": "fm_eg_20",
+    "query_type": "evergreen",
+    "topic": "financial_markets",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 419,
+        "id": "3b15d4017d031bebeb0d85a22d1dd913a8b3f511",
+        "published_date": "2017-11-02",
+        "score": 0.6717501878738403
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_01",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 11099,
+        "id": "22821c2db6424f3bb6ad741cde7402ab9429cd40",
+        "published_date": "2019-01-08",
+        "score": 0.6156252026557922
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_02",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 7372,
+        "id": "2110833ca4502766e78dfdf81cbc2a7d0a8e1ab8",
+        "published_date": "2018-01-08",
+        "score": 0.5816601514816284
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_03",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 26100,
+        "id": "b7edc291c8d65dedd62c30d04a7af155b5dcd2e6",
+        "published_date": "2024-06-01",
+        "score": 0.557673454284668
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_04",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 13080,
+        "id": "b450cad250593bd386ba884317f7cdc84c7c5018",
+        "published_date": "2020-01-03",
+        "score": 0.5974037647247314
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_05",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 17979,
+        "id": "b5cb7b9239606e060b68b03c001f834bb906de95",
+        "published_date": "2021-11-02",
+        "score": 0.5668489336967468
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_06",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 9082,
+        "id": "052a077c0a74c0e921b3300572e3a646e2dc38b5",
+        "published_date": "2019-01-03",
+        "score": 0.5488208532333374
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_07",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 23065,
+        "id": "8de0b1e40255ae995b0a0dfcb3aa9aff8c1ec984",
+        "published_date": "2023-12-01",
+        "score": 0.5525650978088379
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_08",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 3075,
+        "id": "b46fc610869102cf825c197b8808e091d4e755cb",
+        "published_date": "2017-11-07",
+        "score": 0.539604127407074
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_09",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 616,
+        "id": "72085912e080a2a79988ec3cb4bde613462dda8c",
+        "published_date": "2017-08-29",
+        "score": 0.6726361513137817
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_10",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 7886,
+        "id": "d95c756dfa2f6cc32fbdc42098715d55196c9ee6",
+        "published_date": "2019-01-02",
+        "score": 0.6208367347717285
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_11",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 2635,
+        "id": "55146a0b3d5393e97f48ad26905193f1f5d16ae7",
+        "published_date": "2017-11-06",
+        "score": 0.607975959777832
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_12",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 27444,
+        "id": "69f4ac8c8856b415a9189c3d6baef10ff0f7aa51",
+        "published_date": "2024-06-04",
+        "score": 0.602433443069458
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_13",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 9724,
+        "id": "2e2c016767f772ec8aaefd29a9d595a678e6c21e",
+        "published_date": "2019-01-05",
+        "score": 0.5920925140380859
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_14",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 4517,
+        "id": "065fbf7fe6e431b1ac70dc6b8702d5dcd2a58351",
+        "published_date": "2018-01-02",
+        "score": 0.6424897909164429
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_15",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 10643,
+        "id": "6b97e256497b97e816c788456646a62a17a2fd6f",
+        "published_date": "2019-01-08",
+        "score": 0.6204129457473755
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_16",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 3626,
+        "id": "e836767b4c004b33a21b06e5a9314d89d98dfe5f",
+        "published_date": "2017-11-06",
+        "score": 0.6183568239212036
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_17",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 24329,
+        "id": "f2efb10c7d0ede6e348059ebf99499d4eac7dd38",
+        "published_date": "2023-12-03",
+        "score": 0.7006442546844482
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_18",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 16185,
+        "id": "4d8e251c52d542a3b1b2bcceb7ec12055a10917d",
+        "published_date": "2021-06-17",
+        "score": 0.5930420160293579
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_19",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 24233,
+        "id": "55a1d0a5e01657809f11b2725b74d5d4a392830c",
+        "published_date": "2023-12-02",
+        "score": 0.6687278747558594
+      }
+    ]
+  },
+  {
+    "id": "ip_eg_20",
+    "query_type": "evergreen",
+    "topic": "internet_platforms",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 14375,
+        "id": "c350d1b8c1ff649bf9509750f5932e801d94feb6",
+        "published_date": "2020-01-06",
+        "score": 0.6431363821029663
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_01",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 10312,
+        "id": "de7a20a954855d71b0d25e575554e4fc92da2167",
+        "published_date": "2019-01-01",
+        "score": 0.6360912322998047
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_02",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 9894,
+        "id": "4b28bb8bb430042dcc76e33babcc9576f2950548",
+        "published_date": "2019-01-04",
+        "score": 0.601319432258606
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_03",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 12613,
+        "id": "4d54cde9b2a0d4d27dacd779a3a008f5cc10686a",
+        "published_date": "2020-01-02",
+        "score": 0.6340844631195068
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_04",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 28434,
+        "id": "4cf356e611c84f84b1a4d5382c23243127237577",
+        "published_date": "2024-06-05",
+        "score": 0.610314667224884
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_05",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 22427,
+        "id": "8c1f1b6ae229edfe47ab5fc88a7760bfea21f25b",
+        "published_date": "2023-12-01",
+        "score": 0.5804151296615601
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_06",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 13101,
+        "id": "0266656147807e3a72644edb5c1298792779dbf5",
+        "published_date": "2020-01-02",
+        "score": 0.5873214602470398
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_07",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 1358,
+        "id": "1a10b313c72c90e75e4277203ab237136c971db5",
+        "published_date": "2017-11-03",
+        "score": 0.6504431366920471
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_08",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 22813,
+        "id": "9bb3f8f7001c72a765b1d7269c5cb2bf9d4c6a75",
+        "published_date": "2023-12-01",
+        "score": 0.5898394584655762
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_09",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 26512,
+        "id": "ebd70dea67aa822a18c33d7a1d26746619c96a30",
+        "published_date": "2024-06-02",
+        "score": 0.6291966438293457
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_10",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 11561,
+        "id": "c0bf62d3d96377735bd9c9a57f8a12f5e19043c1",
+        "published_date": "2020-01-01",
+        "score": 0.5702369213104248
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_11",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 4715,
+        "id": "e8238cdcf14d4417365aa44c87e8cffbce8aa107",
+        "published_date": "2018-01-03",
+        "score": 0.6488442420959473
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_12",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 6623,
+        "id": "3396537e38645c882990de8e5e197c2615dd156e",
+        "published_date": "2018-01-06",
+        "score": 0.5724632143974304
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_13",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 5931,
+        "id": "f955d26e07fdb748a319bf0e4c79217c7af68052",
+        "published_date": "2018-01-04",
+        "score": 0.6426013112068176
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_14",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 28502,
+        "id": "03c2301cf63c4dc5110fa15c0766c14d631819df",
+        "published_date": "2024-06-05",
+        "score": 0.508649468421936
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_15",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 20062,
+        "id": "72d95a22cd91c330ab1a217648c0fcc6a1eb2fb8",
+        "published_date": "2022-01-04",
+        "score": 0.5974684357643127
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_16",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 14283,
+        "id": "38b6237ccad769715767d263ccb0951d55e06368",
+        "published_date": "2020-01-03",
+        "score": 0.5877060294151306
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_17",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 2472,
+        "id": "6af1050f18bf74b153c065ceb837e5bc3543e118",
+        "published_date": "2017-11-06",
+        "score": 0.5925007462501526
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_18",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 29257,
+        "id": "1a74db716f772e9a694e06141949b0fd52a264a0",
+        "published_date": "2024-06-06",
+        "score": 0.653974175453186
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_19",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 9287,
+        "id": "01bb72ab40ea20fe8f4aa621f86dd4e947dd6e17",
+        "published_date": "2019-01-03",
+        "score": 0.5671572089195251
+      }
+    ]
+  },
+  {
+    "id": "uf_eg_20",
+    "query_type": "evergreen",
+    "topic": "uk_football",
+    "results": [
+      {
+        "rank": 1,
+        "faiss_position": 16506,
+        "id": "d0945eb85623762290d4d59fadddd5db065b7678",
+        "published_date": "2021-11-02",
+        "score": 0.5711607933044434
+      }
+    ]
+  }
+]
