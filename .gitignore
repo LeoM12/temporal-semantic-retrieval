@@ -8,7 +8,6 @@ Thumbs.db
 *.code-workspace
 
 #Custom folders kept outside git
-data/processed/indexes
 old_rq3
 /src/data-science-seminar/helpers
 evaluation

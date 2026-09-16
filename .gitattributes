@@ -1,0 +1,4 @@
+data/processed/indexes/amplified_injection/** filter=lfs diff=lfs merge=lfs -text
+data/processed/indexes/single_injection/** filter=lfs diff=lfs merge=lfs -text
+data/processed/indexes/no_date_injection/** filter=lfs diff=lfs merge=lfs -text
+
