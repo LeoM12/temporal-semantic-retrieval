@@ -1,11 +1,6 @@
 # Notebooks
 
-Use notebooks for exploration, analysis, and plotting.
+Exploration, analysis, and plotting for the temporal-bias study.
 
-Rules of thumb:
-
-- exploratory work can start here
-- reusable code should move into `src/`
-- notebook outputs should not be the only record of results
-
-If a notebook supports a reported result, document the corresponding experiment in `experiments/`.
+- `dataset_analysis/` — corpus characterization: publication-date distributions and token counts for the CC-News sample used to build the retrieval indices.
+- `retrieval_analysis/` — analysis of retrieval results: recency statistics (mean/median document age) and baseline-vs-comparison comparisons across experiment conditions for early proof of concepts.
