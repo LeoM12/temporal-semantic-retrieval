@@ -2,7 +2,7 @@
 
 **Investigating Implicit Temporal Behaviour in a Standard Dense Retriever**
 
-Data Science Seminar — University of Passau · Summer Semester 2026
+Data Science Seminar, University of Passau, Summer Semester 2026
 Prof. Dr. Michael Granitzer, University of Passau
 Author: Leonard Motte, BSc Informatik
 
@@ -16,7 +16,7 @@ sensitivity can be induced with simple temporal signals in the query or in the
 document. The full write-up is the
 [final report](docs/leonard_motte_temporal_relevance_in_semantic_retrieval.pdf).
 
-> **Headline result.** A standard dense retriever shows no implicit temporal
+> **Headline result:** A standard dense retriever shows no implicit temporal
 > sensitivity. It shifts toward newer documents only where query and document
 > share a *literal* year expression — never for temporal meaning that is conveyed
 > implicitly through topic or wording.
@@ -37,13 +37,13 @@ dynamic query can hand the generator a confidently wrong context.
 The three questions form one experiment in which the location of the temporal
 signal moves each time: nowhere → query → document.
 
-- **RQ1 — Implicit behaviour.** Does a semantic retriever systematically favour
+- **RQ1: Implicit behaviour.** Does a semantic retriever systematically favour
   more recent documents for time-sensitive queries than for evergreen queries,
   without any explicit temporal cue?
-- **RQ2 — Temporal cues in the query.** To what extent do explicit cues in a
+- **RQ2: Temporal cues in the query.** To what extent do explicit cues in a
   time-sensitive query (present-oriented, relative, absolute) shift the recency
   of the retrieved documents?
-- **RQ3 — Temporal cues in the document.** Does injecting a document's
+- **RQ3: Temporal cues in the document.** Does injecting a document's
   publication date into its text before embedding shift the age of the retrieved
   documents?
 
