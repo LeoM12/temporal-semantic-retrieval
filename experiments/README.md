@@ -20,4 +20,4 @@ Raw retrieval runs and statistical tests for the three research questions (see t
 
 ## Pipeline
 
-See `src/data-science-seminar/`: `retrieval_scripts/retrieval.py` runs the queries, `evaluation_scripts/avg_date_per_query.py` computes the recency metrics, `evaluation_scripts/significance_test.py` runs MWU/Wilcoxon tests, `helpers/significance_results_to_latex.py` builds `values.tex`.
+See `src/`: `retrieval_scripts/retrieval.py` runs the queries, `evaluation_scripts/avg_date_per_query.py` computes the recency metrics, `evaluation_scripts/significance_test.py` runs MWU/Wilcoxon tests, `helpers/significance_results_to_latex.py` builds `values.tex`.

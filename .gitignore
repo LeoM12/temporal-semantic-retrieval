@@ -9,8 +9,11 @@ Thumbs.db
 
 #Custom folders kept outside git
 old_rq3
-/src/data-science-seminar/helpers
+/src/helpers
 evaluation
+notebooks/dataset_analysis/monthly_dist_23_24.ipynb
+notebooks/dataset_analysis/corpus_date_dist.ipynb
+notebooks/dataset_analysis/hf_corpus_monthly_dist.ipynb
 
 # Python cache and build artifacts
 __pycache__/

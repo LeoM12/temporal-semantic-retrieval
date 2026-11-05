@@ -13,9 +13,9 @@ topic (if it matches) until the cell (topic, year) reaches its quota.
 Streaming instead of downloading: the corpus is far too large for local filtering.
 
 Usage:
-  python build_ccnews_dataset.py             # all years in YEARS
-  python build_ccnews_dataset.py 2020        # only 2020  (split runs per year)
-  python build_ccnews_dataset.py 2019 2020   # multiple years
+  python build_dataset.py             # all years in YEARS
+  python build_dataset.py 2020        # only 2020  (split runs per year)
+  python build_dataset.py 2019 2020   # multiple years
 """
 
 from __future__ import annotations

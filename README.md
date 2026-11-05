@@ -15,8 +15,8 @@ Seminar paper project (Data Science Seminar, University of Passau) investigating
 ## Pipeline
 
 - `build_index.py`: embeds articles (`multi-qa-mpnet-base-dot-v1`), builds per-topic FAISS `IndexFlatIP` indices, saves metadata
-- `retrieve.py`: runs queries against topic indices, outputs structured JSON + `_config.yaml`
-- `retrieval_analysis_eg_vs_ts.ipynb`: analysis and visual comparison of experiment results.
+- `retrieval.py`: runs queries against topic indices, outputs structured JSON + `_config.yaml`
+- `retrieval_analysis_baseline_vs_comparison.ipynb`: analysis and visual comparison of experiment results.
 
 ## Status
 

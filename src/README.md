@@ -1,12 +1,13 @@
 # Source Code
 
-Python package (`data-science-seminar/`) with the pipeline code for the seminar project
+Pipeline scripts for the seminar project
 "Temporal Relevance and Bias in Semantic RAG Systems" (see the [project README](../README.md)
 for the research questions and overall status).
 
 The pipeline runs roughly in this order: `data_scripts` build the corpus and search index,
 `retrieval_scripts` run queries against it, and `evaluation_scripts` turn the raw
-results into statistical data for evaluation.
+results into statistical data for evaluation. `helpers/` (not tracked in git) holds
+local utilities, e.g. `significance_results_to_latex.py`, which `run_evaluation.py` calls.
 
 ## data_scripts/
 
@@ -34,9 +35,9 @@ results into statistical data for evaluation.
 Scripts are invoked directly, e.g.:
 
 ```
-uv run src/data-science-seminar/data_scripts/build_index.py path/to/financial_markets.json
-uv run src/data-science-seminar/retrieval_scripts/retrieval.py --index_dir ... --queries_path ... --rq 1
-uv run src/data-science-seminar/evaluation_scripts/run_evaluation.py --baseline_dir ... --comparison_dir ... --samples paired
+uv run src/data_scripts/build_index.py path/to/financial_markets.json
+uv run src/retrieval_scripts/retrieval.py --index_dir ... --queries_path ... --rq 1
+uv run src/evaluation_scripts/run_evaluation.py --baseline_dir ... --comparison_dir ... --samples paired
 ```
 
 Each script documents its own CLI arguments in its module docstring.
